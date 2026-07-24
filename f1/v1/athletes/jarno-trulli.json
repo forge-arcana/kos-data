@@ -1,0 +1,372 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/schema/athlete.schema.json",
+  "dataset": "athlete",
+  "sport": "f1",
+  "entity": "athlete/jarno-trulli",
+  "updated": "2026-07-24T19:10:14.137Z",
+  "sources": [
+    "f1db"
+  ],
+  "identity": {
+    "name": "Jarno Trulli",
+    "aliases": [],
+    "qid": "Q171350",
+    "country": "ITA",
+    "dob": "1974-07-13",
+    "sourceIds": {
+      "f1db": "jarno-trulli"
+    }
+  },
+  "aggregates": [
+    {
+      "metric": "agg.championships",
+      "scope": "career",
+      "value": 0,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/jarno-trulli.agg.championships"
+      ]
+    },
+    {
+      "metric": "agg.fastest_laps",
+      "scope": "career",
+      "value": 1,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/jarno-trulli.agg.fastest_laps"
+      ]
+    },
+    {
+      "metric": "agg.podiums",
+      "scope": "career",
+      "value": 11,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/jarno-trulli.agg.podiums"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "career",
+      "value": 246.5,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/jarno-trulli.agg.points"
+      ]
+    },
+    {
+      "metric": "agg.poles",
+      "scope": "career",
+      "value": 4,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/jarno-trulli.agg.poles"
+      ]
+    },
+    {
+      "metric": "agg.starts",
+      "scope": "career",
+      "value": 252,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/jarno-trulli.agg.starts"
+      ]
+    },
+    {
+      "metric": "agg.wins",
+      "scope": "career",
+      "value": 1,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/jarno-trulli.agg.wins"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/1997",
+      "value": 3,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/1997#athlete/jarno-trulli.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/1998",
+      "value": 1,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/1998#athlete/jarno-trulli.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/1999",
+      "value": 7,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/1999#athlete/jarno-trulli.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2000",
+      "value": 6,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2000#athlete/jarno-trulli.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2001",
+      "value": 12,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2001#athlete/jarno-trulli.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2002",
+      "value": 9,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2002#athlete/jarno-trulli.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2003",
+      "value": 33,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2003#athlete/jarno-trulli.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2004",
+      "value": 46,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2004#athlete/jarno-trulli.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2005",
+      "value": 43,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2005#athlete/jarno-trulli.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2006",
+      "value": 15,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2006#athlete/jarno-trulli.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2007",
+      "value": 8,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2007#athlete/jarno-trulli.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2008",
+      "value": 31,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2008#athlete/jarno-trulli.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2009",
+      "value": 32.5,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2009#athlete/jarno-trulli.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2010",
+      "value": 0,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2010#athlete/jarno-trulli.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2011",
+      "value": 0,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2011#athlete/jarno-trulli.agg.points@season"
+      ]
+    },
+    {
+      "metric": "wins",
+      "scope": "career",
+      "value": 1,
+      "provenance": "derived",
+      "derivation": "wins@1.0.0",
+      "rowCount": 1,
+      "cites": [
+        "kos:f1/2004/wc/r06-monaco-gp/race#athlete/jarno-trulli.result.winner"
+      ]
+    },
+    {
+      "metric": "podiums",
+      "scope": "career",
+      "value": 11,
+      "provenance": "derived",
+      "derivation": "podiums@1.0.0",
+      "rowCount": 11,
+      "cites": [
+        "kos:f1/1999/wc/r14-european-gp/race#athlete/jarno-trulli.result.position",
+        "kos:f1/2003/wc/r12-german-gp/race#athlete/jarno-trulli.result.position",
+        "kos:f1/2004/wc/r05-spanish-gp/race#athlete/jarno-trulli.result.position",
+        "kos:f1/2004/wc/r06-monaco-gp/race#athlete/jarno-trulli.result.position",
+        "kos:f1/2005/wc/r02-malaysian-gp/race#athlete/jarno-trulli.result.position",
+        "kos:f1/2005/wc/r03-bahrain-gp/race#athlete/jarno-trulli.result.position",
+        "kos:f1/2005/wc/r05-spanish-gp/race#athlete/jarno-trulli.result.position",
+        "kos:f1/2008/wc/r08-french-gp/race#athlete/jarno-trulli.result.position",
+        "kos:f1/2009/wc/r01-australian-gp/race#athlete/jarno-trulli.result.position",
+        "kos:f1/2009/wc/r04-bahrain-gp/race#athlete/jarno-trulli.result.position",
+        "kos:f1/2009/wc/r15-japanese-gp/race#athlete/jarno-trulli.result.position"
+      ]
+    },
+    {
+      "metric": "win_rate",
+      "scope": "career",
+      "value": 0.0039,
+      "provenance": "derived",
+      "derivation": "win_rate@1.0.0",
+      "rowCount": 256,
+      "cites": [
+        "kos:f1/2004/wc/r06-monaco-gp/race#athlete/jarno-trulli.result.winner"
+      ]
+    }
+  ],
+  "recent": [
+    {
+      "event": "f1/2011/wc/r15-japanese-gp",
+      "date": "2011-10-09",
+      "position": 19,
+      "ref": "kos:f1/2011/wc/r15-japanese-gp/race#athlete/jarno-trulli.result.position"
+    },
+    {
+      "event": "f1/2011/wc/r16-korean-gp",
+      "date": "2011-10-16",
+      "position": 17,
+      "ref": "kos:f1/2011/wc/r16-korean-gp/race#athlete/jarno-trulli.result.position"
+    },
+    {
+      "event": "f1/2011/wc/r17-indian-gp",
+      "date": "2011-10-30",
+      "position": 19,
+      "ref": "kos:f1/2011/wc/r17-indian-gp/race#athlete/jarno-trulli.result.position"
+    },
+    {
+      "event": "f1/2011/wc/r18-abu-dhabi-gp",
+      "date": "2011-11-13",
+      "position": 18,
+      "ref": "kos:f1/2011/wc/r18-abu-dhabi-gp/race#athlete/jarno-trulli.result.position"
+    },
+    {
+      "event": "f1/2011/wc/r19-brazilian-gp",
+      "date": "2011-11-27",
+      "position": 18,
+      "ref": "kos:f1/2011/wc/r19-brazilian-gp/race#athlete/jarno-trulli.result.position"
+    }
+  ],
+  "series": {},
+  "coverage": {
+    "result": {
+      "status": "full",
+      "floor": "1950",
+      "note": "f1db CC BY backbone: every world-championship session 1950-present."
+    },
+    "perf": {
+      "status": "partial",
+      "floor": "1994",
+      "note": "Pit-stop counts from f1db's pit-stop data era (1994+); earlier races have no per-stop records.",
+      "wouldUnblock": "A licensed historical pit-stop dataset for pre-1994 seasons."
+    },
+    "form": {
+      "status": "full",
+      "floor": "1950",
+      "note": "Drivers' standings after every round, f1db 1950-present."
+    },
+    "cond": {
+      "status": "partial",
+      "floor": "1950",
+      "note": "Open-Meteo hourly reanalysis joined by venue coordinates; model estimate at the venue, not track-side sensor data.",
+      "proxies": [
+        "cond.temp_c",
+        "cond.precip_mm",
+        "cond.wind_kmh"
+      ]
+    },
+    "avail": {
+      "status": "none",
+      "note": "No keyless personnel-status feed exists for F1; driver substitutions surface only post-hoc in results.",
+      "wouldUnblock": "A licensed entry-list/withdrawal feed."
+    },
+    "market": {
+      "status": "partial",
+      "floor": "2024",
+      "note": "Prediction markets (Polymarket) 2024-present only; no keyless bookmaker odds history for F1. Public per owner decision 2026-07-19 (OQ #6 closed: rights unlocated, not denied); excluded from commercial delivery.",
+      "wouldUnblock": "A licensed historical odds feed would extend the floor past 2024."
+    },
+    "meas": {
+      "status": "partial",
+      "floor": "1950",
+      "note": "Fastest race lap from f1db (stepped horizon: timing precision improves by era). Speed-trap and telemetry measurements have no license-clean source (SR G7).",
+      "wouldUnblock": "A licensed telemetry/speed-trap dataset."
+    },
+    "agg": {
+      "status": "full",
+      "floor": "1950",
+      "note": "f1db source-published driver season and career totals; independent cross-check for card-derived aggregates."
+    },
+    "h2h": {
+      "status": "full",
+      "note": "Derived-only from stored result rows over shared events; no stored metric (OM §14.1)."
+    }
+  }
+}

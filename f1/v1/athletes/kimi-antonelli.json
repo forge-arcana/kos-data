@@ -1,0 +1,775 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/schema/athlete.schema.json",
+  "dataset": "athlete",
+  "sport": "f1",
+  "entity": "athlete/kimi-antonelli",
+  "updated": "2026-07-24T19:10:14.203Z",
+  "sources": [
+    "f1db",
+    "polymarket"
+  ],
+  "identity": {
+    "name": "Kimi Antonelli",
+    "aliases": [],
+    "qid": null,
+    "country": "ITA",
+    "dob": "2006-08-25",
+    "sourceIds": {
+      "f1db": "kimi-antonelli"
+    }
+  },
+  "aggregates": [
+    {
+      "metric": "agg.championships",
+      "scope": "career",
+      "value": 0,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/kimi-antonelli.agg.championships"
+      ]
+    },
+    {
+      "metric": "agg.fastest_laps",
+      "scope": "career",
+      "value": 9,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/kimi-antonelli.agg.fastest_laps"
+      ]
+    },
+    {
+      "metric": "agg.podiums",
+      "scope": "career",
+      "value": 11,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/kimi-antonelli.agg.podiums"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "career",
+      "value": 354,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/kimi-antonelli.agg.points"
+      ]
+    },
+    {
+      "metric": "agg.poles",
+      "scope": "career",
+      "value": 6,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/kimi-antonelli.agg.poles"
+      ]
+    },
+    {
+      "metric": "agg.starts",
+      "scope": "career",
+      "value": 34,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/kimi-antonelli.agg.starts"
+      ]
+    },
+    {
+      "metric": "agg.wins",
+      "scope": "career",
+      "value": 6,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/kimi-antonelli.agg.wins"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2025",
+      "value": 150,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2025#athlete/kimi-antonelli.agg.points@season"
+      ]
+    },
+    {
+      "metric": "wins",
+      "scope": "career",
+      "value": 6,
+      "provenance": "derived",
+      "derivation": "wins@1.0.0",
+      "rowCount": 6,
+      "cites": [
+        "kos:f1/2026/wc/r02-chinese-gp/race#athlete/kimi-antonelli.result.winner",
+        "kos:f1/2026/wc/r03-japanese-gp/race#athlete/kimi-antonelli.result.winner",
+        "kos:f1/2026/wc/r04-miami-gp/race#athlete/kimi-antonelli.result.winner",
+        "kos:f1/2026/wc/r05-canadian-gp/race#athlete/kimi-antonelli.result.winner",
+        "kos:f1/2026/wc/r06-monaco-gp/race#athlete/kimi-antonelli.result.winner",
+        "kos:f1/2026/wc/r10-belgian-gp/race#athlete/kimi-antonelli.result.winner"
+      ]
+    },
+    {
+      "metric": "podiums",
+      "scope": "career",
+      "value": 11,
+      "provenance": "derived",
+      "derivation": "podiums@1.0.0",
+      "rowCount": 11,
+      "cites": [
+        "kos:f1/2025/wc/r10-canadian-gp/race#athlete/kimi-antonelli.result.position",
+        "kos:f1/2025/wc/r21-sao-paulo-gp/race#athlete/kimi-antonelli.result.position",
+        "kos:f1/2025/wc/r22-las-vegas-gp/race#athlete/kimi-antonelli.result.position",
+        "kos:f1/2026/wc/r01-australian-gp/race#athlete/kimi-antonelli.result.position",
+        "kos:f1/2026/wc/r02-chinese-gp/race#athlete/kimi-antonelli.result.position",
+        "kos:f1/2026/wc/r03-japanese-gp/race#athlete/kimi-antonelli.result.position",
+        "kos:f1/2026/wc/r04-miami-gp/race#athlete/kimi-antonelli.result.position",
+        "kos:f1/2026/wc/r05-canadian-gp/race#athlete/kimi-antonelli.result.position",
+        "kos:f1/2026/wc/r06-monaco-gp/race#athlete/kimi-antonelli.result.position",
+        "kos:f1/2026/wc/r08-austrian-gp/race#athlete/kimi-antonelli.result.position",
+        "kos:f1/2026/wc/r10-belgian-gp/race#athlete/kimi-antonelli.result.position"
+      ]
+    },
+    {
+      "metric": "win_rate",
+      "scope": "career",
+      "value": 0.1765,
+      "provenance": "derived",
+      "derivation": "win_rate@1.0.0",
+      "rowCount": 34,
+      "cites": [
+        "kos:f1/2026/wc/r02-chinese-gp/race#athlete/kimi-antonelli.result.winner",
+        "kos:f1/2026/wc/r03-japanese-gp/race#athlete/kimi-antonelli.result.winner",
+        "kos:f1/2026/wc/r04-miami-gp/race#athlete/kimi-antonelli.result.winner",
+        "kos:f1/2026/wc/r05-canadian-gp/race#athlete/kimi-antonelli.result.winner",
+        "kos:f1/2026/wc/r06-monaco-gp/race#athlete/kimi-antonelli.result.winner",
+        "kos:f1/2026/wc/r10-belgian-gp/race#athlete/kimi-antonelli.result.winner"
+      ]
+    }
+  ],
+  "recent": [
+    {
+      "event": "f1/2026/wc/r06-monaco-gp",
+      "date": "2026-06-07",
+      "position": 1,
+      "ref": "kos:f1/2026/wc/r06-monaco-gp/race#athlete/kimi-antonelli.result.position"
+    },
+    {
+      "event": "f1/2026/wc/r07-barcelona-catalunya-gp",
+      "date": "2026-06-14",
+      "position": 16,
+      "ref": "kos:f1/2026/wc/r07-barcelona-catalunya-gp/race#athlete/kimi-antonelli.result.position"
+    },
+    {
+      "event": "f1/2026/wc/r08-austrian-gp",
+      "date": "2026-06-28",
+      "position": 3,
+      "ref": "kos:f1/2026/wc/r08-austrian-gp/race#athlete/kimi-antonelli.result.position"
+    },
+    {
+      "event": "f1/2026/wc/r09-british-gp",
+      "date": "2026-07-05",
+      "position": 15,
+      "ref": "kos:f1/2026/wc/r09-british-gp/race#athlete/kimi-antonelli.result.position"
+    },
+    {
+      "event": "f1/2026/wc/r10-belgian-gp",
+      "date": "2026-07-19",
+      "position": 1,
+      "ref": "kos:f1/2026/wc/r10-belgian-gp/race#athlete/kimi-antonelli.result.position"
+    }
+  ],
+  "series": {
+    "form.standing_points": [
+      {
+        "date": "2026-05-03",
+        "value": 100,
+        "event": "f1/2026/wc/r04-miami-gp"
+      },
+      {
+        "date": "2026-05-24",
+        "value": 131,
+        "event": "f1/2026/wc/r05-canadian-gp"
+      },
+      {
+        "date": "2026-06-07",
+        "value": 156,
+        "event": "f1/2026/wc/r06-monaco-gp"
+      },
+      {
+        "date": "2026-06-14",
+        "value": 156,
+        "event": "f1/2026/wc/r07-barcelona-catalunya-gp"
+      },
+      {
+        "date": "2026-06-28",
+        "value": 171,
+        "event": "f1/2026/wc/r08-austrian-gp"
+      },
+      {
+        "date": "2026-07-05",
+        "value": 179,
+        "event": "f1/2026/wc/r09-british-gp"
+      },
+      {
+        "date": "2026-07-19",
+        "value": 204,
+        "event": "f1/2026/wc/r10-belgian-gp"
+      }
+    ],
+    "form.standing_position": [
+      {
+        "date": "2026-05-03",
+        "value": 1,
+        "event": "f1/2026/wc/r04-miami-gp"
+      },
+      {
+        "date": "2026-05-24",
+        "value": 1,
+        "event": "f1/2026/wc/r05-canadian-gp"
+      },
+      {
+        "date": "2026-06-07",
+        "value": 1,
+        "event": "f1/2026/wc/r06-monaco-gp"
+      },
+      {
+        "date": "2026-06-14",
+        "value": 1,
+        "event": "f1/2026/wc/r07-barcelona-catalunya-gp"
+      },
+      {
+        "date": "2026-06-28",
+        "value": 1,
+        "event": "f1/2026/wc/r08-austrian-gp"
+      },
+      {
+        "date": "2026-07-05",
+        "value": 1,
+        "event": "f1/2026/wc/r09-british-gp"
+      },
+      {
+        "date": "2026-07-19",
+        "value": 1,
+        "event": "f1/2026/wc/r10-belgian-gp"
+      }
+    ],
+    "market.prob_win": [
+      {
+        "date": "2026-04-25",
+        "value": 0.31,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-04-26",
+        "value": 0.31,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-04-27",
+        "value": 0.311,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-04-28",
+        "value": 0.324,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-04-29",
+        "value": 0.326,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-04-30",
+        "value": 0.312,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-01",
+        "value": 0.316,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-02",
+        "value": 0.307,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-03",
+        "value": 0.353,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-04",
+        "value": 0.395,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-05",
+        "value": 0.409,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-06",
+        "value": 0.404,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-07",
+        "value": 0.388,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-08",
+        "value": 0.391,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-09",
+        "value": 0.388,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-10",
+        "value": 0.378,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-11",
+        "value": 0.372,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-12",
+        "value": 0.37,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-13",
+        "value": 0.384,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-14",
+        "value": 0.375,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-15",
+        "value": 0.388,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-16",
+        "value": 0.386,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-17",
+        "value": 0.382,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-18",
+        "value": 0.382,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-19",
+        "value": 0.381,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-20",
+        "value": 0.392,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-21",
+        "value": 0.403,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-22",
+        "value": 0.395,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-23",
+        "value": 0.381,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-24",
+        "value": 0.37,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-25",
+        "value": 0.57,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-26",
+        "value": 0.55,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-27",
+        "value": 0.549,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-28",
+        "value": 0.552,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-29",
+        "value": 0.547,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-30",
+        "value": 0.545,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-31",
+        "value": 0.535,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-01",
+        "value": 0.502,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-02",
+        "value": 0.511,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-03",
+        "value": 0.513,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-04",
+        "value": 0.502,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-05",
+        "value": 0.49,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-06",
+        "value": 0.494,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-07",
+        "value": 0.6,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-08",
+        "value": 0.716,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-09",
+        "value": 0.7,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-10",
+        "value": 0.696,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-11",
+        "value": 0.701,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-12",
+        "value": 0.701,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-13",
+        "value": 0.669,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-14",
+        "value": 0.609,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-15",
+        "value": 0.599,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-16",
+        "value": 0.607,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-17",
+        "value": 0.603,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-18",
+        "value": 0.611,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-19",
+        "value": 0.609,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-20",
+        "value": 0.604,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-21",
+        "value": 0.604,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-22",
+        "value": 0.606,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-23",
+        "value": 0.608,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-24",
+        "value": 0.589,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-25",
+        "value": 0.589,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-26",
+        "value": 0.585,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-27",
+        "value": 0.584,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-28",
+        "value": 0.571,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-29",
+        "value": 0.524,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-30",
+        "value": 0.527,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-01",
+        "value": 0.514,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-02",
+        "value": 0.551,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-03",
+        "value": 0.57,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-04",
+        "value": 0.592,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-05",
+        "value": 0.634,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-06",
+        "value": 0.563,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-07",
+        "value": 0.573,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-08",
+        "value": 0.558,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-09",
+        "value": 0.579,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-10",
+        "value": 0.578,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-11",
+        "value": 0.579,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-12",
+        "value": 0.591,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-13",
+        "value": 0.594,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-14",
+        "value": 0.581,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-15",
+        "value": 0.588,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-16",
+        "value": 0.588,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-17",
+        "value": 0.585,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-18",
+        "value": 0.59,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-19",
+        "value": 0.648,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-20",
+        "value": 0.733,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-21",
+        "value": 0.743,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-22",
+        "value": 0.743,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-23",
+        "value": 0.745,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-24",
+        "value": 0.727,
+        "event": "f1/2026"
+      }
+    ]
+  },
+  "coverage": {
+    "result": {
+      "status": "full",
+      "floor": "1950",
+      "note": "f1db CC BY backbone: every world-championship session 1950-present."
+    },
+    "perf": {
+      "status": "partial",
+      "floor": "1994",
+      "note": "Pit-stop counts from f1db's pit-stop data era (1994+); earlier races have no per-stop records.",
+      "wouldUnblock": "A licensed historical pit-stop dataset for pre-1994 seasons."
+    },
+    "form": {
+      "status": "full",
+      "floor": "1950",
+      "note": "Drivers' standings after every round, f1db 1950-present."
+    },
+    "cond": {
+      "status": "partial",
+      "floor": "1950",
+      "note": "Open-Meteo hourly reanalysis joined by venue coordinates; model estimate at the venue, not track-side sensor data.",
+      "proxies": [
+        "cond.temp_c",
+        "cond.precip_mm",
+        "cond.wind_kmh"
+      ]
+    },
+    "avail": {
+      "status": "none",
+      "note": "No keyless personnel-status feed exists for F1; driver substitutions surface only post-hoc in results.",
+      "wouldUnblock": "A licensed entry-list/withdrawal feed."
+    },
+    "market": {
+      "status": "partial",
+      "floor": "2024",
+      "note": "Prediction markets (Polymarket) 2024-present only; no keyless bookmaker odds history for F1. Public per owner decision 2026-07-19 (OQ #6 closed: rights unlocated, not denied); excluded from commercial delivery.",
+      "wouldUnblock": "A licensed historical odds feed would extend the floor past 2024."
+    },
+    "meas": {
+      "status": "partial",
+      "floor": "1950",
+      "note": "Fastest race lap from f1db (stepped horizon: timing precision improves by era). Speed-trap and telemetry measurements have no license-clean source (SR G7).",
+      "wouldUnblock": "A licensed telemetry/speed-trap dataset."
+    },
+    "agg": {
+      "status": "full",
+      "floor": "1950",
+      "note": "f1db source-published driver season and career totals; independent cross-check for card-derived aggregates."
+    },
+    "h2h": {
+      "status": "full",
+      "note": "Derived-only from stored result rows over shared events; no stored metric (OM §14.1)."
+    }
+  }
+}

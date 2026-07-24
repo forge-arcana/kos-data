@@ -1,0 +1,1123 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/schema/athlete.schema.json",
+  "dataset": "athlete",
+  "sport": "f1",
+  "entity": "athlete/max-verstappen",
+  "updated": "2026-07-24T19:10:14.280Z",
+  "sources": [
+    "f1db",
+    "polymarket"
+  ],
+  "identity": {
+    "name": "Max Verstappen",
+    "aliases": [],
+    "qid": null,
+    "country": "NLD",
+    "dob": "1997-09-30",
+    "sourceIds": {
+      "f1db": "max-verstappen"
+    }
+  },
+  "aggregates": [
+    {
+      "metric": "agg.championships",
+      "scope": "career",
+      "value": 4,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/max-verstappen.agg.championships"
+      ]
+    },
+    {
+      "metric": "agg.fastest_laps",
+      "scope": "career",
+      "value": 37,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/max-verstappen.agg.fastest_laps"
+      ]
+    },
+    {
+      "metric": "agg.podiums",
+      "scope": "career",
+      "value": 130,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/max-verstappen.agg.podiums"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "career",
+      "value": 3535.5,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/max-verstappen.agg.points"
+      ]
+    },
+    {
+      "metric": "agg.poles",
+      "scope": "career",
+      "value": 48,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/max-verstappen.agg.poles"
+      ]
+    },
+    {
+      "metric": "agg.starts",
+      "scope": "career",
+      "value": 243,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/max-verstappen.agg.starts"
+      ]
+    },
+    {
+      "metric": "agg.wins",
+      "scope": "career",
+      "value": 71,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/max-verstappen.agg.wins"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2015",
+      "value": 49,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2015#athlete/max-verstappen.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2016",
+      "value": 204,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2016#athlete/max-verstappen.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2017",
+      "value": 168,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2017#athlete/max-verstappen.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2018",
+      "value": 249,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2018#athlete/max-verstappen.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2019",
+      "value": 278,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2019#athlete/max-verstappen.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2020",
+      "value": 214,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2020#athlete/max-verstappen.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2021",
+      "value": 395.5,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2021#athlete/max-verstappen.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2022",
+      "value": 454,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2022#athlete/max-verstappen.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2023",
+      "value": 575,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2023#athlete/max-verstappen.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2024",
+      "value": 437,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2024#athlete/max-verstappen.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2025",
+      "value": 421,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2025#athlete/max-verstappen.agg.points@season"
+      ]
+    },
+    {
+      "metric": "wins",
+      "scope": "career",
+      "value": 71,
+      "provenance": "derived",
+      "derivation": "wins@1.0.0",
+      "rowCount": 71,
+      "cites": [
+        "kos:f1/2016/wc/r05-spanish-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2017/wc/r15-malaysian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2017/wc/r18-mexican-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2018/wc/r09-austrian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2018/wc/r19-mexican-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2019/wc/r09-austrian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2019/wc/r11-german-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2019/wc/r20-brazilian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2020/wc/r05-70th-anniversary-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2020/wc/r17-abu-dhabi-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2021/wc/r02-emilia-romagna-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2021/wc/r05-monaco-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2021/wc/r07-french-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2021/wc/r08-styrian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2021/wc/r09-austrian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2021/wc/r12-belgian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2021/wc/r13-dutch-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2021/wc/r17-united-states-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2021/wc/r18-mexican-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2021/wc/r22-abu-dhabi-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r02-saudi-arabian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r04-emilia-romagna-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r05-miami-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r06-spanish-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r08-azerbaijan-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r09-canadian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r12-french-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r13-hungarian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r14-belgian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r15-dutch-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r16-italian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r18-japanese-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r19-united-states-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r20-mexican-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r22-abu-dhabi-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r01-bahrain-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r03-australian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r05-miami-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r06-monaco-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r07-spanish-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r08-canadian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r09-austrian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r10-british-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r11-hungarian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r12-belgian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r13-dutch-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r14-italian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r16-japanese-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r17-qatar-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r18-united-states-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r19-mexican-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r20-sao-paulo-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r21-las-vegas-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r22-abu-dhabi-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2024/wc/r01-bahrain-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2024/wc/r02-saudi-arabian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2024/wc/r04-japanese-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2024/wc/r05-chinese-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2024/wc/r07-emilia-romagna-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2024/wc/r09-canadian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2024/wc/r10-spanish-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2024/wc/r21-sao-paulo-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2024/wc/r23-qatar-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2025/wc/r03-japanese-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2025/wc/r07-emilia-romagna-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2025/wc/r16-italian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2025/wc/r17-azerbaijan-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2025/wc/r19-united-states-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2025/wc/r22-las-vegas-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2025/wc/r23-qatar-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2025/wc/r24-abu-dhabi-gp/race#athlete/max-verstappen.result.winner"
+      ]
+    },
+    {
+      "metric": "podiums",
+      "scope": "career",
+      "value": 130,
+      "provenance": "derived",
+      "derivation": "podiums@1.0.0",
+      "rowCount": 130,
+      "cites": [
+        "kos:f1/2016/wc/r05-spanish-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2016/wc/r09-austrian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2016/wc/r10-british-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2016/wc/r12-german-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2016/wc/r16-malaysian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2016/wc/r17-japanese-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2016/wc/r20-brazilian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2017/wc/r02-chinese-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2017/wc/r15-malaysian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2017/wc/r16-japanese-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2017/wc/r18-mexican-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2018/wc/r05-spanish-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2018/wc/r07-canadian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2018/wc/r08-french-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2018/wc/r09-austrian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2018/wc/r13-belgian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2018/wc/r15-singapore-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2018/wc/r17-japanese-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2018/wc/r18-united-states-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2018/wc/r19-mexican-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2018/wc/r20-brazilian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2018/wc/r21-abu-dhabi-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2019/wc/r01-australian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2019/wc/r05-spanish-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2019/wc/r09-austrian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2019/wc/r11-german-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2019/wc/r12-hungarian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2019/wc/r15-singapore-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2019/wc/r19-united-states-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2019/wc/r20-brazilian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2019/wc/r21-abu-dhabi-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2020/wc/r02-styrian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2020/wc/r03-hungarian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2020/wc/r04-british-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2020/wc/r05-70th-anniversary-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2020/wc/r06-spanish-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2020/wc/r07-belgian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2020/wc/r10-russian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2020/wc/r11-eifel-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2020/wc/r12-portuguese-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2020/wc/r15-bahrain-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2020/wc/r17-abu-dhabi-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2021/wc/r01-bahrain-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2021/wc/r02-emilia-romagna-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2021/wc/r03-portuguese-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2021/wc/r04-spanish-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2021/wc/r05-monaco-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2021/wc/r07-french-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2021/wc/r08-styrian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2021/wc/r09-austrian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2021/wc/r12-belgian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2021/wc/r13-dutch-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2021/wc/r15-russian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2021/wc/r16-turkish-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2021/wc/r17-united-states-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2021/wc/r18-mexican-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2021/wc/r19-sao-paulo-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2021/wc/r20-qatar-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2021/wc/r21-saudi-arabian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2021/wc/r22-abu-dhabi-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2022/wc/r02-saudi-arabian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2022/wc/r04-emilia-romagna-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2022/wc/r05-miami-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2022/wc/r06-spanish-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2022/wc/r07-monaco-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2022/wc/r08-azerbaijan-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2022/wc/r09-canadian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2022/wc/r11-austrian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2022/wc/r12-french-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2022/wc/r13-hungarian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2022/wc/r14-belgian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2022/wc/r15-dutch-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2022/wc/r16-italian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2022/wc/r18-japanese-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2022/wc/r19-united-states-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2022/wc/r20-mexican-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2022/wc/r22-abu-dhabi-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2023/wc/r01-bahrain-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2023/wc/r02-saudi-arabian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2023/wc/r03-australian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2023/wc/r04-azerbaijan-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2023/wc/r05-miami-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2023/wc/r06-monaco-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2023/wc/r07-spanish-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2023/wc/r08-canadian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2023/wc/r09-austrian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2023/wc/r10-british-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2023/wc/r11-hungarian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2023/wc/r12-belgian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2023/wc/r13-dutch-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2023/wc/r14-italian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2023/wc/r16-japanese-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2023/wc/r17-qatar-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2023/wc/r18-united-states-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2023/wc/r19-mexican-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2023/wc/r20-sao-paulo-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2023/wc/r21-las-vegas-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2023/wc/r22-abu-dhabi-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2024/wc/r01-bahrain-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2024/wc/r02-saudi-arabian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2024/wc/r04-japanese-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2024/wc/r05-chinese-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2024/wc/r06-miami-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2024/wc/r07-emilia-romagna-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2024/wc/r09-canadian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2024/wc/r10-spanish-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2024/wc/r12-british-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2024/wc/r15-dutch-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2024/wc/r18-singapore-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2024/wc/r19-united-states-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2024/wc/r21-sao-paulo-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2024/wc/r23-qatar-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2025/wc/r01-australian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2025/wc/r03-japanese-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2025/wc/r05-saudi-arabian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2025/wc/r07-emilia-romagna-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2025/wc/r10-canadian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2025/wc/r15-dutch-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2025/wc/r16-italian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2025/wc/r17-azerbaijan-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2025/wc/r18-singapore-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2025/wc/r19-united-states-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2025/wc/r20-mexican-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2025/wc/r21-sao-paulo-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2025/wc/r22-las-vegas-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2025/wc/r23-qatar-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2025/wc/r24-abu-dhabi-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2026/wc/r05-canadian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2026/wc/r08-austrian-gp/race#athlete/max-verstappen.result.position",
+        "kos:f1/2026/wc/r10-belgian-gp/race#athlete/max-verstappen.result.position"
+      ]
+    },
+    {
+      "metric": "win_rate",
+      "scope": "career",
+      "value": 0.2922,
+      "provenance": "derived",
+      "derivation": "win_rate@1.0.0",
+      "rowCount": 243,
+      "cites": [
+        "kos:f1/2016/wc/r05-spanish-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2017/wc/r15-malaysian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2017/wc/r18-mexican-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2018/wc/r09-austrian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2018/wc/r19-mexican-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2019/wc/r09-austrian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2019/wc/r11-german-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2019/wc/r20-brazilian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2020/wc/r05-70th-anniversary-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2020/wc/r17-abu-dhabi-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2021/wc/r02-emilia-romagna-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2021/wc/r05-monaco-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2021/wc/r07-french-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2021/wc/r08-styrian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2021/wc/r09-austrian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2021/wc/r12-belgian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2021/wc/r13-dutch-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2021/wc/r17-united-states-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2021/wc/r18-mexican-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2021/wc/r22-abu-dhabi-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r02-saudi-arabian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r04-emilia-romagna-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r05-miami-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r06-spanish-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r08-azerbaijan-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r09-canadian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r12-french-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r13-hungarian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r14-belgian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r15-dutch-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r16-italian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r18-japanese-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r19-united-states-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r20-mexican-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2022/wc/r22-abu-dhabi-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r01-bahrain-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r03-australian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r05-miami-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r06-monaco-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r07-spanish-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r08-canadian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r09-austrian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r10-british-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r11-hungarian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r12-belgian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r13-dutch-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r14-italian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r16-japanese-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r17-qatar-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r18-united-states-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r19-mexican-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r20-sao-paulo-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r21-las-vegas-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2023/wc/r22-abu-dhabi-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2024/wc/r01-bahrain-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2024/wc/r02-saudi-arabian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2024/wc/r04-japanese-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2024/wc/r05-chinese-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2024/wc/r07-emilia-romagna-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2024/wc/r09-canadian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2024/wc/r10-spanish-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2024/wc/r21-sao-paulo-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2024/wc/r23-qatar-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2025/wc/r03-japanese-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2025/wc/r07-emilia-romagna-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2025/wc/r16-italian-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2025/wc/r17-azerbaijan-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2025/wc/r19-united-states-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2025/wc/r22-las-vegas-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2025/wc/r23-qatar-gp/race#athlete/max-verstappen.result.winner",
+        "kos:f1/2025/wc/r24-abu-dhabi-gp/race#athlete/max-verstappen.result.winner"
+      ]
+    }
+  ],
+  "recent": [
+    {
+      "event": "f1/2026/wc/r06-monaco-gp",
+      "date": "2026-06-07",
+      "ref": "kos:f1/2026/wc/r06-monaco-gp/race#athlete/max-verstappen.perf.pit_stops"
+    },
+    {
+      "event": "f1/2026/wc/r07-barcelona-catalunya-gp",
+      "date": "2026-06-14",
+      "position": 4,
+      "ref": "kos:f1/2026/wc/r07-barcelona-catalunya-gp/race#athlete/max-verstappen.result.position"
+    },
+    {
+      "event": "f1/2026/wc/r08-austrian-gp",
+      "date": "2026-06-28",
+      "position": 2,
+      "ref": "kos:f1/2026/wc/r08-austrian-gp/race#athlete/max-verstappen.result.position"
+    },
+    {
+      "event": "f1/2026/wc/r09-british-gp",
+      "date": "2026-07-05",
+      "position": 20,
+      "ref": "kos:f1/2026/wc/r09-british-gp/race#athlete/max-verstappen.result.position"
+    },
+    {
+      "event": "f1/2026/wc/r10-belgian-gp",
+      "date": "2026-07-19",
+      "position": 3,
+      "ref": "kos:f1/2026/wc/r10-belgian-gp/race#athlete/max-verstappen.result.position"
+    }
+  ],
+  "series": {
+    "form.standing_points": [
+      {
+        "date": "2026-05-03",
+        "value": 26,
+        "event": "f1/2026/wc/r04-miami-gp"
+      },
+      {
+        "date": "2026-05-24",
+        "value": 43,
+        "event": "f1/2026/wc/r05-canadian-gp"
+      },
+      {
+        "date": "2026-06-07",
+        "value": 43,
+        "event": "f1/2026/wc/r06-monaco-gp"
+      },
+      {
+        "date": "2026-06-14",
+        "value": 55,
+        "event": "f1/2026/wc/r07-barcelona-catalunya-gp"
+      },
+      {
+        "date": "2026-06-28",
+        "value": 73,
+        "event": "f1/2026/wc/r08-austrian-gp"
+      },
+      {
+        "date": "2026-07-05",
+        "value": 76,
+        "event": "f1/2026/wc/r09-british-gp"
+      },
+      {
+        "date": "2026-07-19",
+        "value": 91,
+        "event": "f1/2026/wc/r10-belgian-gp"
+      }
+    ],
+    "form.standing_position": [
+      {
+        "date": "2026-05-03",
+        "value": 7,
+        "event": "f1/2026/wc/r04-miami-gp"
+      },
+      {
+        "date": "2026-05-24",
+        "value": 7,
+        "event": "f1/2026/wc/r05-canadian-gp"
+      },
+      {
+        "date": "2026-06-07",
+        "value": 7,
+        "event": "f1/2026/wc/r06-monaco-gp"
+      },
+      {
+        "date": "2026-06-14",
+        "value": 7,
+        "event": "f1/2026/wc/r07-barcelona-catalunya-gp"
+      },
+      {
+        "date": "2026-06-28",
+        "value": 7,
+        "event": "f1/2026/wc/r08-austrian-gp"
+      },
+      {
+        "date": "2026-07-05",
+        "value": 7,
+        "event": "f1/2026/wc/r09-british-gp"
+      },
+      {
+        "date": "2026-07-19",
+        "value": 7,
+        "event": "f1/2026/wc/r10-belgian-gp"
+      }
+    ],
+    "market.prob_win": [
+      {
+        "date": "2026-04-25",
+        "value": 0.033,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-04-26",
+        "value": 0.033,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-04-27",
+        "value": 0.031,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-04-28",
+        "value": 0.03,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-04-29",
+        "value": 0.033,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-04-30",
+        "value": 0.035,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-01",
+        "value": 0.033,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-02",
+        "value": 0.043,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-03",
+        "value": 0.071,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-04",
+        "value": 0.056,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-05",
+        "value": 0.054,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-06",
+        "value": 0.052,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-07",
+        "value": 0.062,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-08",
+        "value": 0.063,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-09",
+        "value": 0.063,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-10",
+        "value": 0.064,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-11",
+        "value": 0.063,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-12",
+        "value": 0.066,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-13",
+        "value": 0.065,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-14",
+        "value": 0.062,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-15",
+        "value": 0.063,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-16",
+        "value": 0.062,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-17",
+        "value": 0.062,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-18",
+        "value": 0.062,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-19",
+        "value": 0.062,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-20",
+        "value": 0.053,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-21",
+        "value": 0.06,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-22",
+        "value": 0.058,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-23",
+        "value": 0.058,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-24",
+        "value": 0.039,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-25",
+        "value": 0.026,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-26",
+        "value": 0.025,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-27",
+        "value": 0.029,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-28",
+        "value": 0.028,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-29",
+        "value": 0.027,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-30",
+        "value": 0.033,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-05-31",
+        "value": 0.027,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-01",
+        "value": 0.039,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-02",
+        "value": 0.035,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-03",
+        "value": 0.035,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-04",
+        "value": 0.035,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-05",
+        "value": 0.036,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-06",
+        "value": 0.039,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-07",
+        "value": 0.048,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-08",
+        "value": 0.023,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-09",
+        "value": 0.031,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-10",
+        "value": 0.033,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-11",
+        "value": 0.031,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-12",
+        "value": 0.031,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-13",
+        "value": 0.032,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-14",
+        "value": 0.018,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-15",
+        "value": 0.024,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-16",
+        "value": 0.02,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-17",
+        "value": 0.021,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-18",
+        "value": 0.02,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-19",
+        "value": 0.022,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-20",
+        "value": 0.023,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-21",
+        "value": 0.022,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-22",
+        "value": 0.019,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-23",
+        "value": 0.018,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-24",
+        "value": 0.029,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-25",
+        "value": 0.027,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-26",
+        "value": 0.03,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-27",
+        "value": 0.032,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-28",
+        "value": 0.031,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-29",
+        "value": 0.048,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-06-30",
+        "value": 0.043,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-01",
+        "value": 0.049,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-02",
+        "value": 0.046,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-03",
+        "value": 0.041,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-04",
+        "value": 0.039,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-05",
+        "value": 0.032,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-06",
+        "value": 0.025,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-07",
+        "value": 0.022,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-08",
+        "value": 0.019,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-09",
+        "value": 0.016,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-10",
+        "value": 0.015,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-11",
+        "value": 0.015,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-12",
+        "value": 0.013,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-13",
+        "value": 0.013,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-14",
+        "value": 0.022,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-15",
+        "value": 0.019,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-16",
+        "value": 0.019,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-17",
+        "value": 0.022,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-18",
+        "value": 0.024,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-19",
+        "value": 0.035,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-20",
+        "value": 0.025,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-21",
+        "value": 0.025,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-22",
+        "value": 0.02,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-23",
+        "value": 0.02,
+        "event": "f1/2026"
+      },
+      {
+        "date": "2026-07-24",
+        "value": 0.019,
+        "event": "f1/2026"
+      }
+    ]
+  },
+  "coverage": {
+    "result": {
+      "status": "full",
+      "floor": "1950",
+      "note": "f1db CC BY backbone: every world-championship session 1950-present."
+    },
+    "perf": {
+      "status": "partial",
+      "floor": "1994",
+      "note": "Pit-stop counts from f1db's pit-stop data era (1994+); earlier races have no per-stop records.",
+      "wouldUnblock": "A licensed historical pit-stop dataset for pre-1994 seasons."
+    },
+    "form": {
+      "status": "full",
+      "floor": "1950",
+      "note": "Drivers' standings after every round, f1db 1950-present."
+    },
+    "cond": {
+      "status": "partial",
+      "floor": "1950",
+      "note": "Open-Meteo hourly reanalysis joined by venue coordinates; model estimate at the venue, not track-side sensor data.",
+      "proxies": [
+        "cond.temp_c",
+        "cond.precip_mm",
+        "cond.wind_kmh"
+      ]
+    },
+    "avail": {
+      "status": "none",
+      "note": "No keyless personnel-status feed exists for F1; driver substitutions surface only post-hoc in results.",
+      "wouldUnblock": "A licensed entry-list/withdrawal feed."
+    },
+    "market": {
+      "status": "partial",
+      "floor": "2024",
+      "note": "Prediction markets (Polymarket) 2024-present only; no keyless bookmaker odds history for F1. Public per owner decision 2026-07-19 (OQ #6 closed: rights unlocated, not denied); excluded from commercial delivery.",
+      "wouldUnblock": "A licensed historical odds feed would extend the floor past 2024."
+    },
+    "meas": {
+      "status": "partial",
+      "floor": "1950",
+      "note": "Fastest race lap from f1db (stepped horizon: timing precision improves by era). Speed-trap and telemetry measurements have no license-clean source (SR G7).",
+      "wouldUnblock": "A licensed telemetry/speed-trap dataset."
+    },
+    "agg": {
+      "status": "full",
+      "floor": "1950",
+      "note": "f1db source-published driver season and career totals; independent cross-check for card-derived aggregates."
+    },
+    "h2h": {
+      "status": "full",
+      "note": "Derived-only from stored result rows over shared events; no stored metric (OM §14.1)."
+    }
+  }
+}

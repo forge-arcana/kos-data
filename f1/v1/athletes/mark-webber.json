@@ -1,0 +1,388 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/schema/athlete.schema.json",
+  "dataset": "athlete",
+  "sport": "f1",
+  "entity": "athlete/mark-webber",
+  "updated": "2026-07-24T19:10:14.262Z",
+  "sources": [
+    "f1db"
+  ],
+  "identity": {
+    "name": "Mark Webber",
+    "aliases": [],
+    "qid": "Q82667",
+    "country": "AUS",
+    "dob": "1976-08-27",
+    "sourceIds": {
+      "f1db": "mark-webber"
+    }
+  },
+  "aggregates": [
+    {
+      "metric": "agg.championships",
+      "scope": "career",
+      "value": 0,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/mark-webber.agg.championships"
+      ]
+    },
+    {
+      "metric": "agg.fastest_laps",
+      "scope": "career",
+      "value": 19,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/mark-webber.agg.fastest_laps"
+      ]
+    },
+    {
+      "metric": "agg.podiums",
+      "scope": "career",
+      "value": 42,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/mark-webber.agg.podiums"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "career",
+      "value": 1047.5,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/mark-webber.agg.points"
+      ]
+    },
+    {
+      "metric": "agg.poles",
+      "scope": "career",
+      "value": 13,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/mark-webber.agg.poles"
+      ]
+    },
+    {
+      "metric": "agg.starts",
+      "scope": "career",
+      "value": 215,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/mark-webber.agg.starts"
+      ]
+    },
+    {
+      "metric": "agg.wins",
+      "scope": "career",
+      "value": 9,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/mark-webber.agg.wins"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2002",
+      "value": 2,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2002#athlete/mark-webber.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2003",
+      "value": 17,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2003#athlete/mark-webber.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2004",
+      "value": 7,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2004#athlete/mark-webber.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2005",
+      "value": 36,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2005#athlete/mark-webber.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2006",
+      "value": 7,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2006#athlete/mark-webber.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2007",
+      "value": 10,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2007#athlete/mark-webber.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2008",
+      "value": 21,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2008#athlete/mark-webber.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2009",
+      "value": 69.5,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2009#athlete/mark-webber.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2010",
+      "value": 242,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2010#athlete/mark-webber.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2011",
+      "value": 258,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2011#athlete/mark-webber.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2012",
+      "value": 179,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2012#athlete/mark-webber.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2013",
+      "value": 199,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2013#athlete/mark-webber.agg.points@season"
+      ]
+    },
+    {
+      "metric": "wins",
+      "scope": "career",
+      "value": 9,
+      "provenance": "derived",
+      "derivation": "wins@1.0.0",
+      "rowCount": 9,
+      "cites": [
+        "kos:f1/2009/wc/r09-german-gp/race#athlete/mark-webber.result.winner",
+        "kos:f1/2009/wc/r16-brazilian-gp/race#athlete/mark-webber.result.winner",
+        "kos:f1/2010/wc/r05-spanish-gp/race#athlete/mark-webber.result.winner",
+        "kos:f1/2010/wc/r06-monaco-gp/race#athlete/mark-webber.result.winner",
+        "kos:f1/2010/wc/r10-british-gp/race#athlete/mark-webber.result.winner",
+        "kos:f1/2010/wc/r12-hungarian-gp/race#athlete/mark-webber.result.winner",
+        "kos:f1/2011/wc/r19-brazilian-gp/race#athlete/mark-webber.result.winner",
+        "kos:f1/2012/wc/r06-monaco-gp/race#athlete/mark-webber.result.winner",
+        "kos:f1/2012/wc/r09-british-gp/race#athlete/mark-webber.result.winner"
+      ]
+    },
+    {
+      "metric": "podiums",
+      "scope": "career",
+      "value": 42,
+      "provenance": "derived",
+      "derivation": "podiums@1.0.0",
+      "rowCount": 42,
+      "cites": [
+        "kos:f1/2005/wc/r06-monaco-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2007/wc/r10-european-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2009/wc/r03-chinese-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2009/wc/r05-spanish-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2009/wc/r07-turkish-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2009/wc/r08-british-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2009/wc/r09-german-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2009/wc/r10-hungarian-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2009/wc/r16-brazilian-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2009/wc/r17-abu-dhabi-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2010/wc/r03-malaysian-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2010/wc/r05-spanish-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2010/wc/r06-monaco-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2010/wc/r07-turkish-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2010/wc/r10-british-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2010/wc/r12-hungarian-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2010/wc/r13-belgian-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2010/wc/r15-singapore-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2010/wc/r16-japanese-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2010/wc/r18-brazilian-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2011/wc/r03-chinese-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2011/wc/r04-turkish-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2011/wc/r07-canadian-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2011/wc/r08-european-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2011/wc/r09-british-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2011/wc/r10-german-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2011/wc/r12-belgian-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2011/wc/r14-singapore-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2011/wc/r16-korean-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2011/wc/r19-brazilian-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2012/wc/r06-monaco-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2012/wc/r09-british-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2012/wc/r16-korean-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2012/wc/r17-indian-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2013/wc/r02-malaysian-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2013/wc/r06-monaco-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2013/wc/r08-british-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2013/wc/r12-italian-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2013/wc/r15-japanese-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2013/wc/r17-abu-dhabi-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2013/wc/r18-united-states-gp/race#athlete/mark-webber.result.position",
+        "kos:f1/2013/wc/r19-brazilian-gp/race#athlete/mark-webber.result.position"
+      ]
+    },
+    {
+      "metric": "win_rate",
+      "scope": "career",
+      "value": 0.0421,
+      "provenance": "derived",
+      "derivation": "win_rate@1.0.0",
+      "rowCount": 214,
+      "cites": [
+        "kos:f1/2009/wc/r09-german-gp/race#athlete/mark-webber.result.winner",
+        "kos:f1/2009/wc/r16-brazilian-gp/race#athlete/mark-webber.result.winner",
+        "kos:f1/2010/wc/r05-spanish-gp/race#athlete/mark-webber.result.winner",
+        "kos:f1/2010/wc/r06-monaco-gp/race#athlete/mark-webber.result.winner",
+        "kos:f1/2010/wc/r10-british-gp/race#athlete/mark-webber.result.winner",
+        "kos:f1/2010/wc/r12-hungarian-gp/race#athlete/mark-webber.result.winner",
+        "kos:f1/2011/wc/r19-brazilian-gp/race#athlete/mark-webber.result.winner",
+        "kos:f1/2012/wc/r06-monaco-gp/race#athlete/mark-webber.result.winner",
+        "kos:f1/2012/wc/r09-british-gp/race#athlete/mark-webber.result.winner"
+      ]
+    }
+  ],
+  "recent": [
+    {
+      "event": "f1/2013/wc/r15-japanese-gp",
+      "date": "2013-10-13",
+      "position": 2,
+      "ref": "kos:f1/2013/wc/r15-japanese-gp/race#athlete/mark-webber.result.position"
+    },
+    {
+      "event": "f1/2013/wc/r16-indian-gp",
+      "date": "2013-10-27",
+      "ref": "kos:f1/2013/wc/r16-indian-gp/race#athlete/mark-webber.meas.fastest_lap_ms"
+    },
+    {
+      "event": "f1/2013/wc/r17-abu-dhabi-gp",
+      "date": "2013-11-03",
+      "position": 2,
+      "ref": "kos:f1/2013/wc/r17-abu-dhabi-gp/race#athlete/mark-webber.result.position"
+    },
+    {
+      "event": "f1/2013/wc/r18-united-states-gp",
+      "date": "2013-11-17",
+      "position": 3,
+      "ref": "kos:f1/2013/wc/r18-united-states-gp/race#athlete/mark-webber.result.position"
+    },
+    {
+      "event": "f1/2013/wc/r19-brazilian-gp",
+      "date": "2013-11-24",
+      "position": 2,
+      "ref": "kos:f1/2013/wc/r19-brazilian-gp/race#athlete/mark-webber.result.position"
+    }
+  ],
+  "series": {},
+  "coverage": {
+    "result": {
+      "status": "full",
+      "floor": "1950",
+      "note": "f1db CC BY backbone: every world-championship session 1950-present."
+    },
+    "perf": {
+      "status": "partial",
+      "floor": "1994",
+      "note": "Pit-stop counts from f1db's pit-stop data era (1994+); earlier races have no per-stop records.",
+      "wouldUnblock": "A licensed historical pit-stop dataset for pre-1994 seasons."
+    },
+    "form": {
+      "status": "full",
+      "floor": "1950",
+      "note": "Drivers' standings after every round, f1db 1950-present."
+    },
+    "cond": {
+      "status": "partial",
+      "floor": "1950",
+      "note": "Open-Meteo hourly reanalysis joined by venue coordinates; model estimate at the venue, not track-side sensor data.",
+      "proxies": [
+        "cond.temp_c",
+        "cond.precip_mm",
+        "cond.wind_kmh"
+      ]
+    },
+    "avail": {
+      "status": "none",
+      "note": "No keyless personnel-status feed exists for F1; driver substitutions surface only post-hoc in results.",
+      "wouldUnblock": "A licensed entry-list/withdrawal feed."
+    },
+    "market": {
+      "status": "partial",
+      "floor": "2024",
+      "note": "Prediction markets (Polymarket) 2024-present only; no keyless bookmaker odds history for F1. Public per owner decision 2026-07-19 (OQ #6 closed: rights unlocated, not denied); excluded from commercial delivery.",
+      "wouldUnblock": "A licensed historical odds feed would extend the floor past 2024."
+    },
+    "meas": {
+      "status": "partial",
+      "floor": "1950",
+      "note": "Fastest race lap from f1db (stepped horizon: timing precision improves by era). Speed-trap and telemetry measurements have no license-clean source (SR G7).",
+      "wouldUnblock": "A licensed telemetry/speed-trap dataset."
+    },
+    "agg": {
+      "status": "full",
+      "floor": "1950",
+      "note": "f1db source-published driver season and career totals; independent cross-check for card-derived aggregates."
+    },
+    "h2h": {
+      "status": "full",
+      "note": "Derived-only from stored result rows over shared events; no stored metric (OM §14.1)."
+    }
+  }
+}

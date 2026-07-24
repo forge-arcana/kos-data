@@ -1,0 +1,96 @@
+{
+  "sport": "f1",
+  "season": "1959",
+  "days": {
+    "1959-05-10": [
+      {
+        "event": "f1/1959/wc/r01-monaco-gp/race",
+        "kind": "race",
+        "start": "1959-05-10T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Grand Prix de Monaco 1959"
+      }
+    ],
+    "1959-05-30": [
+      {
+        "event": "f1/1959/wc/r02-indy-500/race",
+        "kind": "race",
+        "start": "1959-05-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/indianapolis-motor-speedway",
+        "name": "1959 Indianapolis 500"
+      }
+    ],
+    "1959-05-31": [
+      {
+        "event": "f1/1959/wc/r03-dutch-gp/race",
+        "kind": "race",
+        "start": "1959-05-31T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-park-zandvoort",
+        "name": "Grote Prijs van Nederland 1959"
+      }
+    ],
+    "1959-07-05": [
+      {
+        "event": "f1/1959/wc/r04-french-gp/race",
+        "kind": "race",
+        "start": "1959-07-05T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/reims-gueux",
+        "name": "Grand Prix de France 1959"
+      }
+    ],
+    "1959-07-18": [
+      {
+        "event": "f1/1959/wc/r05-british-gp/race",
+        "kind": "race",
+        "start": "1959-07-18T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/aintree-motor-racing-circuit",
+        "name": "1959 RAC British Grand Prix"
+      }
+    ],
+    "1959-08-02": [
+      {
+        "event": "f1/1959/wc/r06-german-gp/race",
+        "kind": "race",
+        "start": "1959-08-02T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/avus",
+        "name": "Grosser Preis von Deutschland 1959"
+      }
+    ],
+    "1959-08-23": [
+      {
+        "event": "f1/1959/wc/r07-portuguese-gp/race",
+        "kind": "race",
+        "start": "1959-08-23T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuito-de-monsanto",
+        "name": "Grande Prémio de Portugal 1959"
+      }
+    ],
+    "1959-09-13": [
+      {
+        "event": "f1/1959/wc/r08-italian-gp/race",
+        "kind": "race",
+        "start": "1959-09-13T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Gran Premio d'Italia 1959"
+      }
+    ],
+    "1959-12-12": [
+      {
+        "event": "f1/1959/wc/r09-united-states-gp/race",
+        "kind": "race",
+        "start": "1959-12-12T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/sebring-international-raceway",
+        "name": "1959 United States Grand Prix"
+      }
+    ]
+  }
+}

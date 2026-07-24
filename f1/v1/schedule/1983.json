@@ -1,0 +1,156 @@
+{
+  "sport": "f1",
+  "season": "1983",
+  "days": {
+    "1983-03-13": [
+      {
+        "event": "f1/1983/wc/r01-brazilian-gp/race",
+        "kind": "race",
+        "start": "1983-03-13T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-internacional-nelson-piquet",
+        "name": "Grande Prêmio do Brasil 1983"
+      }
+    ],
+    "1983-03-27": [
+      {
+        "event": "f1/1983/wc/r02-united-states-gp-west/race",
+        "kind": "race",
+        "start": "1983-03-27T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/long-beach",
+        "name": "1983 Toyota Grand Prix of Long Beach"
+      }
+    ],
+    "1983-04-17": [
+      {
+        "event": "f1/1983/wc/r03-french-gp/race",
+        "kind": "race",
+        "start": "1983-04-17T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-paul-ricard",
+        "name": "Grand Prix de France 1983"
+      }
+    ],
+    "1983-05-01": [
+      {
+        "event": "f1/1983/wc/r04-san-marino-gp/race",
+        "kind": "race",
+        "start": "1983-05-01T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-internazionale-enzo-e-dino-ferrari",
+        "name": "Gran Premio di San Marino 1983"
+      }
+    ],
+    "1983-05-15": [
+      {
+        "event": "f1/1983/wc/r05-monaco-gp/race",
+        "kind": "race",
+        "start": "1983-05-15T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Grand Prix de Monaco 1983"
+      }
+    ],
+    "1983-05-22": [
+      {
+        "event": "f1/1983/wc/r06-belgian-gp/race",
+        "kind": "race",
+        "start": "1983-05-22T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "1983 Belgian Grand Prix"
+      }
+    ],
+    "1983-06-05": [
+      {
+        "event": "f1/1983/wc/r07-detroit-gp/race",
+        "kind": "race",
+        "start": "1983-06-05T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/detroit-street-circuit",
+        "name": "1983 Detroit Grand Prix"
+      }
+    ],
+    "1983-06-12": [
+      {
+        "event": "f1/1983/wc/r08-canadian-gp/race",
+        "kind": "race",
+        "start": "1983-06-12T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-gilles-villeneuve",
+        "name": "Grand Prix Labatt du Canada 1983"
+      }
+    ],
+    "1983-07-16": [
+      {
+        "event": "f1/1983/wc/r09-british-gp/race",
+        "kind": "race",
+        "start": "1983-07-16T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "1983 Marlboro British Grand Prix"
+      }
+    ],
+    "1983-08-07": [
+      {
+        "event": "f1/1983/wc/r10-german-gp/race",
+        "kind": "race",
+        "start": "1983-08-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hockenheimring",
+        "name": "Grosser Preis von Deutschland 1983"
+      }
+    ],
+    "1983-08-14": [
+      {
+        "event": "f1/1983/wc/r11-austrian-gp/race",
+        "kind": "race",
+        "start": "1983-08-14T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/red-bull-ring",
+        "name": "Grosser Preis von Österreich 1983"
+      }
+    ],
+    "1983-08-28": [
+      {
+        "event": "f1/1983/wc/r12-dutch-gp/race",
+        "kind": "race",
+        "start": "1983-08-28T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-park-zandvoort",
+        "name": "Grote Prijs van Nederland 1983"
+      }
+    ],
+    "1983-09-11": [
+      {
+        "event": "f1/1983/wc/r13-italian-gp/race",
+        "kind": "race",
+        "start": "1983-09-11T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Gran Premio d'Italia 1983"
+      }
+    ],
+    "1983-09-25": [
+      {
+        "event": "f1/1983/wc/r14-european-gp/race",
+        "kind": "race",
+        "start": "1983-09-25T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/brands-hatch",
+        "name": "1983 John Player Grand Prix of Europe"
+      }
+    ],
+    "1983-10-15": [
+      {
+        "event": "f1/1983/wc/r15-south-african-gp/race",
+        "kind": "race",
+        "start": "1983-10-15T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/kyalami-racing-circuit",
+        "name": "Southern Sun Hotels South African Grand Prix 1983"
+      }
+    ]
+  }
+}

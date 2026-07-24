@@ -1,0 +1,588 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/schema/pack.schema.json",
+  "sport": "f1",
+  "packVersion": "1.0.0",
+  "eventGrammar": "f1/<year>/wc/r<NN>-<gp-slug>/<session>",
+  "sessions": [
+    "race",
+    "sprint",
+    "q",
+    "sq",
+    "fp1",
+    "fp2",
+    "fp3",
+    "q1",
+    "q2",
+    "fp4",
+    "wu",
+    "pq"
+  ],
+  "entityRoles": [
+    "athlete",
+    "team",
+    "venue",
+    "competition"
+  ],
+  "sources": [
+    "f1db",
+    "wikidata",
+    "open-meteo",
+    "polymarket"
+  ],
+  "metrics": {
+    "result.position": {
+      "span": [
+        "event"
+      ],
+      "type": "integer",
+      "unit": "rank",
+      "direction": "lower-better",
+      "subjectType": "athlete",
+      "desc": "Finishing position within the session"
+    },
+    "result.grid": {
+      "span": [
+        "event"
+      ],
+      "type": "integer",
+      "unit": "rank",
+      "direction": "lower-better",
+      "subjectType": "athlete",
+      "desc": "Starting grid position for the race/sprint session"
+    },
+    "result.positions_gained": {
+      "span": [
+        "event"
+      ],
+      "type": "integer",
+      "unit": "count",
+      "direction": "higher-better",
+      "subjectType": "athlete",
+      "desc": "Grid minus finishing position (negative = places lost)"
+    },
+    "result.gap_ms": {
+      "span": [
+        "event"
+      ],
+      "type": "number",
+      "unit": "ms",
+      "direction": "lower-better",
+      "subjectType": "athlete",
+      "desc": "Gap to the session winner in milliseconds (absent on the winner's row)"
+    },
+    "result.reason_retired": {
+      "span": [
+        "event"
+      ],
+      "type": "string",
+      "subjectType": "athlete",
+      "enum": [
+        "accident",
+        "engine",
+        "gearbox",
+        "hydraulics",
+        "collision",
+        "illness",
+        "withdrew",
+        "electrical",
+        "brakes",
+        "suspension",
+        "fuel-system",
+        "cooling",
+        "tyre",
+        "bodywork",
+        "fire",
+        "mechanical",
+        "disqualified"
+      ],
+      "desc": "Why the entrant did not finish (f1db reasonRetired, normalized via mappings.f1db to this closed set; enum and mapping append-only)",
+      "mappings": {
+        "f1db": {
+          "Accident": "accident",
+          "Accident damage": "accident",
+          "Accident in practice": "accident",
+          "Accident in qualifying": "accident",
+          "Accident in warm-up": "accident",
+          "Accident on formation lap": "accident",
+          "Additional brake fluid": "brakes",
+          "Airbox": "engine",
+          "Alternator": "electrical",
+          "Axle": "gearbox",
+          "Battery": "electrical",
+          "Brake bias": "brakes",
+          "Brakes": "brakes",
+          "Broken floor": "bodywork",
+          "Broken seat": "bodywork",
+          "Broken wing": "bodywork",
+          "Camera car": "withdrew",
+          "Camshaft": "engine",
+          "Car damaged": "withdrew",
+          "Car damaged in practice": "withdrew",
+          "Car damaged in qualifying": "withdrew",
+          "Car not ready": "withdrew",
+          "Car raced by Belsø": "withdrew",
+          "Car raced by Beltoise": "withdrew",
+          "Car raced by Bondurant": "withdrew",
+          "Car raced by Bonnier": "withdrew",
+          "Car raced by Daigh": "withdrew",
+          "Car raced by Fabi": "withdrew",
+          "Car raced by Ganley": "withdrew",
+          "Car raced by Gethin": "withdrew",
+          "Car raced by Gregory": "withdrew",
+          "Car raced by Gurney": "withdrew",
+          "Car raced by Hailwood": "withdrew",
+          "Car raced by Hobbs": "withdrew",
+          "Car raced by Irwin": "withdrew",
+          "Car raced by Jarier": "withdrew",
+          "Car raced by Marko": "withdrew",
+          "Car raced by Patrese": "withdrew",
+          "Car raced by Pirocchi": "withdrew",
+          "Car raced by Posey": "withdrew",
+          "Car raced by Raby": "withdrew",
+          "Car raced by Rodríguez": "withdrew",
+          "Car raced by Schenken": "withdrew",
+          "Car raced by Surer": "withdrew",
+          "Car raced by Surtees": "withdrew",
+          "Car raced by Trintignant": "withdrew",
+          "Car raced by Villoresi": "withdrew",
+          "Car seized by police": "withdrew",
+          "Car underweight": "disqualified",
+          "Car unraceworthy": "withdrew",
+          "Caused collision with Trulli": "collision",
+          "Chassis": "bodywork",
+          "Clutch": "gearbox",
+          "Collision": "collision",
+          "Collision damage": "collision",
+          "Compressor": "engine",
+          "Coolant leak": "cooling",
+          "Cooling system": "cooling",
+          "Crankshaft": "engine",
+          "Differential": "gearbox",
+          "Distributor": "electrical",
+          "Driveshaft": "gearbox",
+          "Driveshaft hub": "gearbox",
+          "Drivetrain": "gearbox",
+          "Driving too slowly": "disqualified",
+          "ERS": "engine",
+          "Electrical": "electrical",
+          "Electronics": "electrical",
+          "Energy storage system failure": "engine",
+          "Engine": "engine",
+          "Engine valve": "engine",
+          "Exhaust": "bodywork",
+          "Failed scrutineering": "disqualified",
+          "Failed to serve stop-go penalty": "disqualified",
+          "Fatal accident": "accident",
+          "Fatal accident in practice": "accident",
+          "Fatal accident in qualifying": "accident",
+          "Fatal accident in support race": "accident",
+          "Fatal collision": "collision",
+          "Fire": "fire",
+          "Fire extinguisher": "bodywork",
+          "Front wing": "bodywork",
+          "Fuel": "fuel-system",
+          "Fuel cell": "fuel-system",
+          "Fuel injection": "fuel-system",
+          "Fuel leak": "fuel-system",
+          "Fuel pipe": "fuel-system",
+          "Fuel pressure": "fuel-system",
+          "Fuel pump": "fuel-system",
+          "Fuel rig": "fuel-system",
+          "Fuel sample": "disqualified",
+          "Fuel system": "fuel-system",
+          "Gearbox": "gearbox",
+          "Halfshaft": "gearbox",
+          "Handling": "suspension",
+          "Hybrid system": "engine",
+          "Hydraulics": "hydraulics",
+          "Ignition": "engine",
+          "Ignored black flag": "disqualified",
+          "Ignored blue flags": "disqualified",
+          "Ignored red light": "disqualified",
+          "Ignored yellow flags": "disqualified",
+          "Ignored yellow flags in practice": "disqualified",
+          "Illegal bodywork": "disqualified",
+          "Illegal brake ducts": "disqualified",
+          "Illegal car change": "disqualified",
+          "Illegal car repairs": "disqualified",
+          "Illegal floor": "disqualified",
+          "Illegal front wing endplates": "disqualified",
+          "Illegal fuel": "disqualified",
+          "Illegal pit stop": "disqualified",
+          "Illegal race entry": "disqualified",
+          "Illegal rear wing": "disqualified",
+          "Illegal skid block wear": "disqualified",
+          "Illegal start": "disqualified",
+          "Illegal tyre change": "disqualified",
+          "Illegal undertray mounting": "disqualified",
+          "Illness": "illness",
+          "Incorrect grid formation": "disqualified",
+          "Incorrect starting procedure": "disqualified",
+          "Injection": "fuel-system",
+          "Injury": "illness",
+          "Injury in practice": "illness",
+          "KERS failure": "engine",
+          "Launch control": "electrical",
+          "Loose wheel": "tyre",
+          "Magneto": "engine",
+          "Mechanical": "mechanical",
+          "Mechenical": "mechanical",
+          "Misled stewards": "disqualified",
+          "Missed weight check": "disqualified",
+          "Money dispute": "withdrew",
+          "Oil leak": "engine",
+          "Oil line": "engine",
+          "Oil pipe": "engine",
+          "Oil pressure": "engine",
+          "Oil pump": "engine",
+          "Out of fuel": "fuel-system",
+          "Overheating": "engine",
+          "Overtaking on formation lap": "disqualified",
+          "Physical": "illness",
+          "Pit fire": "fire",
+          "Pit stop issue": "mechanical",
+          "Pneumatics": "hydraulics",
+          "Power loss": "engine",
+          "Power steering": "suspension",
+          "Power unit": "engine",
+          "Practice only": "withdrew",
+          "Puncture": "tyre",
+          "Puncture damage": "tyre",
+          "Push start": "disqualified",
+          "Push start in pits": "disqualified",
+          "Radiator": "cooling",
+          "Rear wing": "bodywork",
+          "Received outside assistance": "disqualified",
+          "Rejoined track illegally": "disqualified",
+          "Reserve driver": "withdrew",
+          "Retirement": "withdrew",
+          "Reversed in pits": "disqualified",
+          "Safety belt": "bodywork",
+          "Safety concerns": "withdrew",
+          "Safety switch": "electrical",
+          "Spark plugs": "engine",
+          "Spin": "accident",
+          "Spun off": "accident",
+          "Stalled": "engine",
+          "Starter": "electrical",
+          "Steering": "suspension",
+          "Supercharger": "engine",
+          "Suspension": "suspension",
+          "Technical defect": "mechanical",
+          "Technical infringements": "disqualified",
+          "Throttle": "engine",
+          "Track rod": "suspension",
+          "Traction control": "electrical",
+          "Transmission": "gearbox",
+          "Turbo": "engine",
+          "Turbocharger": "engine",
+          "Tyre": "tyre",
+          "Tyre dispute": "withdrew",
+          "Tyre shortage": "withdrew",
+          "Tyre temperature": "tyre",
+          "Undertray": "bodywork",
+          "Unfit": "illness",
+          "Unwell": "illness",
+          "Vibration": "engine",
+          "Vibrations": "engine",
+          "Water leak": "cooling",
+          "Water pipe": "cooling",
+          "Water pressure": "cooling",
+          "Water pump": "cooling",
+          "Water radiator": "cooling",
+          "Wheel": "tyre",
+          "Wheel bearing": "tyre",
+          "Wheel hub": "tyre",
+          "Wheel nut": "tyre",
+          "Wheel rim": "tyre",
+          "Withdrew": "withdrew",
+          "Wrong tyres": "disqualified"
+        }
+      }
+    },
+    "result.winner": {
+      "span": [
+        "event"
+      ],
+      "type": "boolean",
+      "subjectType": "athlete",
+      "desc": "TRUE on the winning entity's row; one row per classified participant"
+    },
+    "perf.pit_stops": {
+      "span": [
+        "event"
+      ],
+      "type": "integer",
+      "unit": "count",
+      "subjectType": "athlete",
+      "desc": "Number of pit stops made in the race session"
+    },
+    "form.standing_position": {
+      "span": [
+        "asof"
+      ],
+      "type": "integer",
+      "unit": "rank",
+      "direction": "lower-better",
+      "subjectType": "athlete",
+      "desc": "Drivers' championship position after the scoping round (event = that round's path)"
+    },
+    "form.standing_points": {
+      "span": [
+        "asof"
+      ],
+      "type": "number",
+      "unit": "points",
+      "direction": "higher-better",
+      "subjectType": "athlete",
+      "desc": "Drivers' championship points after the scoping round (event = that round's path)"
+    },
+    "cond.temp_c": {
+      "span": [
+        "event"
+      ],
+      "type": "number",
+      "unit": "c",
+      "subjectType": "event",
+      "desc": "Air temperature at the venue during the session window (hourly reanalysis mean)"
+    },
+    "cond.precip_mm": {
+      "span": [
+        "event"
+      ],
+      "type": "number",
+      "unit": "mm",
+      "subjectType": "event",
+      "desc": "Precipitation at the venue summed over the session window"
+    },
+    "cond.wind_kmh": {
+      "span": [
+        "event"
+      ],
+      "type": "number",
+      "unit": "kmh",
+      "subjectType": "event",
+      "desc": "Mean wind speed at the venue during the session window"
+    },
+    "market.prob_win": {
+      "span": [
+        "asof"
+      ],
+      "type": "number",
+      "unit": "probability",
+      "subjectType": "athlete",
+      "desc": "Prediction-market implied probability of this entity winning the scoping event"
+    },
+    "meas.fastest_lap_ms": {
+      "span": [
+        "event"
+      ],
+      "type": "number",
+      "unit": "ms",
+      "direction": "lower-better",
+      "subjectType": "athlete",
+      "desc": "The entrant's fastest race lap in milliseconds — the measurement family's ONE fastest-lap declaration (SR G7 / OM A3)"
+    },
+    "agg.starts": {
+      "span": [
+        "asof",
+        "season",
+        "career"
+      ],
+      "type": "integer",
+      "unit": "count",
+      "subjectType": "athlete",
+      "desc": "Source-published Grand Prix starts total"
+    },
+    "agg.wins": {
+      "span": [
+        "asof",
+        "season",
+        "career"
+      ],
+      "type": "integer",
+      "unit": "count",
+      "subjectType": "athlete",
+      "desc": "Source-published race wins total"
+    },
+    "agg.podiums": {
+      "span": [
+        "asof",
+        "season",
+        "career"
+      ],
+      "type": "integer",
+      "unit": "count",
+      "subjectType": "athlete",
+      "desc": "Source-published podium finishes total"
+    },
+    "agg.poles": {
+      "span": [
+        "asof",
+        "season",
+        "career"
+      ],
+      "type": "integer",
+      "unit": "count",
+      "subjectType": "athlete",
+      "desc": "Source-published pole positions total"
+    },
+    "agg.fastest_laps": {
+      "span": [
+        "asof",
+        "season",
+        "career"
+      ],
+      "type": "integer",
+      "unit": "count",
+      "subjectType": "athlete",
+      "desc": "Source-published fastest-lap awards total"
+    },
+    "agg.points": {
+      "span": [
+        "asof",
+        "season",
+        "career"
+      ],
+      "type": "number",
+      "unit": "points",
+      "subjectType": "athlete",
+      "desc": "Source-published championship points total (fractional points existed pre-1960s shared drives)"
+    },
+    "agg.championships": {
+      "span": [
+        "asof",
+        "season",
+        "career"
+      ],
+      "type": "integer",
+      "unit": "count",
+      "subjectType": "athlete",
+      "desc": "Source-published world championship titles total"
+    },
+    "meas.top_speed_kmh": {
+      "span": [
+        "event"
+      ],
+      "type": "number",
+      "subjectType": "athlete",
+      "status": "unmeasurable",
+      "gapRef": "coverage.meas",
+      "mappings": {
+        "openf1": null,
+        "livetiming": null
+      },
+      "desc": "Speed-trap top speed — declared so the refusal object can name it; NO license-clean source exists (OpenF1 is NC, livetiming is gray-blocked). Never stored."
+    }
+  },
+  "derivations": {
+    "h2h": {
+      "consumes": [
+        "result.winner"
+      ],
+      "formula": "count-by-winner-over-shared-events"
+    },
+    "form_last5": {
+      "consumes": [
+        "result.position|result.winner"
+      ],
+      "formula": "last-n(5)",
+      "minN": 5
+    },
+    "win_rate": {
+      "consumes": [
+        "result.winner"
+      ],
+      "formula": "count(value=true)/count(*)",
+      "minN": 5
+    },
+    "wins": {
+      "consumes": [
+        "result.winner"
+      ],
+      "formula": "count(value=true)"
+    },
+    "podiums": {
+      "consumes": [
+        "result.position"
+      ],
+      "formula": "count(value<=3)"
+    }
+  },
+  "coverage": {
+    "result": {
+      "status": "full",
+      "floor": "1950",
+      "note": "f1db CC BY backbone: every world-championship session 1950-present."
+    },
+    "perf": {
+      "status": "partial",
+      "floor": "1994",
+      "note": "Pit-stop counts from f1db's pit-stop data era (1994+); earlier races have no per-stop records.",
+      "wouldUnblock": "A licensed historical pit-stop dataset for pre-1994 seasons."
+    },
+    "form": {
+      "status": "full",
+      "floor": "1950",
+      "note": "Drivers' standings after every round, f1db 1950-present."
+    },
+    "cond": {
+      "status": "partial",
+      "floor": "1950",
+      "note": "Open-Meteo hourly reanalysis joined by venue coordinates; model estimate at the venue, not track-side sensor data.",
+      "proxies": [
+        "cond.temp_c",
+        "cond.precip_mm",
+        "cond.wind_kmh"
+      ]
+    },
+    "avail": {
+      "status": "none",
+      "note": "No keyless personnel-status feed exists for F1; driver substitutions surface only post-hoc in results.",
+      "wouldUnblock": "A licensed entry-list/withdrawal feed."
+    },
+    "market": {
+      "status": "partial",
+      "floor": "2024",
+      "note": "Prediction markets (Polymarket) 2024-present only; no keyless bookmaker odds history for F1. Public per owner decision 2026-07-19 (OQ #6 closed: rights unlocated, not denied); excluded from commercial delivery.",
+      "wouldUnblock": "A licensed historical odds feed would extend the floor past 2024."
+    },
+    "meas": {
+      "status": "partial",
+      "floor": "1950",
+      "note": "Fastest race lap from f1db (stepped horizon: timing precision improves by era). Speed-trap and telemetry measurements have no license-clean source (SR G7).",
+      "wouldUnblock": "A licensed telemetry/speed-trap dataset."
+    },
+    "agg": {
+      "status": "full",
+      "floor": "1950",
+      "note": "f1db source-published driver season and career totals; independent cross-check for card-derived aggregates."
+    },
+    "h2h": {
+      "status": "full",
+      "note": "Derived-only from stored result rows over shared events; no stored metric (OM §14.1)."
+    }
+  },
+  "determinative": [
+    "result.reason_retired"
+  ],
+  "expectedDuration": {
+    "race": 3,
+    "sprint": 2,
+    "q": 2,
+    "sq": 1.5,
+    "fp1": 1.5,
+    "fp2": 1.5,
+    "fp3": 1.5,
+    "q1": 1.5,
+    "q2": 1.5,
+    "fp4": 1,
+    "wu": 0.5,
+    "pq": 1
+  },
+  "preEventWindowDays": 14,
+  "signedCoverage": {
+    "by": "owner",
+    "date": "2026-07-19"
+  }
+}

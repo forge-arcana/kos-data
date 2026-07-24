@@ -1,0 +1,1110 @@
+{
+  "sport": "f1",
+  "season": "2024",
+  "days": {
+    "2024-02-29": [
+      {
+        "event": "f1/2024/wc/r01-bahrain-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-02-29T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/bahrain-international-circuit",
+        "name": "Formula 1 Gulf Air Bahrain Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r01-bahrain-gp/fp2",
+        "kind": "fp2",
+        "start": "2024-02-29T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/bahrain-international-circuit",
+        "name": "Formula 1 Gulf Air Bahrain Grand Prix 2024"
+      }
+    ],
+    "2024-03-01": [
+      {
+        "event": "f1/2024/wc/r01-bahrain-gp/fp3",
+        "kind": "fp3",
+        "start": "2024-03-01T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/bahrain-international-circuit",
+        "name": "Formula 1 Gulf Air Bahrain Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r01-bahrain-gp/q",
+        "kind": "q",
+        "start": "2024-03-01T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/bahrain-international-circuit",
+        "name": "Formula 1 Gulf Air Bahrain Grand Prix 2024"
+      }
+    ],
+    "2024-03-02": [
+      {
+        "event": "f1/2024/wc/r01-bahrain-gp/race",
+        "kind": "race",
+        "start": "2024-03-02T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/bahrain-international-circuit",
+        "name": "Formula 1 Gulf Air Bahrain Grand Prix 2024"
+      }
+    ],
+    "2024-03-07": [
+      {
+        "event": "f1/2024/wc/r02-saudi-arabian-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-03-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/jeddah-corniche-circuit",
+        "name": "Formula 1 stc Saudi Arabian Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r02-saudi-arabian-gp/fp2",
+        "kind": "fp2",
+        "start": "2024-03-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/jeddah-corniche-circuit",
+        "name": "Formula 1 stc Saudi Arabian Grand Prix 2024"
+      }
+    ],
+    "2024-03-08": [
+      {
+        "event": "f1/2024/wc/r02-saudi-arabian-gp/fp3",
+        "kind": "fp3",
+        "start": "2024-03-08T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/jeddah-corniche-circuit",
+        "name": "Formula 1 stc Saudi Arabian Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r02-saudi-arabian-gp/q",
+        "kind": "q",
+        "start": "2024-03-08T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/jeddah-corniche-circuit",
+        "name": "Formula 1 stc Saudi Arabian Grand Prix 2024"
+      }
+    ],
+    "2024-03-09": [
+      {
+        "event": "f1/2024/wc/r02-saudi-arabian-gp/race",
+        "kind": "race",
+        "start": "2024-03-09T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/jeddah-corniche-circuit",
+        "name": "Formula 1 stc Saudi Arabian Grand Prix 2024"
+      }
+    ],
+    "2024-03-22": [
+      {
+        "event": "f1/2024/wc/r03-australian-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-03-22T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/melbourne-grand-prix-circuit",
+        "name": "Formula 1 Rolex Australian Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r03-australian-gp/fp2",
+        "kind": "fp2",
+        "start": "2024-03-22T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/melbourne-grand-prix-circuit",
+        "name": "Formula 1 Rolex Australian Grand Prix 2024"
+      }
+    ],
+    "2024-03-23": [
+      {
+        "event": "f1/2024/wc/r03-australian-gp/fp3",
+        "kind": "fp3",
+        "start": "2024-03-23T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/melbourne-grand-prix-circuit",
+        "name": "Formula 1 Rolex Australian Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r03-australian-gp/q",
+        "kind": "q",
+        "start": "2024-03-23T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/melbourne-grand-prix-circuit",
+        "name": "Formula 1 Rolex Australian Grand Prix 2024"
+      }
+    ],
+    "2024-03-24": [
+      {
+        "event": "f1/2024/wc/r03-australian-gp/race",
+        "kind": "race",
+        "start": "2024-03-24T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/melbourne-grand-prix-circuit",
+        "name": "Formula 1 Rolex Australian Grand Prix 2024"
+      }
+    ],
+    "2024-04-05": [
+      {
+        "event": "f1/2024/wc/r04-japanese-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-04-05T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/suzuka-circuit",
+        "name": "Formula 1 MSC Cruises Japanese Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r04-japanese-gp/fp2",
+        "kind": "fp2",
+        "start": "2024-04-05T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/suzuka-circuit",
+        "name": "Formula 1 MSC Cruises Japanese Grand Prix 2024"
+      }
+    ],
+    "2024-04-06": [
+      {
+        "event": "f1/2024/wc/r04-japanese-gp/fp3",
+        "kind": "fp3",
+        "start": "2024-04-06T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/suzuka-circuit",
+        "name": "Formula 1 MSC Cruises Japanese Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r04-japanese-gp/q",
+        "kind": "q",
+        "start": "2024-04-06T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/suzuka-circuit",
+        "name": "Formula 1 MSC Cruises Japanese Grand Prix 2024"
+      }
+    ],
+    "2024-04-07": [
+      {
+        "event": "f1/2024/wc/r04-japanese-gp/race",
+        "kind": "race",
+        "start": "2024-04-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/suzuka-circuit",
+        "name": "Formula 1 MSC Cruises Japanese Grand Prix 2024"
+      }
+    ],
+    "2024-04-19": [
+      {
+        "event": "f1/2024/wc/r05-chinese-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-04-19T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/shanghai-international-circuit",
+        "name": "Formula 1 Lenovo Chinese Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r05-chinese-gp/sq",
+        "kind": "sq",
+        "start": "2024-04-19T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/shanghai-international-circuit",
+        "name": "Formula 1 Lenovo Chinese Grand Prix 2024"
+      }
+    ],
+    "2024-04-20": [
+      {
+        "event": "f1/2024/wc/r05-chinese-gp/q",
+        "kind": "q",
+        "start": "2024-04-20T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/shanghai-international-circuit",
+        "name": "Formula 1 Lenovo Chinese Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r05-chinese-gp/sprint",
+        "kind": "sprint",
+        "start": "2024-04-20T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/shanghai-international-circuit",
+        "name": "Formula 1 Lenovo Chinese Grand Prix 2024"
+      }
+    ],
+    "2024-04-21": [
+      {
+        "event": "f1/2024/wc/r05-chinese-gp/race",
+        "kind": "race",
+        "start": "2024-04-21T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/shanghai-international-circuit",
+        "name": "Formula 1 Lenovo Chinese Grand Prix 2024"
+      }
+    ],
+    "2024-05-03": [
+      {
+        "event": "f1/2024/wc/r06-miami-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-05-03T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/miami-international-autodrome",
+        "name": "Formula 1 Crypto.com Miami Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r06-miami-gp/sq",
+        "kind": "sq",
+        "start": "2024-05-03T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/miami-international-autodrome",
+        "name": "Formula 1 Crypto.com Miami Grand Prix 2024"
+      }
+    ],
+    "2024-05-04": [
+      {
+        "event": "f1/2024/wc/r06-miami-gp/q",
+        "kind": "q",
+        "start": "2024-05-04T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/miami-international-autodrome",
+        "name": "Formula 1 Crypto.com Miami Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r06-miami-gp/sprint",
+        "kind": "sprint",
+        "start": "2024-05-04T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/miami-international-autodrome",
+        "name": "Formula 1 Crypto.com Miami Grand Prix 2024"
+      }
+    ],
+    "2024-05-05": [
+      {
+        "event": "f1/2024/wc/r06-miami-gp/race",
+        "kind": "race",
+        "start": "2024-05-05T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/miami-international-autodrome",
+        "name": "Formula 1 Crypto.com Miami Grand Prix 2024"
+      }
+    ],
+    "2024-05-17": [
+      {
+        "event": "f1/2024/wc/r07-emilia-romagna-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-05-17T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-internazionale-enzo-e-dino-ferrari",
+        "name": "Formula 1 MSC Cruises Gran Premio dell'Emilia Romagna 2024"
+      },
+      {
+        "event": "f1/2024/wc/r07-emilia-romagna-gp/fp2",
+        "kind": "fp2",
+        "start": "2024-05-17T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-internazionale-enzo-e-dino-ferrari",
+        "name": "Formula 1 MSC Cruises Gran Premio dell'Emilia Romagna 2024"
+      }
+    ],
+    "2024-05-18": [
+      {
+        "event": "f1/2024/wc/r07-emilia-romagna-gp/fp3",
+        "kind": "fp3",
+        "start": "2024-05-18T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-internazionale-enzo-e-dino-ferrari",
+        "name": "Formula 1 MSC Cruises Gran Premio dell'Emilia Romagna 2024"
+      },
+      {
+        "event": "f1/2024/wc/r07-emilia-romagna-gp/q",
+        "kind": "q",
+        "start": "2024-05-18T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-internazionale-enzo-e-dino-ferrari",
+        "name": "Formula 1 MSC Cruises Gran Premio dell'Emilia Romagna 2024"
+      }
+    ],
+    "2024-05-19": [
+      {
+        "event": "f1/2024/wc/r07-emilia-romagna-gp/race",
+        "kind": "race",
+        "start": "2024-05-19T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-internazionale-enzo-e-dino-ferrari",
+        "name": "Formula 1 MSC Cruises Gran Premio dell'Emilia Romagna 2024"
+      }
+    ],
+    "2024-05-24": [
+      {
+        "event": "f1/2024/wc/r08-monaco-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-05-24T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Formula 1 Grand Prix de Monaco 2024"
+      },
+      {
+        "event": "f1/2024/wc/r08-monaco-gp/fp2",
+        "kind": "fp2",
+        "start": "2024-05-24T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Formula 1 Grand Prix de Monaco 2024"
+      }
+    ],
+    "2024-05-25": [
+      {
+        "event": "f1/2024/wc/r08-monaco-gp/fp3",
+        "kind": "fp3",
+        "start": "2024-05-25T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Formula 1 Grand Prix de Monaco 2024"
+      },
+      {
+        "event": "f1/2024/wc/r08-monaco-gp/q",
+        "kind": "q",
+        "start": "2024-05-25T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Formula 1 Grand Prix de Monaco 2024"
+      }
+    ],
+    "2024-05-26": [
+      {
+        "event": "f1/2024/wc/r08-monaco-gp/race",
+        "kind": "race",
+        "start": "2024-05-26T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Formula 1 Grand Prix de Monaco 2024"
+      }
+    ],
+    "2024-06-07": [
+      {
+        "event": "f1/2024/wc/r09-canadian-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-06-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-gilles-villeneuve",
+        "name": "Formula 1 Grand Prix du Canada 2024"
+      },
+      {
+        "event": "f1/2024/wc/r09-canadian-gp/fp2",
+        "kind": "fp2",
+        "start": "2024-06-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-gilles-villeneuve",
+        "name": "Formula 1 Grand Prix du Canada 2024"
+      }
+    ],
+    "2024-06-08": [
+      {
+        "event": "f1/2024/wc/r09-canadian-gp/fp3",
+        "kind": "fp3",
+        "start": "2024-06-08T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-gilles-villeneuve",
+        "name": "Formula 1 Grand Prix du Canada 2024"
+      },
+      {
+        "event": "f1/2024/wc/r09-canadian-gp/q",
+        "kind": "q",
+        "start": "2024-06-08T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-gilles-villeneuve",
+        "name": "Formula 1 Grand Prix du Canada 2024"
+      }
+    ],
+    "2024-06-09": [
+      {
+        "event": "f1/2024/wc/r09-canadian-gp/race",
+        "kind": "race",
+        "start": "2024-06-09T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-gilles-villeneuve",
+        "name": "Formula 1 Grand Prix du Canada 2024"
+      }
+    ],
+    "2024-06-21": [
+      {
+        "event": "f1/2024/wc/r10-spanish-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-06-21T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-barcelona-catalunya",
+        "name": "Formula 1 Aramco Gran Premio de España 2024"
+      },
+      {
+        "event": "f1/2024/wc/r10-spanish-gp/fp2",
+        "kind": "fp2",
+        "start": "2024-06-21T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-barcelona-catalunya",
+        "name": "Formula 1 Aramco Gran Premio de España 2024"
+      }
+    ],
+    "2024-06-22": [
+      {
+        "event": "f1/2024/wc/r10-spanish-gp/fp3",
+        "kind": "fp3",
+        "start": "2024-06-22T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-barcelona-catalunya",
+        "name": "Formula 1 Aramco Gran Premio de España 2024"
+      },
+      {
+        "event": "f1/2024/wc/r10-spanish-gp/q",
+        "kind": "q",
+        "start": "2024-06-22T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-barcelona-catalunya",
+        "name": "Formula 1 Aramco Gran Premio de España 2024"
+      }
+    ],
+    "2024-06-23": [
+      {
+        "event": "f1/2024/wc/r10-spanish-gp/race",
+        "kind": "race",
+        "start": "2024-06-23T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-barcelona-catalunya",
+        "name": "Formula 1 Aramco Gran Premio de España 2024"
+      }
+    ],
+    "2024-06-28": [
+      {
+        "event": "f1/2024/wc/r11-austrian-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-06-28T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/red-bull-ring",
+        "name": "Formula 1 Qatar Airways Austrian Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r11-austrian-gp/sq",
+        "kind": "sq",
+        "start": "2024-06-28T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/red-bull-ring",
+        "name": "Formula 1 Qatar Airways Austrian Grand Prix 2024"
+      }
+    ],
+    "2024-06-29": [
+      {
+        "event": "f1/2024/wc/r11-austrian-gp/q",
+        "kind": "q",
+        "start": "2024-06-29T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/red-bull-ring",
+        "name": "Formula 1 Qatar Airways Austrian Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r11-austrian-gp/sprint",
+        "kind": "sprint",
+        "start": "2024-06-29T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/red-bull-ring",
+        "name": "Formula 1 Qatar Airways Austrian Grand Prix 2024"
+      }
+    ],
+    "2024-06-30": [
+      {
+        "event": "f1/2024/wc/r11-austrian-gp/race",
+        "kind": "race",
+        "start": "2024-06-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/red-bull-ring",
+        "name": "Formula 1 Qatar Airways Austrian Grand Prix 2024"
+      }
+    ],
+    "2024-07-05": [
+      {
+        "event": "f1/2024/wc/r12-british-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-07-05T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "Formula 1 Qatar Airways British Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r12-british-gp/fp2",
+        "kind": "fp2",
+        "start": "2024-07-05T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "Formula 1 Qatar Airways British Grand Prix 2024"
+      }
+    ],
+    "2024-07-06": [
+      {
+        "event": "f1/2024/wc/r12-british-gp/fp3",
+        "kind": "fp3",
+        "start": "2024-07-06T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "Formula 1 Qatar Airways British Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r12-british-gp/q",
+        "kind": "q",
+        "start": "2024-07-06T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "Formula 1 Qatar Airways British Grand Prix 2024"
+      }
+    ],
+    "2024-07-07": [
+      {
+        "event": "f1/2024/wc/r12-british-gp/race",
+        "kind": "race",
+        "start": "2024-07-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "Formula 1 Qatar Airways British Grand Prix 2024"
+      }
+    ],
+    "2024-07-19": [
+      {
+        "event": "f1/2024/wc/r13-hungarian-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-07-19T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hungaroring",
+        "name": "Formula 1 Hungarian Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r13-hungarian-gp/fp2",
+        "kind": "fp2",
+        "start": "2024-07-19T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hungaroring",
+        "name": "Formula 1 Hungarian Grand Prix 2024"
+      }
+    ],
+    "2024-07-20": [
+      {
+        "event": "f1/2024/wc/r13-hungarian-gp/fp3",
+        "kind": "fp3",
+        "start": "2024-07-20T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hungaroring",
+        "name": "Formula 1 Hungarian Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r13-hungarian-gp/q",
+        "kind": "q",
+        "start": "2024-07-20T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hungaroring",
+        "name": "Formula 1 Hungarian Grand Prix 2024"
+      }
+    ],
+    "2024-07-21": [
+      {
+        "event": "f1/2024/wc/r13-hungarian-gp/race",
+        "kind": "race",
+        "start": "2024-07-21T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hungaroring",
+        "name": "Formula 1 Hungarian Grand Prix 2024"
+      }
+    ],
+    "2024-07-26": [
+      {
+        "event": "f1/2024/wc/r14-belgian-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-07-26T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "Formula 1 Rolex Belgian Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r14-belgian-gp/fp2",
+        "kind": "fp2",
+        "start": "2024-07-26T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "Formula 1 Rolex Belgian Grand Prix 2024"
+      }
+    ],
+    "2024-07-27": [
+      {
+        "event": "f1/2024/wc/r14-belgian-gp/fp3",
+        "kind": "fp3",
+        "start": "2024-07-27T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "Formula 1 Rolex Belgian Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r14-belgian-gp/q",
+        "kind": "q",
+        "start": "2024-07-27T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "Formula 1 Rolex Belgian Grand Prix 2024"
+      }
+    ],
+    "2024-07-28": [
+      {
+        "event": "f1/2024/wc/r14-belgian-gp/race",
+        "kind": "race",
+        "start": "2024-07-28T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "Formula 1 Rolex Belgian Grand Prix 2024"
+      }
+    ],
+    "2024-08-23": [
+      {
+        "event": "f1/2024/wc/r15-dutch-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-08-23T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-park-zandvoort",
+        "name": "Formula 1 Heineken Dutch Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r15-dutch-gp/fp2",
+        "kind": "fp2",
+        "start": "2024-08-23T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-park-zandvoort",
+        "name": "Formula 1 Heineken Dutch Grand Prix 2024"
+      }
+    ],
+    "2024-08-24": [
+      {
+        "event": "f1/2024/wc/r15-dutch-gp/fp3",
+        "kind": "fp3",
+        "start": "2024-08-24T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-park-zandvoort",
+        "name": "Formula 1 Heineken Dutch Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r15-dutch-gp/q",
+        "kind": "q",
+        "start": "2024-08-24T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-park-zandvoort",
+        "name": "Formula 1 Heineken Dutch Grand Prix 2024"
+      }
+    ],
+    "2024-08-25": [
+      {
+        "event": "f1/2024/wc/r15-dutch-gp/race",
+        "kind": "race",
+        "start": "2024-08-25T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-park-zandvoort",
+        "name": "Formula 1 Heineken Dutch Grand Prix 2024"
+      }
+    ],
+    "2024-08-30": [
+      {
+        "event": "f1/2024/wc/r16-italian-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-08-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Formula 1 Pirelli Gran Premio d'Italia 2024"
+      },
+      {
+        "event": "f1/2024/wc/r16-italian-gp/fp2",
+        "kind": "fp2",
+        "start": "2024-08-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Formula 1 Pirelli Gran Premio d'Italia 2024"
+      }
+    ],
+    "2024-08-31": [
+      {
+        "event": "f1/2024/wc/r16-italian-gp/fp3",
+        "kind": "fp3",
+        "start": "2024-08-31T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Formula 1 Pirelli Gran Premio d'Italia 2024"
+      },
+      {
+        "event": "f1/2024/wc/r16-italian-gp/q",
+        "kind": "q",
+        "start": "2024-08-31T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Formula 1 Pirelli Gran Premio d'Italia 2024"
+      }
+    ],
+    "2024-09-01": [
+      {
+        "event": "f1/2024/wc/r16-italian-gp/race",
+        "kind": "race",
+        "start": "2024-09-01T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Formula 1 Pirelli Gran Premio d'Italia 2024"
+      }
+    ],
+    "2024-09-13": [
+      {
+        "event": "f1/2024/wc/r17-azerbaijan-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-09-13T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/baku-city-circuit",
+        "name": "Formula 1 Qatar Airways Azerbaijan Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r17-azerbaijan-gp/fp2",
+        "kind": "fp2",
+        "start": "2024-09-13T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/baku-city-circuit",
+        "name": "Formula 1 Qatar Airways Azerbaijan Grand Prix 2024"
+      }
+    ],
+    "2024-09-14": [
+      {
+        "event": "f1/2024/wc/r17-azerbaijan-gp/fp3",
+        "kind": "fp3",
+        "start": "2024-09-14T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/baku-city-circuit",
+        "name": "Formula 1 Qatar Airways Azerbaijan Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r17-azerbaijan-gp/q",
+        "kind": "q",
+        "start": "2024-09-14T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/baku-city-circuit",
+        "name": "Formula 1 Qatar Airways Azerbaijan Grand Prix 2024"
+      }
+    ],
+    "2024-09-15": [
+      {
+        "event": "f1/2024/wc/r17-azerbaijan-gp/race",
+        "kind": "race",
+        "start": "2024-09-15T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/baku-city-circuit",
+        "name": "Formula 1 Qatar Airways Azerbaijan Grand Prix 2024"
+      }
+    ],
+    "2024-09-20": [
+      {
+        "event": "f1/2024/wc/r18-singapore-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-09-20T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/marina-bay-street-circuit",
+        "name": "Formula 1 Singapore Airlines Singapore Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r18-singapore-gp/fp2",
+        "kind": "fp2",
+        "start": "2024-09-20T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/marina-bay-street-circuit",
+        "name": "Formula 1 Singapore Airlines Singapore Grand Prix 2024"
+      }
+    ],
+    "2024-09-21": [
+      {
+        "event": "f1/2024/wc/r18-singapore-gp/fp3",
+        "kind": "fp3",
+        "start": "2024-09-21T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/marina-bay-street-circuit",
+        "name": "Formula 1 Singapore Airlines Singapore Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r18-singapore-gp/q",
+        "kind": "q",
+        "start": "2024-09-21T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/marina-bay-street-circuit",
+        "name": "Formula 1 Singapore Airlines Singapore Grand Prix 2024"
+      }
+    ],
+    "2024-09-22": [
+      {
+        "event": "f1/2024/wc/r18-singapore-gp/race",
+        "kind": "race",
+        "start": "2024-09-22T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/marina-bay-street-circuit",
+        "name": "Formula 1 Singapore Airlines Singapore Grand Prix 2024"
+      }
+    ],
+    "2024-10-18": [
+      {
+        "event": "f1/2024/wc/r19-united-states-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-10-18T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-of-the-americas",
+        "name": "Formula 1 Pirelli United States Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r19-united-states-gp/sq",
+        "kind": "sq",
+        "start": "2024-10-18T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-of-the-americas",
+        "name": "Formula 1 Pirelli United States Grand Prix 2024"
+      }
+    ],
+    "2024-10-19": [
+      {
+        "event": "f1/2024/wc/r19-united-states-gp/q",
+        "kind": "q",
+        "start": "2024-10-19T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-of-the-americas",
+        "name": "Formula 1 Pirelli United States Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r19-united-states-gp/sprint",
+        "kind": "sprint",
+        "start": "2024-10-19T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-of-the-americas",
+        "name": "Formula 1 Pirelli United States Grand Prix 2024"
+      }
+    ],
+    "2024-10-20": [
+      {
+        "event": "f1/2024/wc/r19-united-states-gp/race",
+        "kind": "race",
+        "start": "2024-10-20T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-of-the-americas",
+        "name": "Formula 1 Pirelli United States Grand Prix 2024"
+      }
+    ],
+    "2024-10-25": [
+      {
+        "event": "f1/2024/wc/r20-mexican-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-10-25T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-hermanos-rodriguez",
+        "name": "Formula 1 Gran Premio de la Ciudad de México 2024"
+      },
+      {
+        "event": "f1/2024/wc/r20-mexican-gp/fp2",
+        "kind": "fp2",
+        "start": "2024-10-25T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-hermanos-rodriguez",
+        "name": "Formula 1 Gran Premio de la Ciudad de México 2024"
+      }
+    ],
+    "2024-10-26": [
+      {
+        "event": "f1/2024/wc/r20-mexican-gp/fp3",
+        "kind": "fp3",
+        "start": "2024-10-26T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-hermanos-rodriguez",
+        "name": "Formula 1 Gran Premio de la Ciudad de México 2024"
+      },
+      {
+        "event": "f1/2024/wc/r20-mexican-gp/q",
+        "kind": "q",
+        "start": "2024-10-26T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-hermanos-rodriguez",
+        "name": "Formula 1 Gran Premio de la Ciudad de México 2024"
+      }
+    ],
+    "2024-10-27": [
+      {
+        "event": "f1/2024/wc/r20-mexican-gp/race",
+        "kind": "race",
+        "start": "2024-10-27T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-hermanos-rodriguez",
+        "name": "Formula 1 Gran Premio de la Ciudad de México 2024"
+      }
+    ],
+    "2024-11-01": [
+      {
+        "event": "f1/2024/wc/r21-sao-paulo-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-11-01T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-jose-carlos-pace",
+        "name": "Formula 1 Lenovo Grande Prêmio de São Paulo 2024"
+      },
+      {
+        "event": "f1/2024/wc/r21-sao-paulo-gp/sq",
+        "kind": "sq",
+        "start": "2024-11-01T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-jose-carlos-pace",
+        "name": "Formula 1 Lenovo Grande Prêmio de São Paulo 2024"
+      }
+    ],
+    "2024-11-02": [
+      {
+        "event": "f1/2024/wc/r21-sao-paulo-gp/sprint",
+        "kind": "sprint",
+        "start": "2024-11-02T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-jose-carlos-pace",
+        "name": "Formula 1 Lenovo Grande Prêmio de São Paulo 2024"
+      }
+    ],
+    "2024-11-03": [
+      {
+        "event": "f1/2024/wc/r21-sao-paulo-gp/q",
+        "kind": "q",
+        "start": "2024-11-03T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-jose-carlos-pace",
+        "name": "Formula 1 Lenovo Grande Prêmio de São Paulo 2024"
+      },
+      {
+        "event": "f1/2024/wc/r21-sao-paulo-gp/race",
+        "kind": "race",
+        "start": "2024-11-03T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-jose-carlos-pace",
+        "name": "Formula 1 Lenovo Grande Prêmio de São Paulo 2024"
+      }
+    ],
+    "2024-11-22": [
+      {
+        "event": "f1/2024/wc/r22-las-vegas-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-11-22T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/las-vegas-street-circuit",
+        "name": "Formula 1 Heineken Silver Las Vegas Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r22-las-vegas-gp/fp2",
+        "kind": "fp2",
+        "start": "2024-11-22T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/las-vegas-street-circuit",
+        "name": "Formula 1 Heineken Silver Las Vegas Grand Prix 2024"
+      }
+    ],
+    "2024-11-23": [
+      {
+        "event": "f1/2024/wc/r22-las-vegas-gp/fp3",
+        "kind": "fp3",
+        "start": "2024-11-23T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/las-vegas-street-circuit",
+        "name": "Formula 1 Heineken Silver Las Vegas Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r22-las-vegas-gp/q",
+        "kind": "q",
+        "start": "2024-11-23T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/las-vegas-street-circuit",
+        "name": "Formula 1 Heineken Silver Las Vegas Grand Prix 2024"
+      }
+    ],
+    "2024-11-24": [
+      {
+        "event": "f1/2024/wc/r22-las-vegas-gp/race",
+        "kind": "race",
+        "start": "2024-11-24T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/las-vegas-street-circuit",
+        "name": "Formula 1 Heineken Silver Las Vegas Grand Prix 2024"
+      }
+    ],
+    "2024-11-29": [
+      {
+        "event": "f1/2024/wc/r23-qatar-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-11-29T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/lusail-international-circuit",
+        "name": "Formula 1 Qatar Airways Qatar Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r23-qatar-gp/sq",
+        "kind": "sq",
+        "start": "2024-11-29T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/lusail-international-circuit",
+        "name": "Formula 1 Qatar Airways Qatar Grand Prix 2024"
+      }
+    ],
+    "2024-11-30": [
+      {
+        "event": "f1/2024/wc/r23-qatar-gp/q",
+        "kind": "q",
+        "start": "2024-11-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/lusail-international-circuit",
+        "name": "Formula 1 Qatar Airways Qatar Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r23-qatar-gp/sprint",
+        "kind": "sprint",
+        "start": "2024-11-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/lusail-international-circuit",
+        "name": "Formula 1 Qatar Airways Qatar Grand Prix 2024"
+      }
+    ],
+    "2024-12-01": [
+      {
+        "event": "f1/2024/wc/r23-qatar-gp/race",
+        "kind": "race",
+        "start": "2024-12-01T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/lusail-international-circuit",
+        "name": "Formula 1 Qatar Airways Qatar Grand Prix 2024"
+      }
+    ],
+    "2024-12-06": [
+      {
+        "event": "f1/2024/wc/r24-abu-dhabi-gp/fp1",
+        "kind": "fp1",
+        "start": "2024-12-06T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/yas-marina-circuit",
+        "name": "Formula 1 Etihad Airways Abu Dhabi Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r24-abu-dhabi-gp/fp2",
+        "kind": "fp2",
+        "start": "2024-12-06T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/yas-marina-circuit",
+        "name": "Formula 1 Etihad Airways Abu Dhabi Grand Prix 2024"
+      }
+    ],
+    "2024-12-07": [
+      {
+        "event": "f1/2024/wc/r24-abu-dhabi-gp/fp3",
+        "kind": "fp3",
+        "start": "2024-12-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/yas-marina-circuit",
+        "name": "Formula 1 Etihad Airways Abu Dhabi Grand Prix 2024"
+      },
+      {
+        "event": "f1/2024/wc/r24-abu-dhabi-gp/q",
+        "kind": "q",
+        "start": "2024-12-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/yas-marina-circuit",
+        "name": "Formula 1 Etihad Airways Abu Dhabi Grand Prix 2024"
+      }
+    ],
+    "2024-12-08": [
+      {
+        "event": "f1/2024/wc/r24-abu-dhabi-gp/race",
+        "kind": "race",
+        "start": "2024-12-08T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/yas-marina-circuit",
+        "name": "Formula 1 Etihad Airways Abu Dhabi Grand Prix 2024"
+      }
+    ]
+  }
+}

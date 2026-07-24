@@ -1,0 +1,96 @@
+{
+  "sport": "f1",
+  "season": "1962",
+  "days": {
+    "1962-05-20": [
+      {
+        "event": "f1/1962/wc/r01-dutch-gp/race",
+        "kind": "race",
+        "start": "1962-05-20T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-park-zandvoort",
+        "name": "Grote Prijs van Nederland 1962"
+      }
+    ],
+    "1962-06-03": [
+      {
+        "event": "f1/1962/wc/r02-monaco-gp/race",
+        "kind": "race",
+        "start": "1962-06-03T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Grand Prix de Monaco 1962"
+      }
+    ],
+    "1962-06-17": [
+      {
+        "event": "f1/1962/wc/r03-belgian-gp/race",
+        "kind": "race",
+        "start": "1962-06-17T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "1962 Belgian Grand Prix"
+      }
+    ],
+    "1962-07-08": [
+      {
+        "event": "f1/1962/wc/r04-french-gp/race",
+        "kind": "race",
+        "start": "1962-07-08T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/rouen-les-essarts",
+        "name": "Grand Prix de France 1962"
+      }
+    ],
+    "1962-07-21": [
+      {
+        "event": "f1/1962/wc/r05-british-gp/race",
+        "kind": "race",
+        "start": "1962-07-21T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/aintree-motor-racing-circuit",
+        "name": "1962 RAC British Grand Prix"
+      }
+    ],
+    "1962-08-05": [
+      {
+        "event": "f1/1962/wc/r06-german-gp/race",
+        "kind": "race",
+        "start": "1962-08-05T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/nurburgring",
+        "name": "Grosser Preis von Deutschland 1962"
+      }
+    ],
+    "1962-09-16": [
+      {
+        "event": "f1/1962/wc/r07-italian-gp/race",
+        "kind": "race",
+        "start": "1962-09-16T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Gran Premio d'Italia 1962"
+      }
+    ],
+    "1962-10-07": [
+      {
+        "event": "f1/1962/wc/r08-united-states-gp/race",
+        "kind": "race",
+        "start": "1962-10-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/watkins-glen-international",
+        "name": "1962 United States Grand Prix"
+      }
+    ],
+    "1962-12-29": [
+      {
+        "event": "f1/1962/wc/r09-south-african-gp/race",
+        "kind": "race",
+        "start": "1962-12-29T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/prince-george-circuit",
+        "name": "South African Grand Prix 1962"
+      }
+    ]
+  }
+}

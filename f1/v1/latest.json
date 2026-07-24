@@ -1,0 +1,59 @@
+{
+  "dataset": "latest",
+  "sport": "f1",
+  "updated": "2026-07-20T08:37:10.616Z",
+  "events": [
+    {
+      "event": "f1/2026/wc/r03-japanese-gp",
+      "date": "2026-03-29",
+      "name": "Formula 1 Aramco Japanese Grand Prix 2026",
+      "dossier": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/events/2026/wc/r03-japanese-gp.json"
+    },
+    {
+      "event": "f1/2026/wc/r04-miami-gp",
+      "date": "2026-05-03",
+      "name": "Formula 1 Crypto.com Miami Grand Prix 2026",
+      "dossier": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/events/2026/wc/r04-miami-gp.json"
+    },
+    {
+      "event": "f1/2026/wc/r05-canadian-gp",
+      "date": "2026-05-24",
+      "name": "Formula 1 Lenovo Grand Prix du Canada 2026",
+      "dossier": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/events/2026/wc/r05-canadian-gp.json"
+    },
+    {
+      "event": "f1/2026/wc/r06-monaco-gp",
+      "date": "2026-06-07",
+      "name": "Formula 1 Louis Vuitton Grand Prix de Monaco 2026",
+      "dossier": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/events/2026/wc/r06-monaco-gp.json"
+    },
+    {
+      "event": "f1/2026/wc/r07-barcelona-catalunya-gp",
+      "date": "2026-06-14",
+      "name": "Formula 1 MSC Cruises Gran Premio de Barcelona-Catalunya 2026",
+      "dossier": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/events/2026/wc/r07-barcelona-catalunya-gp.json"
+    },
+    {
+      "event": "f1/2026/wc/r08-austrian-gp",
+      "date": "2026-06-28",
+      "name": "Formula 1 Lenovo Austrian Grand Prix 2026",
+      "dossier": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/events/2026/wc/r08-austrian-gp.json"
+    },
+    {
+      "event": "f1/2026/wc/r09-british-gp",
+      "date": "2026-07-05",
+      "name": "Formula 1 Pirelli British Grand Prix 2026",
+      "dossier": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/events/2026/wc/r09-british-gp.json"
+    },
+    {
+      "event": "f1/2026/wc/r10-belgian-gp",
+      "date": "2026-07-19",
+      "name": "Formula 1 Moët & Chandon Belgian Grand Prix 2026",
+      "dossier": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/events/2026/wc/r10-belgian-gp.json"
+    }
+  ],
+  "freshness": {
+    "f1db": "2026-07-19",
+    "open-meteo": "2026-07-19"
+  }
+}

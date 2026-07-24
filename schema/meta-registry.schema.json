@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/schema/meta-registry.schema.json",
+  "title": "KOS Entity Registry Record",
+  "description": "One record per entity in registry/{athletes,teams,venues,officials,competitions}.json (OM §5.1). The primary key is the KOS-minted immutable typed slug; the Wikidata QID is an anchor, never a key (qid: null is valid).",
+  "type": "object",
+  "required": ["id", "name", "minted"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^(athlete|team|venue|official|competition)/[a-z0-9-]+$" },
+    "name": { "type": "string" },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "from": { "type": ["string", "null"], "description": "Effective date of the alias, when known" }
+        }
+      }
+    },
+    "names": {
+      "type": "array",
+      "description": "Franchise name/city validity windows (OM §5.1) — e.g. Brooklyn Dodgers 1932–1957, Los Angeles Dodgers 1958–.",
+      "items": {
+        "type": "object",
+        "required": ["name", "from"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "from": { "type": "string" },
+          "to": { "type": "string" }
+        }
+      }
+    },
+    "qid": { "type": ["string", "null"], "pattern": "^Q\\d+$" },
+    "schemaOrg": { "type": "string", "description": "schema.org type — Person, SportsTeam, StadiumOrArena, … (populated at mint time, OM §5.1)" },
+    "country": { "type": "string" },
+    "dob": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "foundingYear": { "type": "string", "pattern": "^\\d{4}$" },
+    "sport": { "type": "array", "items": { "type": "string" } },
+    "sourceIds": { "type": "object", "additionalProperties": { "type": "string" } },
+    "coords": {
+      "type": "object",
+      "description": "Venues only — the weather-join spine.",
+      "required": ["lat", "lon"],
+      "additionalProperties": false,
+      "properties": { "lat": { "type": "number" }, "lon": { "type": "number" } }
+    },
+    "coordsSource": { "type": "string" },
+    "tz": { "type": "string" },
+    "supersededBy": { "type": "string", "description": "Merge redirect — rows are NEVER rewritten; resolvers redirect at read time." },
+    "successorOf": { "type": "string", "description": "Rebrand/relocation chain — a genuinely new competitive entity pointing at its predecessor." },
+    "minted": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+  }
+}

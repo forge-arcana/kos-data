@@ -1,0 +1,28 @@
+# Keppet Open Sports (KOS)
+
+Free, keyless open sports data: evidence rows in git, served by CDN. The repo stores facts; agents synthesize. Every number is citable to a stored row; refusals are first-class, machine-readable data.
+
+- Catalog: https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/catalog.json
+- Status (freshness, calendar-aware): https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/status.json
+- License register: https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/build/license-register.json
+
+## f1
+
+- Events: https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/events/
+- Athletes/teams: https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/athletes/ · https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/teams/
+- Schedule: https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/schedule/
+- Sources (ranked): f1db, wikidata, open-meteo, polymarket
+- Attribution: F1 data by F1DB (https://github.com/f1db/f1db), licensed CC BY 4.0 · Entity data from Wikidata (CC0 1.0) · Weather data by Open-Meteo.com (CC BY 4.0) · Market prices via Polymarket public API
+
+### Coverage and gaps (the honesty contract)
+
+- result: full (floor 1950) — f1db CC BY backbone: every world-championship session 1950-present.
+- perf: partial (floor 1994) — Pit-stop counts from f1db's pit-stop data era (1994+); earlier races have no per-stop records.
+- form: full (floor 1950) — Drivers' standings after every round, f1db 1950-present.
+- cond: partial (floor 1950) — Open-Meteo hourly reanalysis joined by venue coordinates; model estimate at the venue, not track-side sensor data.
+  proxies: cond.temp_c, cond.precip_mm, cond.wind_kmh
+- avail: none — No keyless personnel-status feed exists for F1; driver substitutions surface only post-hoc in results.
+- market: partial (floor 2024) — Prediction markets (Polymarket) 2024-present only; no keyless bookmaker odds history for F1. Public per owner decision 2026-07-19 (OQ #6 closed: rights unlocated, not denied); excluded from commercial delivery.
+- meas: partial (floor 1950) — Fastest race lap from f1db (stepped horizon: timing precision improves by era). Speed-trap and telemetry measurements have no license-clean source (SR G7).
+- agg: full (floor 1950) — f1db source-published driver season and career totals; independent cross-check for card-derived aggregates.
+- h2h: full — Derived-only from stored result rows over shared events; no stored metric (OM §14.1).

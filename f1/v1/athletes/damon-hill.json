@@ -1,0 +1,362 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/schema/athlete.schema.json",
+  "dataset": "athlete",
+  "sport": "f1",
+  "entity": "athlete/damon-hill",
+  "updated": "2026-07-24T19:10:13.941Z",
+  "sources": [
+    "f1db"
+  ],
+  "identity": {
+    "name": "Damon Hill",
+    "aliases": [],
+    "qid": "Q10505",
+    "country": "GBR",
+    "dob": "1960-09-17",
+    "sourceIds": {
+      "f1db": "damon-hill"
+    }
+  },
+  "aggregates": [
+    {
+      "metric": "agg.championships",
+      "scope": "career",
+      "value": 1,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/damon-hill.agg.championships"
+      ]
+    },
+    {
+      "metric": "agg.fastest_laps",
+      "scope": "career",
+      "value": 19,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/damon-hill.agg.fastest_laps"
+      ]
+    },
+    {
+      "metric": "agg.podiums",
+      "scope": "career",
+      "value": 42,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/damon-hill.agg.podiums"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "career",
+      "value": 360,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/damon-hill.agg.points"
+      ]
+    },
+    {
+      "metric": "agg.poles",
+      "scope": "career",
+      "value": 20,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/damon-hill.agg.poles"
+      ]
+    },
+    {
+      "metric": "agg.starts",
+      "scope": "career",
+      "value": 115,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/damon-hill.agg.starts"
+      ]
+    },
+    {
+      "metric": "agg.wins",
+      "scope": "career",
+      "value": 22,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/damon-hill.agg.wins"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/1993",
+      "value": 69,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/1993#athlete/damon-hill.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/1994",
+      "value": 91,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/1994#athlete/damon-hill.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/1995",
+      "value": 69,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/1995#athlete/damon-hill.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/1996",
+      "value": 97,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/1996#athlete/damon-hill.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/1997",
+      "value": 7,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/1997#athlete/damon-hill.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/1998",
+      "value": 20,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/1998#athlete/damon-hill.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/1999",
+      "value": 7,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/1999#athlete/damon-hill.agg.points@season"
+      ]
+    },
+    {
+      "metric": "wins",
+      "scope": "career",
+      "value": 22,
+      "provenance": "derived",
+      "derivation": "wins@1.0.0",
+      "rowCount": 22,
+      "cites": [
+        "kos:f1/1993/wc/r11-hungarian-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1993/wc/r12-belgian-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1993/wc/r13-italian-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1994/wc/r05-spanish-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1994/wc/r08-british-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1994/wc/r11-belgian-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1994/wc/r12-italian-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1994/wc/r13-portuguese-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1994/wc/r15-japanese-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1995/wc/r02-argentine-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1995/wc/r03-san-marino-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1995/wc/r10-hungarian-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1995/wc/r17-australian-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1996/wc/r01-australian-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1996/wc/r02-brazilian-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1996/wc/r03-argentine-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1996/wc/r05-san-marino-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1996/wc/r08-canadian-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1996/wc/r09-french-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1996/wc/r11-german-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1996/wc/r16-japanese-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1998/wc/r13-belgian-gp/race#athlete/damon-hill.result.winner"
+      ]
+    },
+    {
+      "metric": "podiums",
+      "scope": "career",
+      "value": 42,
+      "provenance": "derived",
+      "derivation": "podiums@1.0.0",
+      "rowCount": 42,
+      "cites": [
+        "kos:f1/1993/wc/r02-brazilian-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1993/wc/r03-european-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1993/wc/r06-monaco-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1993/wc/r07-canadian-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1993/wc/r08-french-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1993/wc/r11-hungarian-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1993/wc/r12-belgian-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1993/wc/r13-italian-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1993/wc/r14-portuguese-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1993/wc/r16-australian-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1994/wc/r01-brazilian-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1994/wc/r05-spanish-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1994/wc/r06-canadian-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1994/wc/r07-french-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1994/wc/r08-british-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1994/wc/r10-hungarian-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1994/wc/r11-belgian-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1994/wc/r12-italian-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1994/wc/r13-portuguese-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1994/wc/r14-european-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1994/wc/r15-japanese-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1995/wc/r02-argentine-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1995/wc/r03-san-marino-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1995/wc/r05-monaco-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1995/wc/r07-french-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1995/wc/r10-hungarian-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1995/wc/r11-belgian-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1995/wc/r13-portuguese-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1995/wc/r15-pacific-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1995/wc/r17-australian-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1996/wc/r01-australian-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1996/wc/r02-brazilian-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1996/wc/r03-argentine-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1996/wc/r05-san-marino-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1996/wc/r08-canadian-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1996/wc/r09-french-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1996/wc/r11-german-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1996/wc/r12-hungarian-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1996/wc/r15-portuguese-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1996/wc/r16-japanese-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1997/wc/r11-hungarian-gp/race#athlete/damon-hill.result.position",
+        "kos:f1/1998/wc/r13-belgian-gp/race#athlete/damon-hill.result.position"
+      ]
+    },
+    {
+      "metric": "win_rate",
+      "scope": "career",
+      "value": 0.1897,
+      "provenance": "derived",
+      "derivation": "win_rate@1.0.0",
+      "rowCount": 116,
+      "cites": [
+        "kos:f1/1993/wc/r11-hungarian-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1993/wc/r12-belgian-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1993/wc/r13-italian-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1994/wc/r05-spanish-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1994/wc/r08-british-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1994/wc/r11-belgian-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1994/wc/r12-italian-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1994/wc/r13-portuguese-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1994/wc/r15-japanese-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1995/wc/r02-argentine-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1995/wc/r03-san-marino-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1995/wc/r10-hungarian-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1995/wc/r17-australian-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1996/wc/r01-australian-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1996/wc/r02-brazilian-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1996/wc/r03-argentine-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1996/wc/r05-san-marino-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1996/wc/r08-canadian-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1996/wc/r09-french-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1996/wc/r11-german-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1996/wc/r16-japanese-gp/race#athlete/damon-hill.result.winner",
+        "kos:f1/1998/wc/r13-belgian-gp/race#athlete/damon-hill.result.winner"
+      ]
+    }
+  ],
+  "recent": [
+    {
+      "event": "f1/1999/wc/r12-belgian-gp",
+      "date": "1999-08-29",
+      "position": 6,
+      "ref": "kos:f1/1999/wc/r12-belgian-gp/race#athlete/damon-hill.result.position"
+    },
+    {
+      "event": "f1/1999/wc/r13-italian-gp",
+      "date": "1999-09-12",
+      "position": 10,
+      "ref": "kos:f1/1999/wc/r13-italian-gp/race#athlete/damon-hill.result.position"
+    },
+    {
+      "event": "f1/1999/wc/r14-european-gp",
+      "date": "1999-09-26",
+      "ref": "kos:f1/1999/wc/r14-european-gp/race#athlete/damon-hill.perf.pit_stops"
+    },
+    {
+      "event": "f1/1999/wc/r15-malaysian-gp",
+      "date": "1999-10-17",
+      "ref": "kos:f1/1999/wc/r15-malaysian-gp/race#athlete/damon-hill.perf.pit_stops"
+    },
+    {
+      "event": "f1/1999/wc/r16-japanese-gp",
+      "date": "1999-10-31",
+      "ref": "kos:f1/1999/wc/r16-japanese-gp/race#athlete/damon-hill.meas.fastest_lap_ms"
+    }
+  ],
+  "series": {},
+  "coverage": {
+    "result": {
+      "status": "full",
+      "floor": "1950",
+      "note": "f1db CC BY backbone: every world-championship session 1950-present."
+    },
+    "perf": {
+      "status": "partial",
+      "floor": "1994",
+      "note": "Pit-stop counts from f1db's pit-stop data era (1994+); earlier races have no per-stop records.",
+      "wouldUnblock": "A licensed historical pit-stop dataset for pre-1994 seasons."
+    },
+    "form": {
+      "status": "full",
+      "floor": "1950",
+      "note": "Drivers' standings after every round, f1db 1950-present."
+    },
+    "cond": {
+      "status": "partial",
+      "floor": "1950",
+      "note": "Open-Meteo hourly reanalysis joined by venue coordinates; model estimate at the venue, not track-side sensor data.",
+      "proxies": [
+        "cond.temp_c",
+        "cond.precip_mm",
+        "cond.wind_kmh"
+      ]
+    },
+    "avail": {
+      "status": "none",
+      "note": "No keyless personnel-status feed exists for F1; driver substitutions surface only post-hoc in results.",
+      "wouldUnblock": "A licensed entry-list/withdrawal feed."
+    },
+    "market": {
+      "status": "partial",
+      "floor": "2024",
+      "note": "Prediction markets (Polymarket) 2024-present only; no keyless bookmaker odds history for F1. Public per owner decision 2026-07-19 (OQ #6 closed: rights unlocated, not denied); excluded from commercial delivery.",
+      "wouldUnblock": "A licensed historical odds feed would extend the floor past 2024."
+    },
+    "meas": {
+      "status": "partial",
+      "floor": "1950",
+      "note": "Fastest race lap from f1db (stepped horizon: timing precision improves by era). Speed-trap and telemetry measurements have no license-clean source (SR G7).",
+      "wouldUnblock": "A licensed telemetry/speed-trap dataset."
+    },
+    "agg": {
+      "status": "full",
+      "floor": "1950",
+      "note": "f1db source-published driver season and career totals; independent cross-check for card-derived aggregates."
+    },
+    "h2h": {
+      "status": "full",
+      "note": "Derived-only from stored result rows over shared events; no stored metric (OM §14.1)."
+    }
+  }
+}

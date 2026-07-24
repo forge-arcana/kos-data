@@ -1,0 +1,176 @@
+{
+  "sport": "f1",
+  "season": "1977",
+  "days": {
+    "1977-01-09": [
+      {
+        "event": "f1/1977/wc/r01-argentine-gp/race",
+        "kind": "race",
+        "start": "1977-01-09T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-juan-y-oscar-galvez",
+        "name": "Gran Premio de Argentina 1977"
+      }
+    ],
+    "1977-01-23": [
+      {
+        "event": "f1/1977/wc/r02-brazilian-gp/race",
+        "kind": "race",
+        "start": "1977-01-23T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-jose-carlos-pace",
+        "name": "Grande Prêmio do Brasil 1977"
+      }
+    ],
+    "1977-03-05": [
+      {
+        "event": "f1/1977/wc/r03-south-african-gp/race",
+        "kind": "race",
+        "start": "1977-03-05T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/kyalami-racing-circuit",
+        "name": "The Citizen Grand Prix of South Africa 1977"
+      }
+    ],
+    "1977-04-03": [
+      {
+        "event": "f1/1977/wc/r04-united-states-gp-west/race",
+        "kind": "race",
+        "start": "1977-04-03T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/long-beach",
+        "name": "1977 Long Beach Grand Prix"
+      }
+    ],
+    "1977-05-08": [
+      {
+        "event": "f1/1977/wc/r05-spanish-gp/race",
+        "kind": "race",
+        "start": "1977-05-08T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuito-del-jarama",
+        "name": "Gran Premio de España 1977"
+      }
+    ],
+    "1977-05-22": [
+      {
+        "event": "f1/1977/wc/r06-monaco-gp/race",
+        "kind": "race",
+        "start": "1977-05-22T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Grand Prix de Monaco 1977"
+      }
+    ],
+    "1977-06-05": [
+      {
+        "event": "f1/1977/wc/r07-belgian-gp/race",
+        "kind": "race",
+        "start": "1977-06-05T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-zolder",
+        "name": "1977 Belgian Grand Prix"
+      }
+    ],
+    "1977-06-19": [
+      {
+        "event": "f1/1977/wc/r08-swedish-gp/race",
+        "kind": "race",
+        "start": "1977-06-19T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/anderstorp-raceway",
+        "name": "Gislaved Sveriges Grand Prix 1977"
+      }
+    ],
+    "1977-07-03": [
+      {
+        "event": "f1/1977/wc/r09-french-gp/race",
+        "kind": "race",
+        "start": "1977-07-03T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/dijon-prenois",
+        "name": "Grand Prix de France 1977"
+      }
+    ],
+    "1977-07-16": [
+      {
+        "event": "f1/1977/wc/r10-british-gp/race",
+        "kind": "race",
+        "start": "1977-07-16T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "1977 John Player British Grand Prix"
+      }
+    ],
+    "1977-07-31": [
+      {
+        "event": "f1/1977/wc/r11-german-gp/race",
+        "kind": "race",
+        "start": "1977-07-31T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hockenheimring",
+        "name": "Grosser Preis von Deutschland 1977"
+      }
+    ],
+    "1977-08-14": [
+      {
+        "event": "f1/1977/wc/r12-austrian-gp/race",
+        "kind": "race",
+        "start": "1977-08-14T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/red-bull-ring",
+        "name": "Grosser Preis von Österreich 1977"
+      }
+    ],
+    "1977-08-28": [
+      {
+        "event": "f1/1977/wc/r13-dutch-gp/race",
+        "kind": "race",
+        "start": "1977-08-28T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-park-zandvoort",
+        "name": "Grote Prijs van Nederland 1977"
+      }
+    ],
+    "1977-09-11": [
+      {
+        "event": "f1/1977/wc/r14-italian-gp/race",
+        "kind": "race",
+        "start": "1977-09-11T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Gran Premio d'Italia 1977"
+      }
+    ],
+    "1977-10-02": [
+      {
+        "event": "f1/1977/wc/r15-united-states-gp/race",
+        "kind": "race",
+        "start": "1977-10-02T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/watkins-glen-international",
+        "name": "1977 Toyota United States Grand Prix"
+      }
+    ],
+    "1977-10-09": [
+      {
+        "event": "f1/1977/wc/r16-canadian-gp/race",
+        "kind": "race",
+        "start": "1977-10-09T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/canadian-tire-motorsport-park",
+        "name": "Labatt's Canadian Grand Prix 1977"
+      }
+    ],
+    "1977-10-23": [
+      {
+        "event": "f1/1977/wc/r17-japanese-gp/race",
+        "kind": "race",
+        "start": "1977-10-23T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/fuji-speedway",
+        "name": "1977 Japanese Grand Prix"
+      }
+    ]
+  }
+}

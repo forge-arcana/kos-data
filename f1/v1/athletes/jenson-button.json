@@ -1,0 +1,457 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/schema/athlete.schema.json",
+  "dataset": "athlete",
+  "sport": "f1",
+  "entity": "athlete/jenson-button",
+  "updated": "2026-07-24T19:10:14.151Z",
+  "sources": [
+    "f1db"
+  ],
+  "identity": {
+    "name": "Jenson Button",
+    "aliases": [],
+    "qid": "Q10510",
+    "country": "GBR",
+    "dob": "1980-01-19",
+    "sourceIds": {
+      "f1db": "jenson-button"
+    }
+  },
+  "aggregates": [
+    {
+      "metric": "agg.championships",
+      "scope": "career",
+      "value": 1,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/jenson-button.agg.championships"
+      ]
+    },
+    {
+      "metric": "agg.fastest_laps",
+      "scope": "career",
+      "value": 8,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/jenson-button.agg.fastest_laps"
+      ]
+    },
+    {
+      "metric": "agg.podiums",
+      "scope": "career",
+      "value": 50,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/jenson-button.agg.podiums"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "career",
+      "value": 1235,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/jenson-button.agg.points"
+      ]
+    },
+    {
+      "metric": "agg.poles",
+      "scope": "career",
+      "value": 8,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/jenson-button.agg.poles"
+      ]
+    },
+    {
+      "metric": "agg.starts",
+      "scope": "career",
+      "value": 306,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/jenson-button.agg.starts"
+      ]
+    },
+    {
+      "metric": "agg.wins",
+      "scope": "career",
+      "value": 15,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/jenson-button.agg.wins"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2000",
+      "value": 12,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2000#athlete/jenson-button.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2001",
+      "value": 2,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2001#athlete/jenson-button.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2002",
+      "value": 14,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2002#athlete/jenson-button.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2003",
+      "value": 17,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2003#athlete/jenson-button.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2004",
+      "value": 85,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2004#athlete/jenson-button.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2005",
+      "value": 37,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2005#athlete/jenson-button.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2006",
+      "value": 56,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2006#athlete/jenson-button.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2007",
+      "value": 6,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2007#athlete/jenson-button.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2008",
+      "value": 3,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2008#athlete/jenson-button.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2009",
+      "value": 95,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2009#athlete/jenson-button.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2010",
+      "value": 214,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2010#athlete/jenson-button.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2011",
+      "value": 270,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2011#athlete/jenson-button.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2012",
+      "value": 188,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2012#athlete/jenson-button.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2013",
+      "value": 73,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2013#athlete/jenson-button.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2014",
+      "value": 126,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2014#athlete/jenson-button.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2015",
+      "value": 16,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2015#athlete/jenson-button.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2016",
+      "value": 21,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2016#athlete/jenson-button.agg.points@season"
+      ]
+    },
+    {
+      "metric": "wins",
+      "scope": "career",
+      "value": 15,
+      "provenance": "derived",
+      "derivation": "wins@1.0.0",
+      "rowCount": 15,
+      "cites": [
+        "kos:f1/2006/wc/r13-hungarian-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2009/wc/r01-australian-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2009/wc/r02-malaysian-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2009/wc/r04-bahrain-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2009/wc/r05-spanish-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2009/wc/r06-monaco-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2009/wc/r07-turkish-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2010/wc/r02-australian-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2010/wc/r04-chinese-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2011/wc/r07-canadian-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2011/wc/r11-hungarian-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2011/wc/r15-japanese-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2012/wc/r01-australian-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2012/wc/r12-belgian-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2012/wc/r20-brazilian-gp/race#athlete/jenson-button.result.winner"
+      ]
+    },
+    {
+      "metric": "podiums",
+      "scope": "career",
+      "value": 50,
+      "provenance": "derived",
+      "derivation": "podiums@1.0.0",
+      "rowCount": 50,
+      "cites": [
+        "kos:f1/2004/wc/r02-malaysian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2004/wc/r03-bahrain-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2004/wc/r04-san-marino-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2004/wc/r06-monaco-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2004/wc/r07-european-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2004/wc/r08-canadian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2004/wc/r12-german-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2004/wc/r15-italian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2004/wc/r16-chinese-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2004/wc/r17-japanese-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2005/wc/r12-german-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2005/wc/r16-belgian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2006/wc/r02-malaysian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2006/wc/r13-hungarian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2006/wc/r18-brazilian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2009/wc/r01-australian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2009/wc/r02-malaysian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2009/wc/r03-chinese-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2009/wc/r04-bahrain-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2009/wc/r05-spanish-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2009/wc/r06-monaco-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2009/wc/r07-turkish-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2009/wc/r13-italian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2009/wc/r17-abu-dhabi-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2010/wc/r02-australian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2010/wc/r04-chinese-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2010/wc/r07-turkish-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2010/wc/r08-canadian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2010/wc/r09-european-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2010/wc/r14-italian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2010/wc/r19-abu-dhabi-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2011/wc/r02-malaysian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2011/wc/r05-spanish-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2011/wc/r06-monaco-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2011/wc/r07-canadian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2011/wc/r11-hungarian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2011/wc/r12-belgian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2011/wc/r13-italian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2011/wc/r14-singapore-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2011/wc/r15-japanese-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2011/wc/r17-indian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2011/wc/r18-abu-dhabi-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2011/wc/r19-brazilian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2012/wc/r01-australian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2012/wc/r03-chinese-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2012/wc/r10-german-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2012/wc/r12-belgian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2012/wc/r14-singapore-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2012/wc/r20-brazilian-gp/race#athlete/jenson-button.result.position",
+        "kos:f1/2014/wc/r01-australian-gp/race#athlete/jenson-button.result.position"
+      ]
+    },
+    {
+      "metric": "win_rate",
+      "scope": "career",
+      "value": 0.0485,
+      "provenance": "derived",
+      "derivation": "win_rate@1.0.0",
+      "rowCount": 309,
+      "cites": [
+        "kos:f1/2006/wc/r13-hungarian-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2009/wc/r01-australian-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2009/wc/r02-malaysian-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2009/wc/r04-bahrain-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2009/wc/r05-spanish-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2009/wc/r06-monaco-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2009/wc/r07-turkish-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2010/wc/r02-australian-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2010/wc/r04-chinese-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2011/wc/r07-canadian-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2011/wc/r11-hungarian-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2011/wc/r15-japanese-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2012/wc/r01-australian-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2012/wc/r12-belgian-gp/race#athlete/jenson-button.result.winner",
+        "kos:f1/2012/wc/r20-brazilian-gp/race#athlete/jenson-button.result.winner"
+      ]
+    }
+  ],
+  "recent": [
+    {
+      "event": "f1/2016/wc/r18-united-states-gp",
+      "date": "2016-10-23",
+      "position": 9,
+      "ref": "kos:f1/2016/wc/r18-united-states-gp/race#athlete/jenson-button.result.position"
+    },
+    {
+      "event": "f1/2016/wc/r19-mexican-gp",
+      "date": "2016-10-30",
+      "position": 12,
+      "ref": "kos:f1/2016/wc/r19-mexican-gp/race#athlete/jenson-button.result.position"
+    },
+    {
+      "event": "f1/2016/wc/r20-brazilian-gp",
+      "date": "2016-11-13",
+      "position": 16,
+      "ref": "kos:f1/2016/wc/r20-brazilian-gp/race#athlete/jenson-button.result.position"
+    },
+    {
+      "event": "f1/2016/wc/r21-abu-dhabi-gp",
+      "date": "2016-11-27",
+      "ref": "kos:f1/2016/wc/r21-abu-dhabi-gp/race#athlete/jenson-button.meas.fastest_lap_ms"
+    },
+    {
+      "event": "f1/2017/wc/r06-monaco-gp",
+      "date": "2017-05-28",
+      "ref": "kos:f1/2017/wc/r06-monaco-gp/race#athlete/jenson-button.meas.fastest_lap_ms"
+    }
+  ],
+  "series": {},
+  "coverage": {
+    "result": {
+      "status": "full",
+      "floor": "1950",
+      "note": "f1db CC BY backbone: every world-championship session 1950-present."
+    },
+    "perf": {
+      "status": "partial",
+      "floor": "1994",
+      "note": "Pit-stop counts from f1db's pit-stop data era (1994+); earlier races have no per-stop records.",
+      "wouldUnblock": "A licensed historical pit-stop dataset for pre-1994 seasons."
+    },
+    "form": {
+      "status": "full",
+      "floor": "1950",
+      "note": "Drivers' standings after every round, f1db 1950-present."
+    },
+    "cond": {
+      "status": "partial",
+      "floor": "1950",
+      "note": "Open-Meteo hourly reanalysis joined by venue coordinates; model estimate at the venue, not track-side sensor data.",
+      "proxies": [
+        "cond.temp_c",
+        "cond.precip_mm",
+        "cond.wind_kmh"
+      ]
+    },
+    "avail": {
+      "status": "none",
+      "note": "No keyless personnel-status feed exists for F1; driver substitutions surface only post-hoc in results.",
+      "wouldUnblock": "A licensed entry-list/withdrawal feed."
+    },
+    "market": {
+      "status": "partial",
+      "floor": "2024",
+      "note": "Prediction markets (Polymarket) 2024-present only; no keyless bookmaker odds history for F1. Public per owner decision 2026-07-19 (OQ #6 closed: rights unlocated, not denied); excluded from commercial delivery.",
+      "wouldUnblock": "A licensed historical odds feed would extend the floor past 2024."
+    },
+    "meas": {
+      "status": "partial",
+      "floor": "1950",
+      "note": "Fastest race lap from f1db (stepped horizon: timing precision improves by era). Speed-trap and telemetry measurements have no license-clean source (SR G7).",
+      "wouldUnblock": "A licensed telemetry/speed-trap dataset."
+    },
+    "agg": {
+      "status": "full",
+      "floor": "1950",
+      "note": "f1db source-published driver season and career totals; independent cross-check for card-derived aggregates."
+    },
+    "h2h": {
+      "status": "full",
+      "note": "Derived-only from stored result rows over shared events; no stored metric (OM §14.1)."
+    }
+  }
+}

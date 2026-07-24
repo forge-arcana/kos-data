@@ -1,0 +1,310 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/schema/athlete.schema.json",
+  "dataset": "athlete",
+  "sport": "f1",
+  "entity": "athlete/juan-pablo-montoya",
+  "updated": "2026-07-24T19:10:14.188Z",
+  "sources": [
+    "f1db"
+  ],
+  "identity": {
+    "name": "Juan Pablo Montoya",
+    "aliases": [],
+    "qid": "Q172744",
+    "country": "COL",
+    "dob": "1975-09-20",
+    "sourceIds": {
+      "f1db": "juan-pablo-montoya"
+    }
+  },
+  "aggregates": [
+    {
+      "metric": "agg.championships",
+      "scope": "career",
+      "value": 0,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/juan-pablo-montoya.agg.championships"
+      ]
+    },
+    {
+      "metric": "agg.fastest_laps",
+      "scope": "career",
+      "value": 12,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/juan-pablo-montoya.agg.fastest_laps"
+      ]
+    },
+    {
+      "metric": "agg.podiums",
+      "scope": "career",
+      "value": 30,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/juan-pablo-montoya.agg.podiums"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "career",
+      "value": 307,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/juan-pablo-montoya.agg.points"
+      ]
+    },
+    {
+      "metric": "agg.poles",
+      "scope": "career",
+      "value": 13,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/juan-pablo-montoya.agg.poles"
+      ]
+    },
+    {
+      "metric": "agg.starts",
+      "scope": "career",
+      "value": 94,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/juan-pablo-montoya.agg.starts"
+      ]
+    },
+    {
+      "metric": "agg.wins",
+      "scope": "career",
+      "value": 7,
+      "unit": "count",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/career/2026-07-24#athlete/juan-pablo-montoya.agg.wins"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2001",
+      "value": 31,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2001#athlete/juan-pablo-montoya.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2002",
+      "value": 50,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2002#athlete/juan-pablo-montoya.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2003",
+      "value": 82,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2003#athlete/juan-pablo-montoya.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2004",
+      "value": 58,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2004#athlete/juan-pablo-montoya.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2005",
+      "value": 60,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2005#athlete/juan-pablo-montoya.agg.points@season"
+      ]
+    },
+    {
+      "metric": "agg.points",
+      "scope": "f1/2006",
+      "value": 26,
+      "unit": "points",
+      "provenance": "sourced",
+      "cites": [
+        "kos:f1/2006#athlete/juan-pablo-montoya.agg.points@season"
+      ]
+    },
+    {
+      "metric": "wins",
+      "scope": "career",
+      "value": 7,
+      "provenance": "derived",
+      "derivation": "wins@1.0.0",
+      "rowCount": 7,
+      "cites": [
+        "kos:f1/2001/wc/r15-italian-gp/race#athlete/juan-pablo-montoya.result.winner",
+        "kos:f1/2003/wc/r07-monaco-gp/race#athlete/juan-pablo-montoya.result.winner",
+        "kos:f1/2003/wc/r12-german-gp/race#athlete/juan-pablo-montoya.result.winner",
+        "kos:f1/2004/wc/r18-brazilian-gp/race#athlete/juan-pablo-montoya.result.winner",
+        "kos:f1/2005/wc/r11-british-gp/race#athlete/juan-pablo-montoya.result.winner",
+        "kos:f1/2005/wc/r15-italian-gp/race#athlete/juan-pablo-montoya.result.winner",
+        "kos:f1/2005/wc/r17-brazilian-gp/race#athlete/juan-pablo-montoya.result.winner"
+      ]
+    },
+    {
+      "metric": "podiums",
+      "scope": "career",
+      "value": 30,
+      "provenance": "derived",
+      "derivation": "podiums@1.0.0",
+      "rowCount": 30,
+      "cites": [
+        "kos:f1/2001/wc/r05-spanish-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2001/wc/r09-european-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2001/wc/r15-italian-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2001/wc/r17-japanese-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2002/wc/r01-australian-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2002/wc/r02-malaysian-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2002/wc/r05-spanish-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2002/wc/r06-austrian-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2002/wc/r10-british-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2002/wc/r12-german-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2002/wc/r14-belgian-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2003/wc/r01-australian-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2003/wc/r07-monaco-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2003/wc/r08-canadian-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2003/wc/r09-european-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2003/wc/r10-french-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2003/wc/r11-british-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2003/wc/r12-german-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2003/wc/r13-hungarian-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2003/wc/r14-italian-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2004/wc/r02-malaysian-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2004/wc/r04-san-marino-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2004/wc/r18-brazilian-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2005/wc/r11-british-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2005/wc/r12-german-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2005/wc/r14-turkish-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2005/wc/r15-italian-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2005/wc/r17-brazilian-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2006/wc/r04-san-marino-gp/race#athlete/juan-pablo-montoya.result.position",
+        "kos:f1/2006/wc/r07-monaco-gp/race#athlete/juan-pablo-montoya.result.position"
+      ]
+    },
+    {
+      "metric": "win_rate",
+      "scope": "career",
+      "value": 0.0737,
+      "provenance": "derived",
+      "derivation": "win_rate@1.0.0",
+      "rowCount": 95,
+      "cites": [
+        "kos:f1/2001/wc/r15-italian-gp/race#athlete/juan-pablo-montoya.result.winner",
+        "kos:f1/2003/wc/r07-monaco-gp/race#athlete/juan-pablo-montoya.result.winner",
+        "kos:f1/2003/wc/r12-german-gp/race#athlete/juan-pablo-montoya.result.winner",
+        "kos:f1/2004/wc/r18-brazilian-gp/race#athlete/juan-pablo-montoya.result.winner",
+        "kos:f1/2005/wc/r11-british-gp/race#athlete/juan-pablo-montoya.result.winner",
+        "kos:f1/2005/wc/r15-italian-gp/race#athlete/juan-pablo-montoya.result.winner",
+        "kos:f1/2005/wc/r17-brazilian-gp/race#athlete/juan-pablo-montoya.result.winner"
+      ]
+    }
+  ],
+  "recent": [
+    {
+      "event": "f1/2006/wc/r06-spanish-gp",
+      "date": "2006-05-14",
+      "ref": "kos:f1/2006/wc/r06-spanish-gp/race#athlete/juan-pablo-montoya.meas.fastest_lap_ms"
+    },
+    {
+      "event": "f1/2006/wc/r07-monaco-gp",
+      "date": "2006-05-28",
+      "position": 2,
+      "ref": "kos:f1/2006/wc/r07-monaco-gp/race#athlete/juan-pablo-montoya.result.position"
+    },
+    {
+      "event": "f1/2006/wc/r08-british-gp",
+      "date": "2006-06-11",
+      "position": 6,
+      "ref": "kos:f1/2006/wc/r08-british-gp/race#athlete/juan-pablo-montoya.result.position"
+    },
+    {
+      "event": "f1/2006/wc/r09-canadian-gp",
+      "date": "2006-06-25",
+      "ref": "kos:f1/2006/wc/r09-canadian-gp/race#athlete/juan-pablo-montoya.meas.fastest_lap_ms"
+    },
+    {
+      "event": "f1/2006/wc/r10-united-states-gp",
+      "date": "2006-07-02",
+      "ref": "kos:f1/2006/wc/r10-united-states-gp/race#athlete/juan-pablo-montoya.perf.pit_stops"
+    }
+  ],
+  "series": {},
+  "coverage": {
+    "result": {
+      "status": "full",
+      "floor": "1950",
+      "note": "f1db CC BY backbone: every world-championship session 1950-present."
+    },
+    "perf": {
+      "status": "partial",
+      "floor": "1994",
+      "note": "Pit-stop counts from f1db's pit-stop data era (1994+); earlier races have no per-stop records.",
+      "wouldUnblock": "A licensed historical pit-stop dataset for pre-1994 seasons."
+    },
+    "form": {
+      "status": "full",
+      "floor": "1950",
+      "note": "Drivers' standings after every round, f1db 1950-present."
+    },
+    "cond": {
+      "status": "partial",
+      "floor": "1950",
+      "note": "Open-Meteo hourly reanalysis joined by venue coordinates; model estimate at the venue, not track-side sensor data.",
+      "proxies": [
+        "cond.temp_c",
+        "cond.precip_mm",
+        "cond.wind_kmh"
+      ]
+    },
+    "avail": {
+      "status": "none",
+      "note": "No keyless personnel-status feed exists for F1; driver substitutions surface only post-hoc in results.",
+      "wouldUnblock": "A licensed entry-list/withdrawal feed."
+    },
+    "market": {
+      "status": "partial",
+      "floor": "2024",
+      "note": "Prediction markets (Polymarket) 2024-present only; no keyless bookmaker odds history for F1. Public per owner decision 2026-07-19 (OQ #6 closed: rights unlocated, not denied); excluded from commercial delivery.",
+      "wouldUnblock": "A licensed historical odds feed would extend the floor past 2024."
+    },
+    "meas": {
+      "status": "partial",
+      "floor": "1950",
+      "note": "Fastest race lap from f1db (stepped horizon: timing precision improves by era). Speed-trap and telemetry measurements have no license-clean source (SR G7).",
+      "wouldUnblock": "A licensed telemetry/speed-trap dataset."
+    },
+    "agg": {
+      "status": "full",
+      "floor": "1950",
+      "note": "f1db source-published driver season and career totals; independent cross-check for card-derived aggregates."
+    },
+    "h2h": {
+      "status": "full",
+      "note": "Derived-only from stored result rows over shared events; no stored metric (OM §14.1)."
+    }
+  }
+}
