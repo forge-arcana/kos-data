@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/schema/pack.schema.json",
+  "title": "KOS Sport Pack",
+  "description": "Per-sport factor ontology (OM §6). The pack is the only place a sport's vocabulary exists; the builder is generic. Metric-ID family prefixes are the EIGHT storable factor families — head-to-head is derived-only forever and deliberately absent from the pattern (OM §14.1). Deep validation is purpose-built in build/validate.mjs; this schema is the public contract.",
+  "type": "object",
+  "required": ["sport", "packVersion", "eventGrammar", "sessions", "entityRoles", "sources", "metrics", "coverage"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "sport": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "packVersion": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "eventGrammar": { "type": "string" },
+    "sessions": { "type": "array", "items": { "type": "string", "pattern": "^[a-z0-9]+$" } },
+    "entityRoles": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["athlete", "team", "venue", "official", "competition"] }
+    },
+    "sources": { "type": "array", "items": { "type": "string", "pattern": "^[a-z0-9-]+$" } },
+    "metrics": {
+      "type": "object",
+      "propertyNames": { "pattern": "^(result|perf|form|cond|avail|market|meas|agg)\\.[a-z0-9_]+$" },
+      "additionalProperties": {
+        "type": "object",
+        "required": ["span", "type", "subjectType"],
+        "additionalProperties": false,
+        "properties": {
+          "span": { "type": "array", "items": { "type": "string", "enum": ["event", "asof", "season", "career"] }, "minItems": 1 },
+          "type": { "type": "string", "enum": ["number", "integer", "string", "boolean", "entityRef"] },
+          "unit": { "type": "string" },
+          "direction": { "type": "string", "enum": ["higher-better", "lower-better"] },
+          "subjectType": { "type": "string", "enum": ["athlete", "team", "venue", "official", "competition", "event"] },
+          "enum": { "type": "array", "items": { "type": "string" } },
+          "refType": { "type": "string", "enum": ["athlete", "team", "venue", "official", "competition"] },
+          "desc": { "type": "string" },
+          "tolerance": { "type": "number" },
+          "status": { "type": "string" },
+          "gapRef": { "type": "string" },
+          "mappings": { "type": "object" },
+          "deprecated": { "type": "boolean" },
+          "replacedBy": { "type": "string" }
+        }
+      }
+    },
+    "derivations": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["consumes", "formula"],
+        "additionalProperties": false,
+        "properties": {
+          "consumes": { "type": "array", "items": { "type": "string" } },
+          "formula": { "type": "string" },
+          "minN": { "type": "integer" },
+          "tolerance": { "type": "number" }
+        }
+      }
+    },
+    "computed": {
+      "type": "object",
+      "description": "Per in-house computed source (e.g. kos-elo): the versioned-formula slot OM §4 / OQ #5 requires. The named metric must be a declared stored metric with span [\"asof\"].",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["metric", "formulaVersion", "formula", "consumes", "onFormulaChange"],
+        "additionalProperties": false,
+        "properties": {
+          "metric": { "type": "string" },
+          "formulaVersion": { "type": "string" },
+          "formula": { "type": "string" },
+          "consumes": { "type": "array", "items": { "type": "string" } },
+          "onFormulaChange": { "type": "string", "enum": ["full-recompute"] }
+        }
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "description": "The honesty contract (OM §6.5): per factor family (optionally per sub-scope), status/floor/note/proxies/wouldUnblock. Class C — owner-signed.",
+      "additionalProperties": true
+    },
+    "determinative": { "type": "array", "items": { "type": "string" } },
+    "expectedDuration": {
+      "type": "object",
+      "description": "Hours per event kind — drives the publish gate dirty rule (HM §6.2).",
+      "additionalProperties": { "type": "number" }
+    },
+    "preEventWindowDays": { "type": "integer" },
+    "signedCoverage": {
+      "description": "Class C signed flag for the coverage block (HM §3.3): false | {by, date}.",
+      "anyOf": [
+        { "const": false },
+        { "type": "object", "required": ["by", "date"], "properties": { "by": { "type": "string" }, "date": { "type": "string" } } }
+      ]
+    }
+  }
+}

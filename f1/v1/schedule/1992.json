@@ -1,0 +1,166 @@
+{
+  "sport": "f1",
+  "season": "1992",
+  "days": {
+    "1992-03-01": [
+      {
+        "event": "f1/1992/wc/r01-south-african-gp/race",
+        "kind": "race",
+        "start": "1992-03-01T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/kyalami-racing-circuit",
+        "name": "Yellow Pages South African Grand Prix 1992"
+      }
+    ],
+    "1992-03-22": [
+      {
+        "event": "f1/1992/wc/r02-mexican-gp/race",
+        "kind": "race",
+        "start": "1992-03-22T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-hermanos-rodriguez",
+        "name": "Gran Premio de México 1992"
+      }
+    ],
+    "1992-04-05": [
+      {
+        "event": "f1/1992/wc/r03-brazilian-gp/race",
+        "kind": "race",
+        "start": "1992-04-05T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-jose-carlos-pace",
+        "name": "Grande Prêmio do Brasil 1992"
+      }
+    ],
+    "1992-05-03": [
+      {
+        "event": "f1/1992/wc/r04-spanish-gp/race",
+        "kind": "race",
+        "start": "1992-05-03T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-barcelona-catalunya",
+        "name": "Gran Premio Tio Pepe de España 1992"
+      }
+    ],
+    "1992-05-17": [
+      {
+        "event": "f1/1992/wc/r05-san-marino-gp/race",
+        "kind": "race",
+        "start": "1992-05-17T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-internazionale-enzo-e-dino-ferrari",
+        "name": "Gran Premio Iceberg di San Marino 1992"
+      }
+    ],
+    "1992-05-31": [
+      {
+        "event": "f1/1992/wc/r06-monaco-gp/race",
+        "kind": "race",
+        "start": "1992-05-31T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Grand Prix de Monaco 1992"
+      }
+    ],
+    "1992-06-14": [
+      {
+        "event": "f1/1992/wc/r07-canadian-gp/race",
+        "kind": "race",
+        "start": "1992-06-14T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-gilles-villeneuve",
+        "name": "Grand Prix Molson du Canada 1992"
+      }
+    ],
+    "1992-07-05": [
+      {
+        "event": "f1/1992/wc/r08-french-gp/race",
+        "kind": "race",
+        "start": "1992-07-05T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-nevers-magny-cours",
+        "name": "Rhone Poulenc Grand Prix de France 1992"
+      }
+    ],
+    "1992-07-12": [
+      {
+        "event": "f1/1992/wc/r09-british-gp/race",
+        "kind": "race",
+        "start": "1992-07-12T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "1992 Foster's British Grand Prix"
+      }
+    ],
+    "1992-07-26": [
+      {
+        "event": "f1/1992/wc/r10-german-gp/race",
+        "kind": "race",
+        "start": "1992-07-26T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hockenheimring",
+        "name": "Grosser Mobil 1 Preis von Deutschland 1992"
+      }
+    ],
+    "1992-08-16": [
+      {
+        "event": "f1/1992/wc/r11-hungarian-gp/race",
+        "kind": "race",
+        "start": "1992-08-16T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hungaroring",
+        "name": "Marlboro Magyar Nagydíj 1992"
+      }
+    ],
+    "1992-08-30": [
+      {
+        "event": "f1/1992/wc/r12-belgian-gp/race",
+        "kind": "race",
+        "start": "1992-08-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "1992 Belgian Grand Prix"
+      }
+    ],
+    "1992-09-13": [
+      {
+        "event": "f1/1992/wc/r13-italian-gp/race",
+        "kind": "race",
+        "start": "1992-09-13T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Pioneer Gran Premio d'Italia 1992"
+      }
+    ],
+    "1992-09-27": [
+      {
+        "event": "f1/1992/wc/r14-portuguese-gp/race",
+        "kind": "race",
+        "start": "1992-09-27T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-do-estoril",
+        "name": "Grande Prémio SG Gigante de Portugal 1992"
+      }
+    ],
+    "1992-10-25": [
+      {
+        "event": "f1/1992/wc/r15-japanese-gp/race",
+        "kind": "race",
+        "start": "1992-10-25T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/suzuka-circuit",
+        "name": "1992 Fuji Television Japanese Grand Prix"
+      }
+    ],
+    "1992-11-08": [
+      {
+        "event": "f1/1992/wc/r16-australian-gp/race",
+        "kind": "race",
+        "start": "1992-11-08T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/adelaide-street-circuit",
+        "name": "1992 Foster's Australian Grand Prix"
+      }
+    ]
+  }
+}

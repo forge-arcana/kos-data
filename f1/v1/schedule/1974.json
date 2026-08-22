@@ -1,0 +1,156 @@
+{
+  "sport": "f1",
+  "season": "1974",
+  "days": {
+    "1974-01-13": [
+      {
+        "event": "f1/1974/wc/r01-argentine-gp/race",
+        "kind": "race",
+        "start": "1974-01-13T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-juan-y-oscar-galvez",
+        "name": "Gran Premio de Argentina 1974"
+      }
+    ],
+    "1974-01-27": [
+      {
+        "event": "f1/1974/wc/r02-brazilian-gp/race",
+        "kind": "race",
+        "start": "1974-01-27T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-jose-carlos-pace",
+        "name": "Grande Prêmio do Brasil 1974"
+      }
+    ],
+    "1974-03-30": [
+      {
+        "event": "f1/1974/wc/r03-south-african-gp/race",
+        "kind": "race",
+        "start": "1974-03-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/kyalami-racing-circuit",
+        "name": "Lucky Strike Grand Prix of South Africa 1974"
+      }
+    ],
+    "1974-04-28": [
+      {
+        "event": "f1/1974/wc/r04-spanish-gp/race",
+        "kind": "race",
+        "start": "1974-04-28T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuito-del-jarama",
+        "name": "Gran Premio de España 1974"
+      }
+    ],
+    "1974-05-12": [
+      {
+        "event": "f1/1974/wc/r05-belgian-gp/race",
+        "kind": "race",
+        "start": "1974-05-12T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/nivelles-baulers",
+        "name": "1974 Belgian Grand Prix"
+      }
+    ],
+    "1974-05-26": [
+      {
+        "event": "f1/1974/wc/r06-monaco-gp/race",
+        "kind": "race",
+        "start": "1974-05-26T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Grand Prix de Monaco 1974"
+      }
+    ],
+    "1974-06-09": [
+      {
+        "event": "f1/1974/wc/r07-swedish-gp/race",
+        "kind": "race",
+        "start": "1974-06-09T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/anderstorp-raceway",
+        "name": "Texaco Sveriges Grand Prix 1974"
+      }
+    ],
+    "1974-06-23": [
+      {
+        "event": "f1/1974/wc/r08-dutch-gp/race",
+        "kind": "race",
+        "start": "1974-06-23T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-park-zandvoort",
+        "name": "Grote Prijs van Nederland 1974"
+      }
+    ],
+    "1974-07-07": [
+      {
+        "event": "f1/1974/wc/r09-french-gp/race",
+        "kind": "race",
+        "start": "1974-07-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/dijon-prenois",
+        "name": "Grand Prix de France 1974"
+      }
+    ],
+    "1974-07-20": [
+      {
+        "event": "f1/1974/wc/r10-british-gp/race",
+        "kind": "race",
+        "start": "1974-07-20T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/brands-hatch",
+        "name": "1974 John Player British Grand Prix"
+      }
+    ],
+    "1974-08-04": [
+      {
+        "event": "f1/1974/wc/r11-german-gp/race",
+        "kind": "race",
+        "start": "1974-08-04T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/nurburgring",
+        "name": "Grosser Preis von Deutschland 1974"
+      }
+    ],
+    "1974-08-18": [
+      {
+        "event": "f1/1974/wc/r12-austrian-gp/race",
+        "kind": "race",
+        "start": "1974-08-18T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/red-bull-ring",
+        "name": "Grosser Preis von Österreich 1974"
+      }
+    ],
+    "1974-09-08": [
+      {
+        "event": "f1/1974/wc/r13-italian-gp/race",
+        "kind": "race",
+        "start": "1974-09-08T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Gran Premio d'Italia 1974"
+      }
+    ],
+    "1974-09-22": [
+      {
+        "event": "f1/1974/wc/r14-canadian-gp/race",
+        "kind": "race",
+        "start": "1974-09-22T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/canadian-tire-motorsport-park",
+        "name": "Labatt's Canadian Grand Prix 1974"
+      }
+    ],
+    "1974-10-06": [
+      {
+        "event": "f1/1974/wc/r15-united-states-gp/race",
+        "kind": "race",
+        "start": "1974-10-06T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/watkins-glen-international",
+        "name": "1974 United States Grand Prix"
+      }
+    ]
+  }
+}
