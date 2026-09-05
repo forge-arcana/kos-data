@@ -1,0 +1,156 @@
+{
+  "sport": "f1",
+  "season": "1979",
+  "days": {
+    "1979-01-21": [
+      {
+        "event": "f1/1979/wc/r01-argentine-gp/race",
+        "kind": "race",
+        "start": "1979-01-21T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-juan-y-oscar-galvez",
+        "name": "Gran Premio de Argentina 1979"
+      }
+    ],
+    "1979-02-04": [
+      {
+        "event": "f1/1979/wc/r02-brazilian-gp/race",
+        "kind": "race",
+        "start": "1979-02-04T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-jose-carlos-pace",
+        "name": "Grande Prêmio do Brasil 1979"
+      }
+    ],
+    "1979-03-03": [
+      {
+        "event": "f1/1979/wc/r03-south-african-gp/race",
+        "kind": "race",
+        "start": "1979-03-03T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/kyalami-racing-circuit",
+        "name": "Simba Grand Prix of South Africa 1979"
+      }
+    ],
+    "1979-04-08": [
+      {
+        "event": "f1/1979/wc/r04-united-states-gp-west/race",
+        "kind": "race",
+        "start": "1979-04-08T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/long-beach",
+        "name": "1979 Lubri Lon Long Beach Grand Prix"
+      }
+    ],
+    "1979-04-29": [
+      {
+        "event": "f1/1979/wc/r05-spanish-gp/race",
+        "kind": "race",
+        "start": "1979-04-29T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuito-del-jarama",
+        "name": "Gran Premio de España 1979"
+      }
+    ],
+    "1979-05-13": [
+      {
+        "event": "f1/1979/wc/r06-belgian-gp/race",
+        "kind": "race",
+        "start": "1979-05-13T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-zolder",
+        "name": "1979 Belgian Grand Prix"
+      }
+    ],
+    "1979-05-27": [
+      {
+        "event": "f1/1979/wc/r07-monaco-gp/race",
+        "kind": "race",
+        "start": "1979-05-27T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Grand Prix de Monaco 1979"
+      }
+    ],
+    "1979-07-01": [
+      {
+        "event": "f1/1979/wc/r08-french-gp/race",
+        "kind": "race",
+        "start": "1979-07-01T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/dijon-prenois",
+        "name": "Grand Prix de France 1979"
+      }
+    ],
+    "1979-07-14": [
+      {
+        "event": "f1/1979/wc/r09-british-gp/race",
+        "kind": "race",
+        "start": "1979-07-14T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "1979 Marlboro British Grand Prix"
+      }
+    ],
+    "1979-07-29": [
+      {
+        "event": "f1/1979/wc/r10-german-gp/race",
+        "kind": "race",
+        "start": "1979-07-29T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hockenheimring",
+        "name": "Grosser Preis von Deutschland 1979"
+      }
+    ],
+    "1979-08-12": [
+      {
+        "event": "f1/1979/wc/r11-austrian-gp/race",
+        "kind": "race",
+        "start": "1979-08-12T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/red-bull-ring",
+        "name": "Grosser Preis von Österreich 1979"
+      }
+    ],
+    "1979-08-26": [
+      {
+        "event": "f1/1979/wc/r12-dutch-gp/race",
+        "kind": "race",
+        "start": "1979-08-26T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-park-zandvoort",
+        "name": "Grote Prijs van Nederland 1979"
+      }
+    ],
+    "1979-09-09": [
+      {
+        "event": "f1/1979/wc/r13-italian-gp/race",
+        "kind": "race",
+        "start": "1979-09-09T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Gran Premio d'Italia 1979"
+      }
+    ],
+    "1979-09-30": [
+      {
+        "event": "f1/1979/wc/r14-canadian-gp/race",
+        "kind": "race",
+        "start": "1979-09-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-gilles-villeneuve",
+        "name": "Grand Prix du Canada 1979"
+      }
+    ],
+    "1979-10-07": [
+      {
+        "event": "f1/1979/wc/r15-united-states-gp/race",
+        "kind": "race",
+        "start": "1979-10-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/watkins-glen-international",
+        "name": "1979 Toyota United States Grand Prix"
+      }
+    ]
+  }
+}

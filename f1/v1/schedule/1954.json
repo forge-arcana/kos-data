@@ -1,0 +1,96 @@
+{
+  "sport": "f1",
+  "season": "1954",
+  "days": {
+    "1954-01-17": [
+      {
+        "event": "f1/1954/wc/r01-argentine-gp/race",
+        "kind": "race",
+        "start": "1954-01-17T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-juan-y-oscar-galvez",
+        "name": "Gran Premio de Argentina 1954"
+      }
+    ],
+    "1954-05-31": [
+      {
+        "event": "f1/1954/wc/r02-indy-500/race",
+        "kind": "race",
+        "start": "1954-05-31T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/indianapolis-motor-speedway",
+        "name": "1954 Indianapolis 500"
+      }
+    ],
+    "1954-06-20": [
+      {
+        "event": "f1/1954/wc/r03-belgian-gp/race",
+        "kind": "race",
+        "start": "1954-06-20T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "1954 Belgian Grand Prix"
+      }
+    ],
+    "1954-07-04": [
+      {
+        "event": "f1/1954/wc/r04-french-gp/race",
+        "kind": "race",
+        "start": "1954-07-04T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/reims-gueux",
+        "name": "Grand Prix de France 1954"
+      }
+    ],
+    "1954-07-17": [
+      {
+        "event": "f1/1954/wc/r05-british-gp/race",
+        "kind": "race",
+        "start": "1954-07-17T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "1954 RAC British Grand Prix"
+      }
+    ],
+    "1954-08-01": [
+      {
+        "event": "f1/1954/wc/r06-german-gp/race",
+        "kind": "race",
+        "start": "1954-08-01T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/nurburgring",
+        "name": "Grosser Preis von Deutschland 1954"
+      }
+    ],
+    "1954-08-22": [
+      {
+        "event": "f1/1954/wc/r07-swiss-gp/race",
+        "kind": "race",
+        "start": "1954-08-22T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-bremgarten",
+        "name": "Grosser Preis der Schweiz 1954"
+      }
+    ],
+    "1954-09-05": [
+      {
+        "event": "f1/1954/wc/r08-italian-gp/race",
+        "kind": "race",
+        "start": "1954-09-05T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Gran Premio d'Italia 1954"
+      }
+    ],
+    "1954-10-24": [
+      {
+        "event": "f1/1954/wc/r09-spanish-gp/race",
+        "kind": "race",
+        "start": "1954-10-24T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/pedralbes-circuit",
+        "name": "Gran Premio de España 1954"
+      }
+    ]
+  }
+}

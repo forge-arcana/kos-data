@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/schema/catalog.schema.json",
+  "title": "Keppet Open Sports — catalog",
+  "description": "Discovery entrypoint: one dataset entry per live sport pack, plus the history.deep clause. Zero-sport tolerant (datasets may be empty). Emitted by build/catalog.mjs.",
+  "type": "object",
+  "required": ["name", "datasets", "history"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string", "format": "uri" },
+    "name": { "type": "string", "const": "Keppet Open Sports" },
+    "updated": {
+      "type": ["string", "null"],
+      "format": "date-time",
+      "description": "Stamped by writeJsonIfChanged only when content changes; null before first build."
+    },
+    "datasets": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/dataset" }
+    },
+    "history": {
+      "type": "object",
+      "required": ["deep"],
+      "additionalProperties": false,
+      "properties": {
+        "deep": {
+          "type": "string",
+          "description": "Human-readable note that full observation history + state series are private, offered separately."
+        }
+      }
+    }
+  },
+  "definitions": {
+    "dataset": {
+      "type": "object",
+      "required": ["id", "title", "cadence", "latest", "events", "schema", "seasons", "sources", "attribution", "coverage"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "Sport id (e.g. f1, tennis, soccer)."
+        },
+        "title": { "type": "string" },
+        "cadence": {
+          "type": "string",
+          "description": "Update cadence for the dataset (e.g. event)."
+        },
+        "latest": { "type": "string", "format": "uri" },
+        "events": { "type": "string", "format": "uri" },
+        "schema": {
+          "type": "string",
+          "format": "uri",
+          "description": "CDN URL of the per-event JSON Schema."
+        },
+        "seasons": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Season partitions present in the archive for this sport."
+        },
+        "sources": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Source ids backing this pack (graded in the license register)."
+        },
+        "attribution": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Attribution strings auto-emitted from the register (OM §10.3 enforcement point 3)."
+        },
+        "coverage": {
+          "type": "object",
+          "description": "Per-factor-family coverage declaration copied from the sport pack. The refusal/gap contract; see docs/02-observation-model.md §7.",
+          "additionalProperties": true
+        }
+      }
+    }
+  }
+}
