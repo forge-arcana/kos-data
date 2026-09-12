@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/schema/observations.schema.json",
+  "title": "KOS Observation",
+  "description": "One tidy long-form evidence row — the NDJSON substrate every sport reduces to. The sport enum is GENERATED from the set of committed packs on every build; never hand-edit it.",
+  "type": "object",
+  "required": [
+    "date",
+    "sport",
+    "span",
+    "metric",
+    "value",
+    "source"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "sport": {
+      "type": "string",
+      "enum": [
+        "f1"
+      ]
+    },
+    "span": {
+      "type": "string",
+      "enum": [
+        "event",
+        "asof",
+        "season",
+        "career"
+      ]
+    },
+    "event": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9/-]*$"
+    },
+    "entity": {
+      "type": "string",
+      "pattern": "^(athlete|team|venue|official|competition)/[a-z0-9-]+$"
+    },
+    "metric": {
+      "type": "string",
+      "pattern": "^(result|perf|form|cond|avail|market|meas|agg)\\.[a-z0-9_]+$"
+    },
+    "value": {
+      "type": [
+        "number",
+        "string",
+        "boolean"
+      ]
+    },
+    "unit": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "span": {
+            "const": "event"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "event"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "span": {
+            "const": "asof"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "entity"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "span": {
+            "const": "season"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "event",
+          "entity"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "span": {
+            "const": "career"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "entity"
+        ],
+        "not": {
+          "required": [
+            "event"
+          ]
+        }
+      }
+    },
+    {
+      "anyOf": [
+        {
+          "required": [
+            "event"
+          ]
+        },
+        {
+          "required": [
+            "entity"
+          ]
+        }
+      ]
+    }
+  ]
+}

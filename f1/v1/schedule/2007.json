@@ -1,0 +1,176 @@
+{
+  "sport": "f1",
+  "season": "2007",
+  "days": {
+    "2007-03-18": [
+      {
+        "event": "f1/2007/wc/r01-australian-gp/race",
+        "kind": "race",
+        "start": "2007-03-18T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/melbourne-grand-prix-circuit",
+        "name": "2007 Formula 1 ING Australian Grand Prix"
+      }
+    ],
+    "2007-04-08": [
+      {
+        "event": "f1/2007/wc/r02-malaysian-gp/race",
+        "kind": "race",
+        "start": "2007-04-08T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/sepang-international-circuit",
+        "name": "2007 Formula 1 Petronas Malaysian Grand Prix"
+      }
+    ],
+    "2007-04-15": [
+      {
+        "event": "f1/2007/wc/r03-bahrain-gp/race",
+        "kind": "race",
+        "start": "2007-04-15T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/bahrain-international-circuit",
+        "name": "2007 Formula 1 Gulf Air Bahrain Grand Prix"
+      }
+    ],
+    "2007-05-13": [
+      {
+        "event": "f1/2007/wc/r04-spanish-gp/race",
+        "kind": "race",
+        "start": "2007-05-13T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-barcelona-catalunya",
+        "name": "Formula 1 Gran Premio de España Telefónica 2007"
+      }
+    ],
+    "2007-05-27": [
+      {
+        "event": "f1/2007/wc/r05-monaco-gp/race",
+        "kind": "race",
+        "start": "2007-05-27T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Formula 1 Grand Prix de Monaco 2007"
+      }
+    ],
+    "2007-06-10": [
+      {
+        "event": "f1/2007/wc/r06-canadian-gp/race",
+        "kind": "race",
+        "start": "2007-06-10T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-gilles-villeneuve",
+        "name": "Formula 1 Grand Prix du Canada 2007"
+      }
+    ],
+    "2007-06-17": [
+      {
+        "event": "f1/2007/wc/r07-united-states-gp/race",
+        "kind": "race",
+        "start": "2007-06-17T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/indianapolis-motor-speedway",
+        "name": "2007 RBS United States Grand Prix"
+      }
+    ],
+    "2007-07-01": [
+      {
+        "event": "f1/2007/wc/r08-french-gp/race",
+        "kind": "race",
+        "start": "2007-07-01T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-nevers-magny-cours",
+        "name": "Formula 1 Grand Prix de France 2007"
+      }
+    ],
+    "2007-07-08": [
+      {
+        "event": "f1/2007/wc/r09-british-gp/race",
+        "kind": "race",
+        "start": "2007-07-08T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "2007 Formula 1 Santander British Grand Prix"
+      }
+    ],
+    "2007-07-22": [
+      {
+        "event": "f1/2007/wc/r10-european-gp/race",
+        "kind": "race",
+        "start": "2007-07-22T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/nurburgring",
+        "name": "2007 Formula 1 Grand Prix of Europe"
+      }
+    ],
+    "2007-08-05": [
+      {
+        "event": "f1/2007/wc/r11-hungarian-gp/race",
+        "kind": "race",
+        "start": "2007-08-05T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hungaroring",
+        "name": "Formula 1 Magyar Nagydíj 2007"
+      }
+    ],
+    "2007-08-26": [
+      {
+        "event": "f1/2007/wc/r12-turkish-gp/race",
+        "kind": "race",
+        "start": "2007-08-26T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/istanbul-park",
+        "name": "2007 Formula 1 Petrol Ofisi Turkish Grand Prix"
+      }
+    ],
+    "2007-09-09": [
+      {
+        "event": "f1/2007/wc/r13-italian-gp/race",
+        "kind": "race",
+        "start": "2007-09-09T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Formula 1 Gran Premio d'Italia 2007"
+      }
+    ],
+    "2007-09-16": [
+      {
+        "event": "f1/2007/wc/r14-belgian-gp/race",
+        "kind": "race",
+        "start": "2007-09-16T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "2007 Formula 1 ING Belgian Grand Prix"
+      }
+    ],
+    "2007-09-30": [
+      {
+        "event": "f1/2007/wc/r15-japanese-gp/race",
+        "kind": "race",
+        "start": "2007-09-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/fuji-speedway",
+        "name": "2007 Formula 1 Fuji Television Japanese Grand Prix"
+      }
+    ],
+    "2007-10-07": [
+      {
+        "event": "f1/2007/wc/r16-chinese-gp/race",
+        "kind": "race",
+        "start": "2007-10-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/shanghai-international-circuit",
+        "name": "2007 Formula 1 Sinopec Chinese Grand Prix"
+      }
+    ],
+    "2007-10-21": [
+      {
+        "event": "f1/2007/wc/r17-brazilian-gp/race",
+        "kind": "race",
+        "start": "2007-10-21T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-jose-carlos-pace",
+        "name": "Formula 1 Grande Prêmio do Brasil 2007"
+      }
+    ]
+  }
+}

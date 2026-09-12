@@ -1,0 +1,106 @@
+{
+  "sport": "f1",
+  "season": "1963",
+  "days": {
+    "1963-05-26": [
+      {
+        "event": "f1/1963/wc/r01-monaco-gp/race",
+        "kind": "race",
+        "start": "1963-05-26T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Grand Prix de Monaco 1963"
+      }
+    ],
+    "1963-06-09": [
+      {
+        "event": "f1/1963/wc/r02-belgian-gp/race",
+        "kind": "race",
+        "start": "1963-06-09T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "1963 Belgian Grand Prix"
+      }
+    ],
+    "1963-06-23": [
+      {
+        "event": "f1/1963/wc/r03-dutch-gp/race",
+        "kind": "race",
+        "start": "1963-06-23T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-park-zandvoort",
+        "name": "Grote Prijs van Nederland 1963"
+      }
+    ],
+    "1963-06-30": [
+      {
+        "event": "f1/1963/wc/r04-french-gp/race",
+        "kind": "race",
+        "start": "1963-06-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/reims-gueux",
+        "name": "Grand Prix de France 1963"
+      }
+    ],
+    "1963-07-20": [
+      {
+        "event": "f1/1963/wc/r05-british-gp/race",
+        "kind": "race",
+        "start": "1963-07-20T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "1963 RAC British Grand Prix"
+      }
+    ],
+    "1963-08-04": [
+      {
+        "event": "f1/1963/wc/r06-german-gp/race",
+        "kind": "race",
+        "start": "1963-08-04T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/nurburgring",
+        "name": "Grosser Preis von Deutschland 1963"
+      }
+    ],
+    "1963-09-08": [
+      {
+        "event": "f1/1963/wc/r07-italian-gp/race",
+        "kind": "race",
+        "start": "1963-09-08T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Gran Premio d'Italia 1963"
+      }
+    ],
+    "1963-10-06": [
+      {
+        "event": "f1/1963/wc/r08-united-states-gp/race",
+        "kind": "race",
+        "start": "1963-10-06T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/watkins-glen-international",
+        "name": "1963 United States Grand Prix"
+      }
+    ],
+    "1963-10-27": [
+      {
+        "event": "f1/1963/wc/r09-mexican-gp/race",
+        "kind": "race",
+        "start": "1963-10-27T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-hermanos-rodriguez",
+        "name": "Gran Premio de México 1963"
+      }
+    ],
+    "1963-12-28": [
+      {
+        "event": "f1/1963/wc/r10-south-african-gp/race",
+        "kind": "race",
+        "start": "1963-12-28T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/prince-george-circuit",
+        "name": "South African Grand Prix 1963"
+      }
+    ]
+  }
+}

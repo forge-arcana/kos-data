@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/schema/event.schema.json",
+  "title": "KOS Event Dossier",
+  "description": "The hot event file IS the event's warm-tier slice plus provenance (OM §9.2). Rows omit the keys the envelope stamps (date, sport, span=event, event-group prefix); re-inflation is mechanical. preEvent rows keep their own date/event scope. gaps[] is the pack coverage block materialized for this event.",
+  "type": "object",
+  "required": ["$schema", "dataset", "sport", "event", "date", "updated", "sources", "sourcesMeta", "entities", "rows", "preEvent", "gaps"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "dataset": { "const": "event" },
+    "sport": { "type": "string" },
+    "event": {
+      "type": "object",
+      "required": ["id", "name", "kind", "season", "status"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "kind": { "type": "string" },
+        "season": { "type": "string" },
+        "venue": { "type": "string" },
+        "start": { "type": "string" },
+        "status": { "enum": ["scheduled", "in-progress", "final"] }
+      }
+    },
+    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "updated": { "type": "string" },
+    "sources": { "type": "array", "items": { "type": "string" } },
+    "sourcesMeta": { "type": "object", "additionalProperties": { "type": "object" } },
+    "entities": { "type": "array", "items": { "type": "string" } },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["metric", "value", "source"],
+        "properties": {
+          "session": { "type": "string" },
+          "entity": { "type": "string" },
+          "metric": { "type": "string" },
+          "value": { "type": ["number", "string", "boolean"] },
+          "unit": { "type": "string" },
+          "source": { "type": "string" }
+        }
+      }
+    },
+    "preEvent": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["date", "entity", "metric", "value", "source"],
+        "properties": {
+          "date": { "type": "string" },
+          "entity": { "type": "string" },
+          "metric": { "type": "string" },
+          "value": { "type": ["number", "string", "boolean"] },
+          "unit": { "type": "string" },
+          "source": { "type": "string" },
+          "event": { "type": "string" }
+        }
+      }
+    },
+    "gaps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["family", "status", "note"],
+        "properties": {
+          "family": { "type": "string" },
+          "status": { "type": "string" },
+          "note": { "type": "string" },
+          "floor": { "type": "string" }
+        }
+      }
+    }
+  }
+}
