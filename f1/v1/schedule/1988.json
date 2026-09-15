@@ -1,0 +1,166 @@
+{
+  "sport": "f1",
+  "season": "1988",
+  "days": {
+    "1988-04-03": [
+      {
+        "event": "f1/1988/wc/r01-brazilian-gp/race",
+        "kind": "race",
+        "start": "1988-04-03T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-internacional-nelson-piquet",
+        "name": "Grande Prêmio do Brasil 1988"
+      }
+    ],
+    "1988-05-01": [
+      {
+        "event": "f1/1988/wc/r02-san-marino-gp/race",
+        "kind": "race",
+        "start": "1988-05-01T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-internazionale-enzo-e-dino-ferrari",
+        "name": "Gran Premio Kronenbourg di San Marino 1988"
+      }
+    ],
+    "1988-05-15": [
+      {
+        "event": "f1/1988/wc/r03-monaco-gp/race",
+        "kind": "race",
+        "start": "1988-05-15T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Grand Prix de Monaco 1988"
+      }
+    ],
+    "1988-05-29": [
+      {
+        "event": "f1/1988/wc/r04-mexican-gp/race",
+        "kind": "race",
+        "start": "1988-05-29T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-hermanos-rodriguez",
+        "name": "Gran Premio de México 1988"
+      }
+    ],
+    "1988-06-12": [
+      {
+        "event": "f1/1988/wc/r05-canadian-gp/race",
+        "kind": "race",
+        "start": "1988-06-12T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-gilles-villeneuve",
+        "name": "Grand Prix Molson du Canada 1988"
+      }
+    ],
+    "1988-06-19": [
+      {
+        "event": "f1/1988/wc/r06-detroit-gp/race",
+        "kind": "race",
+        "start": "1988-06-19T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/detroit-street-circuit",
+        "name": "1988 Enichem Detroit Grand Prix"
+      }
+    ],
+    "1988-07-03": [
+      {
+        "event": "f1/1988/wc/r07-french-gp/race",
+        "kind": "race",
+        "start": "1988-07-03T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-paul-ricard",
+        "name": "Rhone Poulenc Grand Prix de France 1988"
+      }
+    ],
+    "1988-07-10": [
+      {
+        "event": "f1/1988/wc/r08-british-gp/race",
+        "kind": "race",
+        "start": "1988-07-10T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "1988 Shell Oils British Grand Prix"
+      }
+    ],
+    "1988-07-24": [
+      {
+        "event": "f1/1988/wc/r09-german-gp/race",
+        "kind": "race",
+        "start": "1988-07-24T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hockenheimring",
+        "name": "Mobil 1 Grosser Preis von Deutschland 1988"
+      }
+    ],
+    "1988-08-07": [
+      {
+        "event": "f1/1988/wc/r10-hungarian-gp/race",
+        "kind": "race",
+        "start": "1988-08-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hungaroring",
+        "name": "Pop 84 Magyar Nagydíj 1988"
+      }
+    ],
+    "1988-08-28": [
+      {
+        "event": "f1/1988/wc/r11-belgian-gp/race",
+        "kind": "race",
+        "start": "1988-08-28T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "1988 Belgian Grand Prix"
+      }
+    ],
+    "1988-09-11": [
+      {
+        "event": "f1/1988/wc/r12-italian-gp/race",
+        "kind": "race",
+        "start": "1988-09-11T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Coca Cola Gran Premio d'Italia 1988"
+      }
+    ],
+    "1988-09-25": [
+      {
+        "event": "f1/1988/wc/r13-portuguese-gp/race",
+        "kind": "race",
+        "start": "1988-09-25T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-do-estoril",
+        "name": "Grande Prémio de Portugal 1988"
+      }
+    ],
+    "1988-10-02": [
+      {
+        "event": "f1/1988/wc/r14-spanish-gp/race",
+        "kind": "race",
+        "start": "1988-10-02T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuito-de-jerez",
+        "name": "Gran Premio Tio Pepe de España 1988"
+      }
+    ],
+    "1988-10-30": [
+      {
+        "event": "f1/1988/wc/r15-japanese-gp/race",
+        "kind": "race",
+        "start": "1988-10-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/suzuka-circuit",
+        "name": "1988 Fuji Television Japanese Grand Prix"
+      }
+    ],
+    "1988-11-13": [
+      {
+        "event": "f1/1988/wc/r16-australian-gp/race",
+        "kind": "race",
+        "start": "1988-11-13T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/adelaide-street-circuit",
+        "name": "1988 Foster's Australian Grand Prix"
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "sport": "f1",
+  "season": "1957",
+  "days": {
+    "1957-01-13": [
+      {
+        "event": "f1/1957/wc/r01-argentine-gp/race",
+        "kind": "race",
+        "start": "1957-01-13T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-juan-y-oscar-galvez",
+        "name": "Gran Premio de Argentina 1957"
+      }
+    ],
+    "1957-05-19": [
+      {
+        "event": "f1/1957/wc/r02-monaco-gp/race",
+        "kind": "race",
+        "start": "1957-05-19T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Grand Prix de Monaco 1957"
+      }
+    ],
+    "1957-05-30": [
+      {
+        "event": "f1/1957/wc/r03-indy-500/race",
+        "kind": "race",
+        "start": "1957-05-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/indianapolis-motor-speedway",
+        "name": "1957 Indianapolis 500"
+      }
+    ],
+    "1957-07-07": [
+      {
+        "event": "f1/1957/wc/r04-french-gp/race",
+        "kind": "race",
+        "start": "1957-07-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/rouen-les-essarts",
+        "name": "Grand Prix de France 1957"
+      }
+    ],
+    "1957-07-20": [
+      {
+        "event": "f1/1957/wc/r05-british-gp/race",
+        "kind": "race",
+        "start": "1957-07-20T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/aintree-motor-racing-circuit",
+        "name": "1957 RAC British Grand Prix"
+      }
+    ],
+    "1957-08-04": [
+      {
+        "event": "f1/1957/wc/r06-german-gp/race",
+        "kind": "race",
+        "start": "1957-08-04T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/nurburgring",
+        "name": "Grosser Preis von Deutschland 1957"
+      }
+    ],
+    "1957-08-18": [
+      {
+        "event": "f1/1957/wc/r07-pescara-gp/race",
+        "kind": "race",
+        "start": "1957-08-18T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/pescara-circuit",
+        "name": "Gran Premio di Pescara 1957"
+      }
+    ],
+    "1957-09-08": [
+      {
+        "event": "f1/1957/wc/r08-italian-gp/race",
+        "kind": "race",
+        "start": "1957-09-08T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Gran Premio d'Italia 1957"
+      }
+    ]
+  }
+}
