@@ -1,0 +1,169 @@
+{
+  "sport": "f1",
+  "protocolVersion": "1.0.0",
+  "questions": [
+    {
+      "id": "C1",
+      "archetype": "causal",
+      "question": "Why did Lando Norris lose the 2026 British Grand Prix?",
+      "resolved": {
+        "entities": [
+          "athlete/lando-norris"
+        ],
+        "events": [
+          "f1/2026/wc/r09-british-gp"
+        ],
+        "metrics": []
+      },
+      "primitives": [
+        "dossier",
+        "entity-rows",
+        "gaps"
+      ],
+      "expected": {
+        "outcome": "answerable",
+        "families": [
+          "result",
+          "cond",
+          "form"
+        ]
+      },
+      "signed": {
+        "by": "owner",
+        "date": "2026-07-19"
+      }
+    },
+    {
+      "id": "C2",
+      "archetype": "causal",
+      "question": "Why did Isack Hadjar retire from the 2026 Australian Grand Prix?",
+      "resolved": {
+        "entities": [
+          "athlete/isack-hadjar"
+        ],
+        "events": [
+          "f1/2026/wc/r01-australian-gp"
+        ],
+        "metrics": []
+      },
+      "primitives": [
+        "dossier",
+        "entity-rows",
+        "determinative"
+      ],
+      "expected": {
+        "outcome": "answerable",
+        "determinative": "result.reason_retired"
+      },
+      "signed": {
+        "by": "owner",
+        "date": "2026-07-19"
+      }
+    },
+    {
+      "id": "M2",
+      "archetype": "comparative",
+      "question": "Compare Lewis Hamilton and Michael Schumacher on race wins.",
+      "resolved": {
+        "entities": [
+          "athlete/lewis-hamilton",
+          "athlete/michael-schumacher"
+        ],
+        "events": [],
+        "metrics": [
+          "agg.wins"
+        ]
+      },
+      "primitives": [
+        "cards",
+        "aggregates"
+      ],
+      "expected": {
+        "outcome": "answerable"
+      },
+      "signed": {
+        "by": "owner",
+        "date": "2026-07-19"
+      }
+    },
+    {
+      "id": "M3",
+      "archetype": "comparative",
+      "question": "Compare Max Verstappen and Lando Norris on 2026 championship form.",
+      "resolved": {
+        "entities": [
+          "athlete/max-verstappen",
+          "athlete/lando-norris"
+        ],
+        "events": [],
+        "metrics": [
+          "form.standing_points"
+        ]
+      },
+      "primitives": [
+        "cards",
+        "series"
+      ],
+      "expected": {
+        "outcome": "answerable"
+      },
+      "signed": {
+        "by": "owner",
+        "date": "2026-07-19"
+      }
+    },
+    {
+      "id": "A2",
+      "archetype": "attribute",
+      "question": "How many career podiums does Fernando Alonso have?",
+      "resolved": {
+        "entities": [
+          "athlete/fernando-alonso"
+        ],
+        "events": [],
+        "metrics": [
+          "agg.podiums"
+        ]
+      },
+      "primitives": [
+        "card",
+        "aggregate"
+      ],
+      "expected": {
+        "outcome": "answerable"
+      },
+      "signed": {
+        "by": "owner",
+        "date": "2026-07-19"
+      }
+    },
+    {
+      "id": "A3",
+      "archetype": "attribute",
+      "question": "What was Max Verstappen's top speed at the 2026 British Grand Prix?",
+      "resolved": {
+        "entities": [
+          "athlete/max-verstappen"
+        ],
+        "events": [
+          "f1/2026/wc/r09-british-gp"
+        ],
+        "metrics": [
+          "meas.top_speed_kmh"
+        ]
+      },
+      "primitives": [
+        "refusal"
+      ],
+      "expected": {
+        "outcome": "refusal",
+        "gapRef": "coverage.meas",
+        "note": "Speed-trap top speed has NO license-clean source (OpenF1 is NC, livetiming is gray-blocked); the metric is declared unmeasurable and never stored."
+      },
+      "signed": {
+        "by": "owner",
+        "date": "2026-07-19"
+      }
+    }
+  ]
+}
