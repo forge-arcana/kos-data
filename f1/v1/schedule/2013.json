@@ -1,0 +1,196 @@
+{
+  "sport": "f1",
+  "season": "2013",
+  "days": {
+    "2013-03-17": [
+      {
+        "event": "f1/2013/wc/r01-australian-gp/race",
+        "kind": "race",
+        "start": "2013-03-17T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/melbourne-grand-prix-circuit",
+        "name": "2013 Formula 1 Rolex Australian Grand Prix"
+      }
+    ],
+    "2013-03-24": [
+      {
+        "event": "f1/2013/wc/r02-malaysian-gp/race",
+        "kind": "race",
+        "start": "2013-03-24T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/sepang-international-circuit",
+        "name": "2013 Formula 1 Petronas Malaysia Grand Prix"
+      }
+    ],
+    "2013-04-14": [
+      {
+        "event": "f1/2013/wc/r03-chinese-gp/race",
+        "kind": "race",
+        "start": "2013-04-14T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/shanghai-international-circuit",
+        "name": "2013 Formula 1 UBS Chinese Grand Prix"
+      }
+    ],
+    "2013-04-21": [
+      {
+        "event": "f1/2013/wc/r04-bahrain-gp/race",
+        "kind": "race",
+        "start": "2013-04-21T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/bahrain-international-circuit",
+        "name": "2013 Formula 1 Gulf Air Bahrain Grand Prix"
+      }
+    ],
+    "2013-05-12": [
+      {
+        "event": "f1/2013/wc/r05-spanish-gp/race",
+        "kind": "race",
+        "start": "2013-05-12T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-barcelona-catalunya",
+        "name": "Formula 1 Gran Premio de España 2013"
+      }
+    ],
+    "2013-05-26": [
+      {
+        "event": "f1/2013/wc/r06-monaco-gp/race",
+        "kind": "race",
+        "start": "2013-05-26T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Formula 1 Grand Prix de Monaco 2013"
+      }
+    ],
+    "2013-06-09": [
+      {
+        "event": "f1/2013/wc/r07-canadian-gp/race",
+        "kind": "race",
+        "start": "2013-06-09T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-gilles-villeneuve",
+        "name": "Formula 1 Grand Prix du Canada 2013"
+      }
+    ],
+    "2013-06-30": [
+      {
+        "event": "f1/2013/wc/r08-british-gp/race",
+        "kind": "race",
+        "start": "2013-06-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "2013 Formula 1 Santander British Grand Prix"
+      }
+    ],
+    "2013-07-07": [
+      {
+        "event": "f1/2013/wc/r09-german-gp/race",
+        "kind": "race",
+        "start": "2013-07-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/nurburgring",
+        "name": "Formula 1 Grosser Preis Santander von Deutschland 2013"
+      }
+    ],
+    "2013-07-28": [
+      {
+        "event": "f1/2013/wc/r10-hungarian-gp/race",
+        "kind": "race",
+        "start": "2013-07-28T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hungaroring",
+        "name": "Formula 1 Magyar Nagydíj 2013"
+      }
+    ],
+    "2013-08-25": [
+      {
+        "event": "f1/2013/wc/r11-belgian-gp/race",
+        "kind": "race",
+        "start": "2013-08-25T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "2013 Formula 1 Shell Belgian Grand Prix"
+      }
+    ],
+    "2013-09-08": [
+      {
+        "event": "f1/2013/wc/r12-italian-gp/race",
+        "kind": "race",
+        "start": "2013-09-08T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Formula 1 Gran Premio d'Italia 2013"
+      }
+    ],
+    "2013-09-22": [
+      {
+        "event": "f1/2013/wc/r13-singapore-gp/race",
+        "kind": "race",
+        "start": "2013-09-22T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/marina-bay-street-circuit",
+        "name": "2013 Formula 1 SingTel Singapore Grand Prix"
+      }
+    ],
+    "2013-10-06": [
+      {
+        "event": "f1/2013/wc/r14-korean-gp/race",
+        "kind": "race",
+        "start": "2013-10-06T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/korea-international-circuit",
+        "name": "2013 Formula 1 Korean Grand Prix"
+      }
+    ],
+    "2013-10-13": [
+      {
+        "event": "f1/2013/wc/r15-japanese-gp/race",
+        "kind": "race",
+        "start": "2013-10-13T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/suzuka-circuit",
+        "name": "2013 Formula 1 Japanese Grand Prix"
+      }
+    ],
+    "2013-10-27": [
+      {
+        "event": "f1/2013/wc/r16-indian-gp/race",
+        "kind": "race",
+        "start": "2013-10-27T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/buddh-international-circuit",
+        "name": "2013 Formula 1 Airtel Indian Grand Prix"
+      }
+    ],
+    "2013-11-03": [
+      {
+        "event": "f1/2013/wc/r17-abu-dhabi-gp/race",
+        "kind": "race",
+        "start": "2013-11-03T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/yas-marina-circuit",
+        "name": "2013 Formula 1 Etihad Airways Abu Dhabi Grand Prix"
+      }
+    ],
+    "2013-11-17": [
+      {
+        "event": "f1/2013/wc/r18-united-states-gp/race",
+        "kind": "race",
+        "start": "2013-11-17T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-of-the-americas",
+        "name": "2013 Formula 1 United States Grand Prix"
+      }
+    ],
+    "2013-11-24": [
+      {
+        "event": "f1/2013/wc/r19-brazilian-gp/race",
+        "kind": "race",
+        "start": "2013-11-24T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-jose-carlos-pace",
+        "name": "Formula 1 Grande Prêmio Petrobras do Brasil 2013"
+      }
+    ]
+  }
+}

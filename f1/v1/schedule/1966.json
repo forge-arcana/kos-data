@@ -1,0 +1,96 @@
+{
+  "sport": "f1",
+  "season": "1966",
+  "days": {
+    "1966-05-22": [
+      {
+        "event": "f1/1966/wc/r01-monaco-gp/race",
+        "kind": "race",
+        "start": "1966-05-22T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Grand Prix de Monaco 1966"
+      }
+    ],
+    "1966-06-12": [
+      {
+        "event": "f1/1966/wc/r02-belgian-gp/race",
+        "kind": "race",
+        "start": "1966-06-12T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "1966 Belgian Grand Prix"
+      }
+    ],
+    "1966-07-03": [
+      {
+        "event": "f1/1966/wc/r03-french-gp/race",
+        "kind": "race",
+        "start": "1966-07-03T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/reims-gueux",
+        "name": "Grand Prix de France 1966"
+      }
+    ],
+    "1966-07-16": [
+      {
+        "event": "f1/1966/wc/r04-british-gp/race",
+        "kind": "race",
+        "start": "1966-07-16T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/brands-hatch",
+        "name": "1966 RAC British Grand Prix"
+      }
+    ],
+    "1966-07-24": [
+      {
+        "event": "f1/1966/wc/r05-dutch-gp/race",
+        "kind": "race",
+        "start": "1966-07-24T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-park-zandvoort",
+        "name": "Grote Prijs van Nederland 1966"
+      }
+    ],
+    "1966-08-07": [
+      {
+        "event": "f1/1966/wc/r06-german-gp/race",
+        "kind": "race",
+        "start": "1966-08-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/nurburgring",
+        "name": "Grosser Preis von Deutschland 1966"
+      }
+    ],
+    "1966-09-04": [
+      {
+        "event": "f1/1966/wc/r07-italian-gp/race",
+        "kind": "race",
+        "start": "1966-09-04T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Gran Premio d'Italia 1966"
+      }
+    ],
+    "1966-10-02": [
+      {
+        "event": "f1/1966/wc/r08-united-states-gp/race",
+        "kind": "race",
+        "start": "1966-10-02T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/watkins-glen-international",
+        "name": "1966 United States Grand Prix"
+      }
+    ],
+    "1966-10-23": [
+      {
+        "event": "f1/1966/wc/r09-mexican-gp/race",
+        "kind": "race",
+        "start": "1966-10-23T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-hermanos-rodriguez",
+        "name": "Gran Premio de México 1966"
+      }
+    ]
+  }
+}

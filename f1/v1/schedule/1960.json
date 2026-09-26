@@ -1,0 +1,106 @@
+{
+  "sport": "f1",
+  "season": "1960",
+  "days": {
+    "1960-02-07": [
+      {
+        "event": "f1/1960/wc/r01-argentine-gp/race",
+        "kind": "race",
+        "start": "1960-02-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-juan-y-oscar-galvez",
+        "name": "Gran Premio de Argentina 1960"
+      }
+    ],
+    "1960-05-29": [
+      {
+        "event": "f1/1960/wc/r02-monaco-gp/race",
+        "kind": "race",
+        "start": "1960-05-29T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Grand Prix de Monaco 1960"
+      }
+    ],
+    "1960-05-30": [
+      {
+        "event": "f1/1960/wc/r03-indy-500/race",
+        "kind": "race",
+        "start": "1960-05-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/indianapolis-motor-speedway",
+        "name": "1960 Indianapolis 500"
+      }
+    ],
+    "1960-06-06": [
+      {
+        "event": "f1/1960/wc/r04-dutch-gp/race",
+        "kind": "race",
+        "start": "1960-06-06T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-park-zandvoort",
+        "name": "Grote Prijs van Nederland 1960"
+      }
+    ],
+    "1960-06-19": [
+      {
+        "event": "f1/1960/wc/r05-belgian-gp/race",
+        "kind": "race",
+        "start": "1960-06-19T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "1960 Belgian Grand Prix"
+      }
+    ],
+    "1960-07-03": [
+      {
+        "event": "f1/1960/wc/r06-french-gp/race",
+        "kind": "race",
+        "start": "1960-07-03T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/reims-gueux",
+        "name": "Grand Prix de France 1960"
+      }
+    ],
+    "1960-07-16": [
+      {
+        "event": "f1/1960/wc/r07-british-gp/race",
+        "kind": "race",
+        "start": "1960-07-16T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "1960 RAC British Grand Prix"
+      }
+    ],
+    "1960-08-14": [
+      {
+        "event": "f1/1960/wc/r08-portuguese-gp/race",
+        "kind": "race",
+        "start": "1960-08-14T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuito-da-boavista",
+        "name": "Grande Prémio de Portugal 1960"
+      }
+    ],
+    "1960-09-04": [
+      {
+        "event": "f1/1960/wc/r09-italian-gp/race",
+        "kind": "race",
+        "start": "1960-09-04T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Gran Premio d'Italia 1960"
+      }
+    ],
+    "1960-11-20": [
+      {
+        "event": "f1/1960/wc/r10-united-states-gp/race",
+        "kind": "race",
+        "start": "1960-11-20T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/riverside-international-raceway",
+        "name": "1960 United States Grand Prix"
+      }
+    ]
+  }
+}
