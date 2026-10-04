@@ -1,0 +1,14 @@
+[
+  {
+    "id": "competition/formula-one-world-championship",
+    "name": "Formula One World Championship",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsOrganization",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "formula-1"
+    },
+    "minted": "2026-07-19"
+  }
+]

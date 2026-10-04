@@ -1,0 +1,166 @@
+{
+  "sport": "f1",
+  "season": "1996",
+  "days": {
+    "1996-03-10": [
+      {
+        "event": "f1/1996/wc/r01-australian-gp/race",
+        "kind": "race",
+        "start": "1996-03-10T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/melbourne-grand-prix-circuit",
+        "name": "1996 Transurban Australian Grand Prix"
+      }
+    ],
+    "1996-03-31": [
+      {
+        "event": "f1/1996/wc/r02-brazilian-gp/race",
+        "kind": "race",
+        "start": "1996-03-31T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-jose-carlos-pace",
+        "name": "Grande Prêmio do Brasil 1996"
+      }
+    ],
+    "1996-04-07": [
+      {
+        "event": "f1/1996/wc/r03-argentine-gp/race",
+        "kind": "race",
+        "start": "1996-04-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-juan-y-oscar-galvez",
+        "name": "Gran Premio Marlboro de Argentina 1996"
+      }
+    ],
+    "1996-04-28": [
+      {
+        "event": "f1/1996/wc/r04-european-gp/race",
+        "kind": "race",
+        "start": "1996-04-28T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/nurburgring",
+        "name": "1996 Grand Prix of Europe"
+      }
+    ],
+    "1996-05-05": [
+      {
+        "event": "f1/1996/wc/r05-san-marino-gp/race",
+        "kind": "race",
+        "start": "1996-05-05T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-internazionale-enzo-e-dino-ferrari",
+        "name": "Gran Premio di San Marino 1996"
+      }
+    ],
+    "1996-05-19": [
+      {
+        "event": "f1/1996/wc/r06-monaco-gp/race",
+        "kind": "race",
+        "start": "1996-05-19T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Grand Prix de Monaco 1996"
+      }
+    ],
+    "1996-06-02": [
+      {
+        "event": "f1/1996/wc/r07-spanish-gp/race",
+        "kind": "race",
+        "start": "1996-06-02T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-barcelona-catalunya",
+        "name": "Gran Premio Marlboro de España 1996"
+      }
+    ],
+    "1996-06-16": [
+      {
+        "event": "f1/1996/wc/r08-canadian-gp/race",
+        "kind": "race",
+        "start": "1996-06-16T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-gilles-villeneuve",
+        "name": "Grand Prix Molson du Canada 1996"
+      }
+    ],
+    "1996-06-30": [
+      {
+        "event": "f1/1996/wc/r09-french-gp/race",
+        "kind": "race",
+        "start": "1996-06-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-nevers-magny-cours",
+        "name": "Grand Prix de France 1996"
+      }
+    ],
+    "1996-07-14": [
+      {
+        "event": "f1/1996/wc/r10-british-gp/race",
+        "kind": "race",
+        "start": "1996-07-14T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "1996 RAC British Grand Prix"
+      }
+    ],
+    "1996-07-28": [
+      {
+        "event": "f1/1996/wc/r11-german-gp/race",
+        "kind": "race",
+        "start": "1996-07-28T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hockenheimring",
+        "name": "Grosser Mobil 1 Preis von Deutschland 1996"
+      }
+    ],
+    "1996-08-11": [
+      {
+        "event": "f1/1996/wc/r12-hungarian-gp/race",
+        "kind": "race",
+        "start": "1996-08-11T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hungaroring",
+        "name": "Marlboro Magyar Nagydíj 1996"
+      }
+    ],
+    "1996-08-25": [
+      {
+        "event": "f1/1996/wc/r13-belgian-gp/race",
+        "kind": "race",
+        "start": "1996-08-25T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "1996 Belgian Grand Prix"
+      }
+    ],
+    "1996-09-08": [
+      {
+        "event": "f1/1996/wc/r14-italian-gp/race",
+        "kind": "race",
+        "start": "1996-09-08T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Pioneer Gran Premio d'Italia 1996"
+      }
+    ],
+    "1996-09-22": [
+      {
+        "event": "f1/1996/wc/r15-portuguese-gp/race",
+        "kind": "race",
+        "start": "1996-09-22T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-do-estoril",
+        "name": "Grande Prémio de Portugal 1996"
+      }
+    ],
+    "1996-10-13": [
+      {
+        "event": "f1/1996/wc/r16-japanese-gp/race",
+        "kind": "race",
+        "start": "1996-10-13T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/suzuka-circuit",
+        "name": "1996 Fuji Television Japanese Grand Prix"
+      }
+    ]
+  }
+}

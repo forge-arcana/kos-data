@@ -1,0 +1,176 @@
+{
+  "sport": "f1",
+  "season": "2000",
+  "days": {
+    "2000-03-12": [
+      {
+        "event": "f1/2000/wc/r01-australian-gp/race",
+        "kind": "race",
+        "start": "2000-03-12T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/melbourne-grand-prix-circuit",
+        "name": "2000 Qantas Australian Grand Prix"
+      }
+    ],
+    "2000-03-26": [
+      {
+        "event": "f1/2000/wc/r02-brazilian-gp/race",
+        "kind": "race",
+        "start": "2000-03-26T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-jose-carlos-pace",
+        "name": "Grande Prêmio Marlboro do Brasil 2000"
+      }
+    ],
+    "2000-04-09": [
+      {
+        "event": "f1/2000/wc/r03-san-marino-gp/race",
+        "kind": "race",
+        "start": "2000-04-09T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-internazionale-enzo-e-dino-ferrari",
+        "name": "Gran Premio Warsteiner di San Marino 2000"
+      }
+    ],
+    "2000-04-23": [
+      {
+        "event": "f1/2000/wc/r04-british-gp/race",
+        "kind": "race",
+        "start": "2000-04-23T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "2000 Foster's British Grand Prix"
+      }
+    ],
+    "2000-05-07": [
+      {
+        "event": "f1/2000/wc/r05-spanish-gp/race",
+        "kind": "race",
+        "start": "2000-05-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-barcelona-catalunya",
+        "name": "Gran Premio Marlboro de España 2000"
+      }
+    ],
+    "2000-05-21": [
+      {
+        "event": "f1/2000/wc/r06-european-gp/race",
+        "kind": "race",
+        "start": "2000-05-21T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/nurburgring",
+        "name": "2000 Warsteiner Grand Prix of Europe"
+      }
+    ],
+    "2000-06-04": [
+      {
+        "event": "f1/2000/wc/r07-monaco-gp/race",
+        "kind": "race",
+        "start": "2000-06-04T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Grand Prix de Monaco 2000"
+      }
+    ],
+    "2000-06-18": [
+      {
+        "event": "f1/2000/wc/r08-canadian-gp/race",
+        "kind": "race",
+        "start": "2000-06-18T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-gilles-villeneuve",
+        "name": "Grand Prix Air Canada 2000"
+      }
+    ],
+    "2000-07-02": [
+      {
+        "event": "f1/2000/wc/r09-french-gp/race",
+        "kind": "race",
+        "start": "2000-07-02T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-nevers-magny-cours",
+        "name": "Mobil 1 Grand Prix de France 2000"
+      }
+    ],
+    "2000-07-16": [
+      {
+        "event": "f1/2000/wc/r10-austrian-gp/race",
+        "kind": "race",
+        "start": "2000-07-16T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/red-bull-ring",
+        "name": "Grosser A1 Preis von Österreich 2000"
+      }
+    ],
+    "2000-07-30": [
+      {
+        "event": "f1/2000/wc/r11-german-gp/race",
+        "kind": "race",
+        "start": "2000-07-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hockenheimring",
+        "name": "Grosser Mobil 1 Preis von Deutschland 2000"
+      }
+    ],
+    "2000-08-13": [
+      {
+        "event": "f1/2000/wc/r12-hungarian-gp/race",
+        "kind": "race",
+        "start": "2000-08-13T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hungaroring",
+        "name": "Marlboro Magyar Nagydíj 2000"
+      }
+    ],
+    "2000-08-27": [
+      {
+        "event": "f1/2000/wc/r13-belgian-gp/race",
+        "kind": "race",
+        "start": "2000-08-27T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "2000 Foster's Belgian Grand Prix"
+      }
+    ],
+    "2000-09-10": [
+      {
+        "event": "f1/2000/wc/r14-italian-gp/race",
+        "kind": "race",
+        "start": "2000-09-10T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Gran Premio Campari d'Italia 2000"
+      }
+    ],
+    "2000-09-24": [
+      {
+        "event": "f1/2000/wc/r15-united-states-gp/race",
+        "kind": "race",
+        "start": "2000-09-24T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/indianapolis-motor-speedway",
+        "name": "2000 SAP United States Grand Prix"
+      }
+    ],
+    "2000-10-08": [
+      {
+        "event": "f1/2000/wc/r16-japanese-gp/race",
+        "kind": "race",
+        "start": "2000-10-08T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/suzuka-circuit",
+        "name": "2000 Fuji Television Japanese Grand Prix"
+      }
+    ],
+    "2000-10-22": [
+      {
+        "event": "f1/2000/wc/r17-malaysian-gp/race",
+        "kind": "race",
+        "start": "2000-10-22T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/sepang-international-circuit",
+        "name": "2000 Petronas Malaysian Grand Prix"
+      }
+    ]
+  }
+}
