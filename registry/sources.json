@@ -1,0 +1,49 @@
+[
+  {
+    "id": "f1db",
+    "adapter": "bulk-release-zip",
+    "cadence": "24h",
+    "fetchNotes": {
+      "releaseApi": "https://api.github.com/repos/f1db/f1db/releases/latest",
+      "asset": "f1db-csv.zip",
+      "gate": "release-tag change (skip when unchanged)"
+    }
+  },
+  {
+    "id": "wikidata",
+    "adapter": "entity-enrich",
+    "cadence": "weekly",
+    "fetchNotes": {
+      "loop": "Special:EntityData/<QID>.json per entity with a qid — NEVER SPARQL in the 6-hourly loop (OM §5.1)"
+    }
+  },
+  {
+    "id": "open-meteo",
+    "adapter": "weather-join",
+    "cadence": "6h",
+    "fetchNotes": {
+      "archiveApi": "https://archive-api.open-meteo.com/v1/archive",
+      "forecastApi": "https://api.open-meteo.com/v1/forecast",
+      "endpointRule": "event older than 5 days → archive API (start_date/end_date); within the lag window → forecast API with past_days=7 (past_days is NOT an archive-API parameter — deviation §13.3)",
+      "rateCap": "5000/day free tier — backfill batches one archive call per event window"
+    }
+  },
+  {
+    "id": "polymarket",
+    "adapter": "state-snapshot",
+    "cadence": "6h",
+    "fetchNotes": {
+      "gammaApi": "https://gamma-api.polymarket.com",
+      "clobApi": "https://clob.polymarket.com",
+      "crosswalkOnly": "ingests EXACTLY the markets in registry/crosswalk/polymarket.json — runtime title matching is forbidden (§1.6)",
+      "fidelity": "ALWAYS set on /prices-history; closed markets need fidelity=1440 or the API silently returns {\"history\":[]}"
+    }
+  },
+  {
+    "id": "geonames",
+    "adapter": "geocode-fallback",
+    "fetchNotes": {
+      "role": "fallback venue geocoder only; unused while f1db supplies circuit coords"
+    }
+  }
+]

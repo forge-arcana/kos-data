@@ -1,0 +1,136 @@
+{
+  "sport": "f1",
+  "season": "1970",
+  "days": {
+    "1970-03-07": [
+      {
+        "event": "f1/1970/wc/r01-south-african-gp/race",
+        "kind": "race",
+        "start": "1970-03-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/kyalami-racing-circuit",
+        "name": "South African Grand Prix 1970"
+      }
+    ],
+    "1970-04-19": [
+      {
+        "event": "f1/1970/wc/r02-spanish-gp/race",
+        "kind": "race",
+        "start": "1970-04-19T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuito-del-jarama",
+        "name": "Gran Premio de España 1970"
+      }
+    ],
+    "1970-05-10": [
+      {
+        "event": "f1/1970/wc/r03-monaco-gp/race",
+        "kind": "race",
+        "start": "1970-05-10T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Grand Prix de Monaco 1970"
+      }
+    ],
+    "1970-06-07": [
+      {
+        "event": "f1/1970/wc/r04-belgian-gp/race",
+        "kind": "race",
+        "start": "1970-06-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "1970 Belgian Grand Prix"
+      }
+    ],
+    "1970-06-21": [
+      {
+        "event": "f1/1970/wc/r05-dutch-gp/race",
+        "kind": "race",
+        "start": "1970-06-21T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-park-zandvoort",
+        "name": "Grote Prijs van Nederland 1970"
+      }
+    ],
+    "1970-07-05": [
+      {
+        "event": "f1/1970/wc/r06-french-gp/race",
+        "kind": "race",
+        "start": "1970-07-05T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/charade-circuit",
+        "name": "Grand Prix de France 1970"
+      }
+    ],
+    "1970-07-18": [
+      {
+        "event": "f1/1970/wc/r07-british-gp/race",
+        "kind": "race",
+        "start": "1970-07-18T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/brands-hatch",
+        "name": "1970 RAC British Grand Prix"
+      }
+    ],
+    "1970-08-02": [
+      {
+        "event": "f1/1970/wc/r08-german-gp/race",
+        "kind": "race",
+        "start": "1970-08-02T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hockenheimring",
+        "name": "Grosser Preis von Deutschland 1970"
+      }
+    ],
+    "1970-08-16": [
+      {
+        "event": "f1/1970/wc/r09-austrian-gp/race",
+        "kind": "race",
+        "start": "1970-08-16T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/red-bull-ring",
+        "name": "Grosser Preis von Österreich 1970"
+      }
+    ],
+    "1970-09-06": [
+      {
+        "event": "f1/1970/wc/r10-italian-gp/race",
+        "kind": "race",
+        "start": "1970-09-06T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Gran Premio d'Italia 1970"
+      }
+    ],
+    "1970-09-20": [
+      {
+        "event": "f1/1970/wc/r11-canadian-gp/race",
+        "kind": "race",
+        "start": "1970-09-20T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-mont-tremblant",
+        "name": "Player's Canadian Grand Prix 1970"
+      }
+    ],
+    "1970-10-04": [
+      {
+        "event": "f1/1970/wc/r12-united-states-gp/race",
+        "kind": "race",
+        "start": "1970-10-04T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/watkins-glen-international",
+        "name": "1970 United States Grand Prix"
+      }
+    ],
+    "1970-10-25": [
+      {
+        "event": "f1/1970/wc/r13-mexican-gp/race",
+        "kind": "race",
+        "start": "1970-10-25T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-hermanos-rodriguez",
+        "name": "Gran Premio de México 1970"
+      }
+    ]
+  }
+}

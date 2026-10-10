@@ -1,0 +1,146 @@
+{
+  "sport": "f1",
+  "season": "1980",
+  "days": {
+    "1980-01-13": [
+      {
+        "event": "f1/1980/wc/r01-argentine-gp/race",
+        "kind": "race",
+        "start": "1980-01-13T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-juan-y-oscar-galvez",
+        "name": "Gran Premio de Argentina 1980"
+      }
+    ],
+    "1980-01-27": [
+      {
+        "event": "f1/1980/wc/r02-brazilian-gp/race",
+        "kind": "race",
+        "start": "1980-01-27T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-jose-carlos-pace",
+        "name": "Grande Prêmio do Brasil 1980"
+      }
+    ],
+    "1980-03-01": [
+      {
+        "event": "f1/1980/wc/r03-south-african-gp/race",
+        "kind": "race",
+        "start": "1980-03-01T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/kyalami-racing-circuit",
+        "name": "South African Grand Prix 1980"
+      }
+    ],
+    "1980-03-30": [
+      {
+        "event": "f1/1980/wc/r04-united-states-gp-west/race",
+        "kind": "race",
+        "start": "1980-03-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/long-beach",
+        "name": "1980 Toyota Grand Prix of Long Beach"
+      }
+    ],
+    "1980-05-04": [
+      {
+        "event": "f1/1980/wc/r05-belgian-gp/race",
+        "kind": "race",
+        "start": "1980-05-04T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-zolder",
+        "name": "1980 Belgian Grand Prix"
+      }
+    ],
+    "1980-05-18": [
+      {
+        "event": "f1/1980/wc/r06-monaco-gp/race",
+        "kind": "race",
+        "start": "1980-05-18T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Grand Prix de Monaco 1980"
+      }
+    ],
+    "1980-06-29": [
+      {
+        "event": "f1/1980/wc/r07-french-gp/race",
+        "kind": "race",
+        "start": "1980-06-29T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-paul-ricard",
+        "name": "Grand Prix de France 1980"
+      }
+    ],
+    "1980-07-13": [
+      {
+        "event": "f1/1980/wc/r08-british-gp/race",
+        "kind": "race",
+        "start": "1980-07-13T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/brands-hatch",
+        "name": "1980 Marlboro British Grand Prix"
+      }
+    ],
+    "1980-08-10": [
+      {
+        "event": "f1/1980/wc/r09-german-gp/race",
+        "kind": "race",
+        "start": "1980-08-10T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hockenheimring",
+        "name": "Grosser Preis von Deutschland 1980"
+      }
+    ],
+    "1980-08-17": [
+      {
+        "event": "f1/1980/wc/r10-austrian-gp/race",
+        "kind": "race",
+        "start": "1980-08-17T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/red-bull-ring",
+        "name": "Grosser Preis von Österreich 1980"
+      }
+    ],
+    "1980-08-31": [
+      {
+        "event": "f1/1980/wc/r11-dutch-gp/race",
+        "kind": "race",
+        "start": "1980-08-31T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-park-zandvoort",
+        "name": "Grote Prijs van Nederland 1980"
+      }
+    ],
+    "1980-09-14": [
+      {
+        "event": "f1/1980/wc/r12-italian-gp/race",
+        "kind": "race",
+        "start": "1980-09-14T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-internazionale-enzo-e-dino-ferrari",
+        "name": "Gran Premio d'Italia 1980"
+      }
+    ],
+    "1980-09-28": [
+      {
+        "event": "f1/1980/wc/r13-canadian-gp/race",
+        "kind": "race",
+        "start": "1980-09-28T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-gilles-villeneuve",
+        "name": "Grand Prix Labatt du Canada 1980"
+      }
+    ],
+    "1980-10-05": [
+      {
+        "event": "f1/1980/wc/r14-united-states-gp/race",
+        "kind": "race",
+        "start": "1980-10-05T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/watkins-glen-international",
+        "name": "1980 Toyota United States Grand Prix"
+      }
+    ]
+  }
+}
