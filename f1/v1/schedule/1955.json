@@ -1,0 +1,76 @@
+{
+  "sport": "f1",
+  "season": "1955",
+  "days": {
+    "1955-01-16": [
+      {
+        "event": "f1/1955/wc/r01-argentine-gp/race",
+        "kind": "race",
+        "start": "1955-01-16T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-juan-y-oscar-galvez",
+        "name": "Gran Premio de Argentina 1955"
+      }
+    ],
+    "1955-05-22": [
+      {
+        "event": "f1/1955/wc/r02-monaco-gp/race",
+        "kind": "race",
+        "start": "1955-05-22T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Grand Prix de Monaco 1955"
+      }
+    ],
+    "1955-05-30": [
+      {
+        "event": "f1/1955/wc/r03-indy-500/race",
+        "kind": "race",
+        "start": "1955-05-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/indianapolis-motor-speedway",
+        "name": "1955 Indianapolis 500"
+      }
+    ],
+    "1955-06-05": [
+      {
+        "event": "f1/1955/wc/r04-belgian-gp/race",
+        "kind": "race",
+        "start": "1955-06-05T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "1955 Belgian Grand Prix"
+      }
+    ],
+    "1955-06-19": [
+      {
+        "event": "f1/1955/wc/r05-dutch-gp/race",
+        "kind": "race",
+        "start": "1955-06-19T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-park-zandvoort",
+        "name": "Grote Prijs van Nederland 1955"
+      }
+    ],
+    "1955-07-16": [
+      {
+        "event": "f1/1955/wc/r06-british-gp/race",
+        "kind": "race",
+        "start": "1955-07-16T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/aintree-motor-racing-circuit",
+        "name": "1955 RAC British Grand Prix"
+      }
+    ],
+    "1955-09-11": [
+      {
+        "event": "f1/1955/wc/r07-italian-gp/race",
+        "kind": "race",
+        "start": "1955-09-11T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Gran Premio d'Italia 1955"
+      }
+    ]
+  }
+}
