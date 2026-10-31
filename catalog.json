@@ -1,0 +1,163 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/schema/catalog.schema.json",
+  "name": "Keppet Open Sports",
+  "updated": "2026-07-19T21:42:50.602Z",
+  "datasets": [
+    {
+      "id": "f1",
+      "title": "Keppet Open Sports — f1",
+      "cadence": "event",
+      "latest": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/latest.json",
+      "events": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/events/",
+      "schema": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/schema/event.schema.json",
+      "seasons": [
+        "1950",
+        "1951",
+        "1952",
+        "1953",
+        "1954",
+        "1955",
+        "1956",
+        "1957",
+        "1958",
+        "1959",
+        "1960",
+        "1961",
+        "1962",
+        "1963",
+        "1964",
+        "1965",
+        "1966",
+        "1967",
+        "1968",
+        "1969",
+        "1970",
+        "1971",
+        "1972",
+        "1973",
+        "1974",
+        "1975",
+        "1976",
+        "1977",
+        "1978",
+        "1979",
+        "1980",
+        "1981",
+        "1982",
+        "1983",
+        "1984",
+        "1985",
+        "1986",
+        "1987",
+        "1988",
+        "1989",
+        "1990",
+        "1991",
+        "1992",
+        "1993",
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "sources": [
+        "f1db",
+        "wikidata",
+        "open-meteo",
+        "polymarket"
+      ],
+      "attribution": [
+        "F1 data by F1DB (https://github.com/f1db/f1db), licensed CC BY 4.0",
+        "Entity data from Wikidata (CC0 1.0)",
+        "Weather data by Open-Meteo.com (CC BY 4.0)",
+        "Market prices via Polymarket public API"
+      ],
+      "coverage": {
+        "result": {
+          "status": "full",
+          "floor": "1950",
+          "note": "f1db CC BY backbone: every world-championship session 1950-present."
+        },
+        "perf": {
+          "status": "partial",
+          "floor": "1994",
+          "note": "Pit-stop counts from f1db's pit-stop data era (1994+); earlier races have no per-stop records.",
+          "wouldUnblock": "A licensed historical pit-stop dataset for pre-1994 seasons."
+        },
+        "form": {
+          "status": "full",
+          "floor": "1950",
+          "note": "Drivers' standings after every round, f1db 1950-present."
+        },
+        "cond": {
+          "status": "partial",
+          "floor": "1950",
+          "note": "Open-Meteo hourly reanalysis joined by venue coordinates; model estimate at the venue, not track-side sensor data.",
+          "proxies": [
+            "cond.temp_c",
+            "cond.precip_mm",
+            "cond.wind_kmh"
+          ]
+        },
+        "avail": {
+          "status": "none",
+          "note": "No keyless personnel-status feed exists for F1; driver substitutions surface only post-hoc in results.",
+          "wouldUnblock": "A licensed entry-list/withdrawal feed."
+        },
+        "market": {
+          "status": "partial",
+          "floor": "2024",
+          "note": "Prediction markets (Polymarket) 2024-present only; no keyless bookmaker odds history for F1. Public per owner decision 2026-07-19 (OQ #6 closed: rights unlocated, not denied); excluded from commercial delivery.",
+          "wouldUnblock": "A licensed historical odds feed would extend the floor past 2024."
+        },
+        "meas": {
+          "status": "partial",
+          "floor": "1950",
+          "note": "Fastest race lap from f1db (stepped horizon: timing precision improves by era). Speed-trap and telemetry measurements have no license-clean source (SR G7).",
+          "wouldUnblock": "A licensed telemetry/speed-trap dataset."
+        },
+        "agg": {
+          "status": "full",
+          "floor": "1950",
+          "note": "f1db source-published driver season and career totals; independent cross-check for card-derived aggregates."
+        },
+        "h2h": {
+          "status": "full",
+          "note": "Derived-only from stored result rows over shared events; no stored metric (OM §14.1)."
+        }
+      }
+    }
+  ],
+  "history": {
+    "deep": "Full observation history (all seasons) and forward-accumulated state series are private. Contact the maintainer for the deep data artifact."
+  }
+}

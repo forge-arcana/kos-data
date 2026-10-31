@@ -1,0 +1,59 @@
+{
+  "dataset": "latest",
+  "sport": "f1",
+  "updated": "2026-10-26T17:45:17.385Z",
+  "events": [
+    {
+      "event": "f1/2026/wc/r11-hungarian-gp",
+      "date": "2026-07-26",
+      "name": "Formula 1 AWS Hungarian Grand Prix 2026",
+      "dossier": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/events/2026/wc/r11-hungarian-gp.json"
+    },
+    {
+      "event": "f1/2026/wc/r12-dutch-gp",
+      "date": "2026-08-23",
+      "name": "Formula 1 Heineken Dutch Grand Prix 2026",
+      "dossier": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/events/2026/wc/r12-dutch-gp.json"
+    },
+    {
+      "event": "f1/2026/wc/r13-italian-gp",
+      "date": "2026-09-06",
+      "name": "Formula 1 Pirelli Gran Premio d'Italia 2026",
+      "dossier": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/events/2026/wc/r13-italian-gp.json"
+    },
+    {
+      "event": "f1/2026/wc/r14-spanish-gp",
+      "date": "2026-09-13",
+      "name": "Formula 1 TAG Heuer Gran Premio de España 2026",
+      "dossier": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/events/2026/wc/r14-spanish-gp.json"
+    },
+    {
+      "event": "f1/2026/wc/r15-azerbaijan-gp",
+      "date": "2026-09-26",
+      "name": "Formula 1 Qatar Airways Azerbaijan Grand Prix 2026",
+      "dossier": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/events/2026/wc/r15-azerbaijan-gp.json"
+    },
+    {
+      "event": "f1/2026/wc/r16-bahrain-gp",
+      "date": "2026-10-04",
+      "name": "Formula 1 Gulf Air Bahrain Grand Prix in Malaysia 2026",
+      "dossier": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/events/2026/wc/r16-bahrain-gp.json"
+    },
+    {
+      "event": "f1/2026/wc/r17-singapore-gp",
+      "date": "2026-10-11",
+      "name": "Formula 1 Singapore Airlines Singapore Grand Prix 2026",
+      "dossier": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/events/2026/wc/r17-singapore-gp.json"
+    },
+    {
+      "event": "f1/2026/wc/r18-united-states-gp",
+      "date": "2026-10-25",
+      "name": "Formula 1 MSC Cruises United States Grand Prix 2026",
+      "dossier": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/f1/v1/events/2026/wc/r18-united-states-gp.json"
+    }
+  ],
+  "freshness": {
+    "f1db": "2026-10-25",
+    "open-meteo": "2026-10-25"
+  }
+}

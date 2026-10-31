@@ -1,0 +1,106 @@
+{
+  "sport": "f1",
+  "season": "1965",
+  "days": {
+    "1965-01-01": [
+      {
+        "event": "f1/1965/wc/r01-south-african-gp/race",
+        "kind": "race",
+        "start": "1965-01-01T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/prince-george-circuit",
+        "name": "South African Grand Prix 1965"
+      }
+    ],
+    "1965-05-30": [
+      {
+        "event": "f1/1965/wc/r02-monaco-gp/race",
+        "kind": "race",
+        "start": "1965-05-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Grand Prix de Monaco 1965"
+      }
+    ],
+    "1965-06-13": [
+      {
+        "event": "f1/1965/wc/r03-belgian-gp/race",
+        "kind": "race",
+        "start": "1965-06-13T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "1965 Belgian Grand Prix"
+      }
+    ],
+    "1965-06-27": [
+      {
+        "event": "f1/1965/wc/r04-french-gp/race",
+        "kind": "race",
+        "start": "1965-06-27T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/charade-circuit",
+        "name": "Grand Prix de France 1965"
+      }
+    ],
+    "1965-07-10": [
+      {
+        "event": "f1/1965/wc/r05-british-gp/race",
+        "kind": "race",
+        "start": "1965-07-10T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "1965 RAC British Grand Prix"
+      }
+    ],
+    "1965-07-18": [
+      {
+        "event": "f1/1965/wc/r06-dutch-gp/race",
+        "kind": "race",
+        "start": "1965-07-18T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-park-zandvoort",
+        "name": "Grote Prijs van Nederland 1965"
+      }
+    ],
+    "1965-08-01": [
+      {
+        "event": "f1/1965/wc/r07-german-gp/race",
+        "kind": "race",
+        "start": "1965-08-01T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/nurburgring",
+        "name": "Grosser Preis von Deutschland 1965"
+      }
+    ],
+    "1965-09-12": [
+      {
+        "event": "f1/1965/wc/r08-italian-gp/race",
+        "kind": "race",
+        "start": "1965-09-12T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Gran Premio d'Italia 1965"
+      }
+    ],
+    "1965-10-03": [
+      {
+        "event": "f1/1965/wc/r09-united-states-gp/race",
+        "kind": "race",
+        "start": "1965-10-03T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/watkins-glen-international",
+        "name": "1965 United States Grand Prix"
+      }
+    ],
+    "1965-10-24": [
+      {
+        "event": "f1/1965/wc/r10-mexican-gp/race",
+        "kind": "race",
+        "start": "1965-10-24T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-hermanos-rodriguez",
+        "name": "Gran Premio de México 1965"
+      }
+    ]
+  }
+}

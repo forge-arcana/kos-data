@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Keppet Open Sports — free, keyless, citable sports data</title>
+<meta name="description" content="Free, keyless open sports data for F1, tennis and football: evidence rows in git, served by CDN. Every number cites its source row; what can't be shown is declared, not invented. No key, no server, no rate limits.">
+<meta property="og:title" content="Keppet Open Sports">
+<meta property="og:description" content="Free, keyless, citable sports data: F1, tennis, football. Evidence rows on a CDN — every number cites its source; refusals are first-class. Built for humans and agents.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231e9e57'/%3E%3Ctext x='16' y='22.5' font-size='18' font-family='system-ui,sans-serif' fill='white' text-anchor='middle' font-weight='700'%3EK%3C/text%3E%3C/svg%3E">
+<style>
+  :root {
+    --plane: #f9f9f7;
+    --surface: #fcfcfb;
+    --ink: #0b0b0b;
+    --ink-2: #52514e;
+    --muted: #898781;
+    --grid: #e1e0d9;
+    --baseline: #c3c2b7;
+    --border: rgba(11,11,11,0.10);
+    --accent: #1e9e57;
+    --accent-ink: #ffffff;
+    --wash: rgba(30,158,87,0.08);
+    --good: #006300;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --plane: #0d0d0d;
+      --surface: #1a1a19;
+      --ink: #ffffff;
+      --ink-2: #c3c2b7;
+      --muted: #898781;
+      --grid: #2c2c2a;
+      --baseline: #383835;
+      --border: rgba(255,255,255,0.10);
+      --accent: #27b465;
+      --accent-ink: #06130b;
+      --wash: rgba(39,180,101,0.12);
+      --good: #0ca30c;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="light"] {
+    --plane: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e;
+    --muted: #898781; --grid: #e1e0d9; --baseline: #c3c2b7;
+    --border: rgba(11,11,11,0.10); --accent: #1e9e57; --accent-ink: #fff;
+    --wash: rgba(30,158,87,0.08); --good: #006300; color-scheme: light;
+  }
+  :root[data-theme="dark"] {
+    --plane: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7;
+    --muted: #898781; --grid: #2c2c2a; --baseline: #383835;
+    --border: rgba(255,255,255,0.10); --accent: #27b465; --accent-ink: #06130b;
+    --wash: rgba(39,180,101,0.12); --good: #0ca30c; color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--plane); color: var(--ink);
+    font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  code, pre, .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+
+  .wrap { max-width: 1060px; margin: 0 auto; padding: 0 20px; }
+
+  /* ---------- header ---------- */
+  header.site {
+    display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+    padding: 18px 0 0;
+  }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 17px; }
+  .brand .k {
+    width: 28px; height: 28px; border-radius: 7px; background: var(--accent);
+    color: #fff; display: inline-flex; align-items: center; justify-content: center;
+    font-size: 16px; font-weight: 700;
+  }
+  nav.top { margin-left: auto; display: flex; gap: 18px; align-items: center; flex-wrap: wrap; font-size: 14.5px; }
+  nav.top a { color: var(--ink-2); }
+  nav.top a:hover { color: var(--ink); text-decoration: none; }
+  #themeBtn {
+    background: none; border: 1px solid var(--border); border-radius: 8px;
+    color: var(--ink-2); padding: 4px 10px; font: inherit; font-size: 13.5px; cursor: pointer;
+  }
+  #themeBtn:hover { color: var(--ink); }
+
+  /* ---------- hero ---------- */
+  .hero { padding: 56px 0 8px; }
+  .hero h1 { font-size: clamp(30px, 5.4vw, 46px); line-height: 1.12; margin: 0 0 14px; letter-spacing: -0.5px; }
+  .hero h1 em { font-style: normal; color: var(--accent); }
+  .hero p.lede { font-size: clamp(16px, 2.4vw, 19px); color: var(--ink-2); max-width: 62ch; margin: 0 0 22px; }
+  .badges { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 26px; }
+  .badge {
+    font-size: 13px; color: var(--ink-2); border: 1px solid var(--border);
+    background: var(--surface); border-radius: 999px; padding: 4px 12px; white-space: nowrap;
+  }
+  .cta { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .btn {
+    display: inline-block; border-radius: 9px; padding: 9px 16px; font-size: 15px;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink);
+  }
+  .btn:hover { text-decoration: none; border-color: var(--accent); }
+  .btn.primary { background: var(--accent); color: var(--accent-ink); border-color: transparent; }
+  .btn.primary:hover { filter: brightness(1.06); }
+
+  .statStrip {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 34px 0 0;
+  }
+  .stat {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    padding: 14px 16px;
+  }
+  .stat .v { font-size: 24px; font-weight: 700; letter-spacing: -0.3px; }
+  .stat .l { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+  @media (max-width: 640px) { .statStrip { grid-template-columns: repeat(2, 1fr); } }
+
+  /* ---------- sections ---------- */
+  section { padding: 44px 0 6px; }
+  section > .wrap > h2 { font-size: 24px; margin: 0 0 6px; letter-spacing: -0.3px; }
+  section > .wrap > p.sub { color: var(--ink-2); margin: 0 0 20px; max-width: 70ch; }
+
+  .card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+    padding: 20px;
+  }
+
+  /* ---------- question archetypes ---------- */
+  .qGrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  @media (max-width: 900px) { .qGrid { grid-template-columns: minmax(0, 1fr); } }
+  .qGrid > .card { min-width: 0; display: flex; flex-direction: column; }
+  .qGrid .kind { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.6px;
+    text-transform: uppercase; border-radius: 5px; padding: 2px 8px; margin-bottom: 10px;
+    background: var(--wash); color: var(--accent); align-self: flex-start; }
+  .qGrid h3 { margin: 0 0 8px; font-size: 17px; letter-spacing: -0.2px; }
+  .qGrid p { margin: 0 0 10px; font-size: 14px; color: var(--ink-2); }
+  .qGrid .ans { margin-top: auto; font-size: 13px; color: var(--muted); border-top: 1px dashed var(--grid); padding-top: 10px; }
+
+  /* ---------- principles ---------- */
+  .pGrid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 16px; }
+  @media (max-width: 820px) { .pGrid { grid-template-columns: minmax(0, 1fr); } }
+  .pGrid > .card, .hist > .card, .dsGrid > .card { min-width: 0; }
+  .pGrid h3 { margin: 0 0 6px; font-size: 16.5px; }
+  .pGrid p { margin: 0; font-size: 14.5px; color: var(--ink-2); }
+  pre.row {
+    background: var(--plane); border: 1px solid var(--grid); border-radius: 10px;
+    padding: 12px 14px; font-size: 12.3px; line-height: 1.5; overflow-x: auto; margin: 12px 0 0;
+  }
+
+  /* ---------- roadmap ---------- */
+  .roadmap { list-style: none; margin: 0; padding: 0; }
+  .roadmap li {
+    display: flex; gap: 14px; align-items: baseline; padding: 10px 2px;
+    border-bottom: 1px solid var(--grid); font-size: 14.5px;
+  }
+  .roadmap li:last-child { border-bottom: none; }
+  .roadmap .ph { flex: 0 0 92px; font-weight: 700; font-size: 13px; }
+  .roadmap .st {
+    flex: 0 0 84px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase;
+    border-radius: 5px; padding: 2px 8px; text-align: center;
+  }
+  .st.done { background: var(--wash); color: var(--good); }
+  .st.next { background: var(--accent); color: var(--accent-ink); }
+  .st.later { background: var(--plane); color: var(--muted); border: 1px solid var(--grid); }
+  .roadmap .what { color: var(--ink-2); }
+
+  /* ---------- agents ---------- */
+  .agentGrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  @media (max-width: 900px) { .agentGrid { grid-template-columns: minmax(0, 1fr); } }
+  .agentGrid > .card { min-width: 0; }
+  .agentGrid h3 { margin: 0 0 4px; font-size: 16.5px; }
+  .agentGrid p { margin: 0 0 12px; font-size: 14px; color: var(--ink-2); }
+  pre.snip {
+    position: relative; background: var(--plane); border: 1px solid var(--grid); border-radius: 10px;
+    padding: 12px 58px 12px 14px; font-size: 12.8px; line-height: 1.5; overflow-x: auto; margin: 0;
+  }
+  .snipWrap { position: relative; }
+  .copyBtn {
+    position: absolute; top: 8px; right: 8px; font-size: 11.5px; padding: 3px 9px; cursor: pointer;
+    border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--ink-2);
+  }
+  .copyBtn:hover { color: var(--accent); border-color: var(--accent); }
+  .linkList { list-style: none; padding: 0; margin: 12px 0 0; font-size: 14px; }
+  .linkList li { padding: 3px 0; }
+  .linkList .mono { font-size: 13px; }
+
+  /* ---------- datasets ---------- */
+  .dsGrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 14px; }
+  .ds { display: flex; flex-direction: column; gap: 6px; }
+  .ds h3 { margin: 0; font-size: 16px; }
+  .ds .meta { color: var(--ink-2); font-size: 13px; }
+  .ds .links { margin-top: auto; padding-top: 10px; font-size: 13.5px; display: flex; gap: 12px; }
+
+  /* ---------- history ---------- */
+  .hist { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+  @media (max-width: 820px) { .hist { grid-template-columns: minmax(0, 1fr); } }
+  .hist h3 { margin: 0 0 8px; font-size: 16.5px; }
+  .hist p { margin: 0; font-size: 14.5px; color: var(--ink-2); }
+  .tag { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.6px; text-transform: uppercase;
+    border-radius: 5px; padding: 2px 8px; margin-bottom: 10px; }
+  .tag.pub { background: var(--wash); color: var(--accent); }
+  .tag.priv { background: var(--plane); color: var(--muted); border: 1px solid var(--grid); }
+
+  footer {
+    margin-top: 56px; border-top: 1px solid var(--grid); padding: 26px 0 40px;
+    color: var(--muted); font-size: 13.5px;
+  }
+  footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="site">
+    <span class="brand"><span class="k" aria-hidden="true">K</span> Keppet Open Sports</span>
+    <nav class="top" aria-label="Sections">
+      <a href="#questions">Questions</a>
+      <a href="#principles">Principles</a>
+      <a href="#agents">Agents</a>
+      <a href="#sports">Sports</a>
+      <a href="https://github.com/forge-arcana/kos-data">GitHub</a>
+      <button id="themeBtn" type="button" aria-label="Toggle color theme">◐ theme</button>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Open sports data where <em>every number is citable</em> and <em>no key is needed</em>.</h1>
+    <p class="lede">Free, keyless evidence rows for Formula 1, tennis and football — results,
+    stats and rankings, plus odds and weather where sources permit — as static JSON on a CDN.
+    The repo stores facts; agents synthesize; what no licensed source measures is declared, never
+    invented. Built in the open, one sport at a time — F1 is first, and nothing is live yet.</p>
+    <div class="badges">
+      <span class="badge">No API key</span>
+      <span class="badge">No rate limits</span>
+      <span class="badge">No server — static JSON</span>
+      <span class="badge">Every row cites its source</span>
+      <span class="badge">Public license register</span>
+    </div>
+    <div class="cta">
+      <a class="btn primary" href="#questions">What it answers</a>
+      <a class="btn" href="llms.txt">llms.txt</a>
+      <a class="btn" href="catalog.json">catalog.json</a>
+      <a class="btn" href="https://github.com/forge-arcana/kos-data">GitHub</a>
+    </div>
+    <div class="statStrip" id="statStrip">
+      <div class="stat"><div class="v" id="stSports">—</div><div class="l">sports live</div></div>
+      <div class="stat"><div class="v">3</div><div class="l">pilot sports building</div></div>
+      <div class="stat"><div class="v" id="stUpdated">—</div><div class="l">last update</div></div>
+      <div class="stat"><div class="v">$0</div><div class="l">forever, for everyone</div></div>
+    </div>
+  </div>
+</div>
+
+<section id="questions">
+  <div class="wrap">
+    <h2>Three kinds of question, answered with receipts</h2>
+    <p class="sub">Every answer resolves to stored evidence rows — or to a machine-readable
+    refusal that says exactly what is not measured, why, and what proxies exist. Never silence,
+    never interpolation.</p>
+    <div class="qGrid">
+      <div class="card">
+        <span class="kind">Causal</span>
+        <h3>"Why did Norris lose the British&nbsp;GP?"</h3>
+        <p>One fetch returns the event dossier: result and grid rows, pit stops, retirements,
+        weather at the circuit, standings before the round, market prices — each row carrying
+        its source.</p>
+        <div class="ans">Factor families that aren't covered for the event are listed as
+        explicit gaps in the same payload.</div>
+      </div>
+      <div class="card">
+        <span class="kind">Comparative</span>
+        <h3>"Hamilton vs Schumacher — career rates?"</h3>
+        <p>Athlete cards carry both provenance layers, labeled: source-published career totals
+        AND rollups re-derived from stored race rows, cross-checked on every build.</p>
+        <div class="ans">When the two layers disagree, the discrepancy is logged and citable —
+        never silently corrected.</div>
+      </div>
+      <div class="card">
+        <span class="kind">Attribute</span>
+        <h3>"How fast does Alex Eala serve?"</h3>
+        <p>No licensed keyless source measures serve speed — for any player. So the answer is a
+        first-class refusal object naming the gap, plus honest proxies (ace rate, first-serve
+        percentages) derived from cited match rows.</p>
+        <div class="ans">Refusals are data, not errors. Coverage is declared per sport, per
+        factor family, in the public packs.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="principles">
+  <div class="wrap">
+    <h2>Facts in, interpretation never</h2>
+    <p class="sub">The whole store reduces to one row shape: one fact, from one source, about
+    one subject, in one context. Everything else — form, head-to-heads, era comparisons — is
+    derived at question time with citations back to rows like this one.</p>
+    <div class="pGrid">
+      <div class="card">
+        <h3>The evidence row</h3>
+        <p>Tidy NDJSON, one fact per line. License grade lives in the public register, never
+        on rows; sources graded non-commercial or blocked never enter any tier — enforced
+        mechanically at build time.</p>
+<pre class="row">{"date":"2026-07-05","sport":"f1","span":"event",
+ "event":"f1/2026/wc/r12-british-gp/race",
+ "entity":"athlete/lando-norris",
+ "metric":"result.position","value":2,"unit":"rank",
+ "source":"f1db"}</pre>
+      </div>
+      <div class="card">
+        <h3>The build, in the open</h3>
+        <p>Sports come online one proof at a time. Each phase ships end-to-end — backfill,
+        tiers, live pipeline, citations — before the next starts.</p>
+        <ul class="roadmap">
+          <li><span class="ph">Phase 0</span><span class="st done">done</span><span class="what">Substrate: schemas, registries, license gates, mirror</span></li>
+          <li><span class="ph">Phase 1</span><span class="st next">next</span><span class="what">Formula 1 — full history 1950→, live 6-hourly</span></li>
+          <li><span class="ph">Phase 2</span><span class="st later">later</span><span class="what">Football — results, team stats, odds movement</span></li>
+          <li><span class="ph">Phase 3</span><span class="st later">later</span><span class="what">Tennis — both tours, rankings, the refusal path</span></li>
+          <li><span class="ph">Phase 4</span><span class="st later">later</span><span class="what">MCP server + analyst protocol on npm</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="agents">
+  <div class="wrap">
+    <h2>For agents (and their humans)</h2>
+    <p class="sub">Three front doors, same data: a plain URL for anything that speaks HTTP,
+    an <span class="mono">llms.txt</span> for anything that reads, and — from Phase 4 — a typed
+    MCP server for anything that calls tools.</p>
+    <div class="agentGrid">
+      <div class="card">
+        <h3>Plain HTTP</h3>
+        <p>Every payload is a static file. Event dossiers, athlete cards, schedules, packs —
+        one envelope everywhere.</p>
+        <div class="snipWrap">
+<pre class="snip" id="snipCurl">curl -s https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/catalog.json \
+  | jq .datasets</pre>
+          <button class="copyBtn" data-copy="snipCurl" type="button">copy</button>
+        </div>
+        <ul class="linkList">
+          <li><a class="mono" href="catalog.json">catalog.json</a> — machine-readable index</li>
+          <li><a class="mono" href="status.json">status.json</a> — calendar-aware freshness</li>
+          <li><a class="mono" href="build/license-register.json">license-register.json</a> — every source, graded, with obligations</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>llms.txt</h3>
+        <p>One URL that tells a language model everything — including, per sport, the coverage
+        gaps: what KOS cannot show, declared before you ask.</p>
+        <div class="snipWrap">
+<pre class="snip" id="snipLlms">https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/llms.txt</pre>
+          <button class="copyBtn" data-copy="snipLlms" type="button">copy</button>
+        </div>
+        <ul class="linkList">
+          <li><a href="llms.txt">Read it in the browser →</a></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>MCP server</h3>
+        <p><span class="mono">kos-mcp</span> ships with Phase 4: typed tools for events,
+        athletes, comparisons and attributes — refusal objects included, reading this CDN.</p>
+        <div class="snipWrap">
+<pre class="snip" id="snipMcp">{ "mcpServers": { "kos": {
+    "command": "npx", "args": ["kos-mcp"]
+} } }</pre>
+          <button class="copyBtn" data-copy="snipMcp" type="button">copy</button>
+        </div>
+        <ul class="linkList">
+          <li><span class="mono">find_entity · get_event · explain_result · compare_entities · get_attribute · get_coverage</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sports">
+  <div class="wrap">
+    <h2>Sports</h2>
+    <p class="sub" id="dsSub">Loading catalog…</p>
+    <div class="dsGrid" id="dsGrid"></div>
+  </div>
+</section>
+
+<section id="history">
+  <div class="wrap">
+    <h2>History</h2>
+    <div class="hist">
+      <div class="card">
+        <span class="tag pub">Public · free</span>
+        <h3>Hot tier — current season + 90 days</h3>
+        <p>Event dossiers for the current season plus a rolling 90-day window, and athlete/team
+        cards for <em>every</em> entity with data — always public, always current, served free
+        on this CDN. Registries, packs, schedules and the license register ride along.</p>
+      </div>
+      <div class="card">
+        <span class="tag priv">Private · offered separately</span>
+        <h3>Deep history — the full archive</h3>
+        <p>Every season back to the start of each sport, plus the forward-accumulated state
+        series (rankings, ratings, availability, market prices over time) that can never be
+        backfilled. One tidy row each, with annual NDJSON.gz and Parquet roll-ups. The format is
+        public: <a class="mono" href="schema/observations.schema.json">observations.schema.json</a>.
+        Interested? <a href="https://github.com/forge-arcana/kos-data/issues">Open an issue</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>Pilot sources: f1db · Wikidata · Open-Meteo · openfootball · football-data.co.uk · WTA · tennis-data.co.uk · TennisMyLife — each under its own terms, graded in the <a href="build/license-register.json">license register</a>.</span>
+    <span>Part of the <a href="https://github.com/forge-arcana/keppet-meta">Keppet network</a> · <a href="https://github.com/forge-arcana/kos-data">forge-arcana/kos-data</a></span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ---------- theme toggle ---------- */
+  var themeBtn = document.getElementById('themeBtn');
+  themeBtn.addEventListener('click', function () {
+    var cur = document.documentElement.getAttribute('data-theme');
+    var effectiveDark = cur ? cur === 'dark'
+      : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute('data-theme', effectiveDark ? 'light' : 'dark');
+  });
+
+  /* ---------- copy buttons ---------- */
+  document.querySelectorAll('.copyBtn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var el = document.getElementById(btn.getAttribute('data-copy'));
+      navigator.clipboard.writeText(el.textContent).then(function () {
+        var t = btn.textContent;
+        btn.textContent = 'copied';
+        setTimeout(function () { btn.textContent = t; }, 1200);
+      });
+    });
+  });
+
+  /* ---------- data loading: relative first (GitHub Pages = same repo), CDN fallback ---------- */
+  var CDN = 'https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/';
+  var isHttp = location.protocol === 'http:' || location.protocol === 'https:';
+  function load(path) {
+    var bases = isHttp ? ['', CDN] : [CDN];
+    return bases.reduce(function (p, base) {
+      return p.catch(function () {
+        return fetch(base + path).then(function (r) {
+          if (!r.ok) throw new Error(r.status + ' ' + path);
+          return r.json();
+        });
+      });
+    }, Promise.reject());
+  }
+
+  var PLANNED = [
+    { id: 'f1', title: 'Formula 1', meta: 'Results, qualifying, pit stops, standings and career totals 1950→ (f1db, CC BY) + circuit weather. Building now — Phase 1.' },
+    { id: 'soccer', title: 'Football', meta: 'Results 1993→, team match stats, opening & closing odds with movement, kickoff weather across ~22 European divisions. Phase 2.' },
+    { id: 'tennis', title: 'Tennis', meta: 'Both tours: results, rankings, closing odds, retirements — and the honest refusal path where measurement data does not exist. Phase 3.' }
+  ];
+
+  var dsSub = document.getElementById('dsSub');
+  var dsGrid = document.getElementById('dsGrid');
+
+  function renderPlanned(liveIds) {
+    dsGrid.innerHTML = '';
+    PLANNED.forEach(function (p) {
+      var live = liveIds.indexOf(p.id) !== -1;
+      var card = document.createElement('div');
+      card.className = 'card ds';
+      card.innerHTML =
+        '<h3>' + p.title + (live ? '' : '') + '</h3>' +
+        '<div class="meta">' + p.meta + '</div>' +
+        '<div class="links">' +
+        (live
+          ? '<a class="mono" href="' + p.id + '/v1/latest.json">latest.json</a>' +
+            '<a class="mono" href="ontology/' + p.id + '.pack.json">pack</a>'
+          : '<span class="mono" style="color:var(--muted)">coming soon</span>') +
+        '</div>';
+      dsGrid.appendChild(card);
+    });
+  }
+
+  load('catalog.json').then(function (cat) {
+    var live = (cat.datasets || []).map(function (d) { return d.id; });
+    document.getElementById('stSports').textContent = String(live.length);
+    dsSub.textContent = live.length
+      ? 'Live now: ' + live.join(', ') + '. The rest of the pilot set is on the way.'
+      : 'Nothing is live yet — the substrate shipped first, on purpose: license gates, citation ' +
+        'discipline and the public/private boundary all bite before the first row lands. F1 is next.';
+    renderPlanned(live);
+  }).catch(function () {
+    document.getElementById('stSports').textContent = '0';
+    dsSub.textContent = 'Catalog unavailable right now — the pilot set below is what is planned.';
+    renderPlanned([]);
+  });
+
+  load('status.json').then(function (st) {
+    var u = st.updated ? new Date(st.updated) : null;
+    document.getElementById('stUpdated').textContent =
+      u && !isNaN(u) ? u.toISOString().slice(0, 10) : 'pre-launch';
+  }).catch(function () {
+    document.getElementById('stUpdated').textContent = 'pre-launch';
+  });
+})();
+</script>
+
+</body>
+</html>
