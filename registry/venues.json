@@ -1,0 +1,1528 @@
+[
+  {
+    "id": "venue/adelaide-street-circuit",
+    "name": "Adelaide Street Circuit",
+    "aliases": [
+      "Adelaide"
+    ],
+    "qid": "Q83234",
+    "schemaOrg": "StadiumOrArena",
+    "country": "AUS",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "adelaide"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": -34.927222,
+      "lon": 138.617222
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/ain-diab-circuit",
+    "name": "Ain-Diab Circuit",
+    "aliases": [
+      "Ain-Diab"
+    ],
+    "qid": "Q173217",
+    "schemaOrg": "StadiumOrArena",
+    "country": "MAR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "ain-diab"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 33.578611,
+      "lon": -7.6875
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/aintree-motor-racing-circuit",
+    "name": "Aintree Motor Racing Circuit",
+    "aliases": [
+      "Aintree"
+    ],
+    "qid": "Q12221467",
+    "schemaOrg": "StadiumOrArena",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "aintree"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 53.476944,
+      "lon": -2.940556
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/algarve-international-circuit",
+    "name": "Algarve International Circuit",
+    "aliases": [
+      "Portimão"
+    ],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "PRT",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "portimao"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 37.221944,
+      "lon": -8.629444
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/anderstorp-raceway",
+    "name": "Anderstorp Raceway",
+    "aliases": [],
+    "qid": "Q172894",
+    "schemaOrg": "StadiumOrArena",
+    "country": "SWE",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "anderstorp"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 57.264167,
+      "lon": 13.601389
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/autodromo-do-estoril",
+    "name": "Autódromo do Estoril",
+    "aliases": [
+      "Estoril"
+    ],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "PRT",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "estoril"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 38.750833,
+      "lon": -9.394167
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/autodromo-hermanos-rodriguez",
+    "name": "Autódromo Hermanos Rodríguez",
+    "aliases": [
+      "Hermanos Rodríguez"
+    ],
+    "qid": "Q173099",
+    "schemaOrg": "StadiumOrArena",
+    "country": "MEX",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "mexico-city"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 19.404197,
+      "lon": -99.088747
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/autodromo-internacional-nelson-piquet",
+    "name": "Autódromo Internacional Nelson Piquet",
+    "aliases": [
+      "Nelson Piquet"
+    ],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "BRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "jacarepagua"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": -22.975556,
+      "lon": -43.395
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/autodromo-internazionale-del-mugello",
+    "name": "Autodromo Internazionale del Mugello",
+    "aliases": [
+      "Mugello"
+    ],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "mugello"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 43.9975,
+      "lon": 11.371944
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/autodromo-internazionale-enzo-e-dino-ferrari",
+    "name": "Autodromo Internazionale Enzo e Dino Ferrari",
+    "aliases": [
+      "Enzo e Dino Ferrari"
+    ],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "imola"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 44.341111,
+      "lon": 11.713333
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/autodromo-jose-carlos-pace",
+    "name": "Autódromo José Carlos Pace",
+    "aliases": [
+      "José Carlos Pace"
+    ],
+    "qid": "Q171387",
+    "schemaOrg": "StadiumOrArena",
+    "country": "BRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "interlagos"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": -23.701111,
+      "lon": -46.697222
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/autodromo-juan-y-oscar-galvez",
+    "name": "Autódromo Juan y Oscar Gálvez",
+    "aliases": [
+      "Juan y Oscar Gálvez"
+    ],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "ARG",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "buenos-aires"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": -34.694272,
+      "lon": -58.459347
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/autodromo-nazionale-monza",
+    "name": "Autodromo Nazionale Monza",
+    "aliases": [
+      "Monza"
+    ],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "monza"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 45.620556,
+      "lon": 9.289444
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/avus",
+    "name": "AVUS",
+    "aliases": [],
+    "qid": "Q155810",
+    "schemaOrg": "StadiumOrArena",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "avus"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 52.480556,
+      "lon": 13.251389
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/bahrain-international-circuit",
+    "name": "Bahrain International Circuit",
+    "aliases": [
+      "Bahrain"
+    ],
+    "qid": "Q171332",
+    "schemaOrg": "StadiumOrArena",
+    "country": "BHR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "bahrain"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 26.0325,
+      "lon": 50.510556
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/baku-city-circuit",
+    "name": "Baku City Circuit",
+    "aliases": [
+      "Baku"
+    ],
+    "qid": "Q17004958",
+    "schemaOrg": "StadiumOrArena",
+    "country": "AZE",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "baku"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 40.3725,
+      "lon": 49.853333
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/brands-hatch",
+    "name": "Brands Hatch",
+    "aliases": [],
+    "qid": "Q172880",
+    "schemaOrg": "StadiumOrArena",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "brands-hatch"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 51.356667,
+      "lon": 0.2625
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/buddh-international-circuit",
+    "name": "Buddh International Circuit",
+    "aliases": [
+      "Buddh"
+    ],
+    "qid": "Q172906",
+    "schemaOrg": "StadiumOrArena",
+    "country": "IND",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "buddh"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 28.350556,
+      "lon": 77.535
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/bugatti-circuit",
+    "name": "Bugatti Circuit",
+    "aliases": [
+      "Bugatti"
+    ],
+    "qid": "Q928721",
+    "schemaOrg": "StadiumOrArena",
+    "country": "FRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "bugatti"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 47.937694,
+      "lon": 0.225611
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/caesars-palace",
+    "name": "Caesars Palace",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "caesars-palace"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 36.116944,
+      "lon": -115.175
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/canadian-tire-motorsport-park",
+    "name": "Canadian Tire Motorsport Park",
+    "aliases": [
+      "Mosport"
+    ],
+    "qid": "Q171570",
+    "schemaOrg": "StadiumOrArena",
+    "country": "CAN",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "mosport"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 44.05,
+      "lon": -78.677778
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/charade-circuit",
+    "name": "Charade Circuit",
+    "aliases": [
+      "Charade"
+    ],
+    "qid": "Q172879",
+    "schemaOrg": "StadiumOrArena",
+    "country": "FRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "clermont-ferrand"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 45.747222,
+      "lon": 3.038889
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/circuit-bremgarten",
+    "name": "Circuit Bremgarten",
+    "aliases": [
+      "Bremgarten"
+    ],
+    "qid": "Q172895",
+    "schemaOrg": "StadiumOrArena",
+    "country": "CHE",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "bremgarten"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 46.95,
+      "lon": 7.410833
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/circuit-de-barcelona-catalunya",
+    "name": "Circuit de Barcelona-Catalunya",
+    "aliases": [
+      "Catalunya"
+    ],
+    "qid": "Q171404",
+    "schemaOrg": "StadiumOrArena",
+    "country": "ESP",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "catalunya"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 41.57,
+      "lon": 2.261111
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/circuit-de-monaco",
+    "name": "Circuit de Monaco",
+    "aliases": [
+      "Monaco"
+    ],
+    "qid": "Q171400",
+    "schemaOrg": "StadiumOrArena",
+    "country": "MCO",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "monaco"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 43.734722,
+      "lon": 7.420556
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/circuit-de-nevers-magny-cours",
+    "name": "Circuit de Nevers Magny-Cours",
+    "aliases": [
+      "Magny-Cours"
+    ],
+    "qid": "Q172876",
+    "schemaOrg": "StadiumOrArena",
+    "country": "FRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "magny-cours"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 46.863242,
+      "lon": 3.164228
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/circuit-de-spa-francorchamps",
+    "name": "Circuit de Spa-Francorchamps",
+    "aliases": [
+      "Spa-Francorchamps"
+    ],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "BEL",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "spa-francorchamps"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 50.437222,
+      "lon": 5.971389
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/circuit-gilles-villeneuve",
+    "name": "Circuit Gilles Villeneuve",
+    "aliases": [
+      "Gilles Villeneuve"
+    ],
+    "qid": "Q172860",
+    "schemaOrg": "StadiumOrArena",
+    "country": "CAN",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "montreal"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 45.500578,
+      "lon": -73.522461
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/circuit-mont-tremblant",
+    "name": "Circuit Mont-Tremblant",
+    "aliases": [
+      "Mont-Tremblant"
+    ],
+    "qid": "Q172873",
+    "schemaOrg": "StadiumOrArena",
+    "country": "CAN",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "mont-tremblant"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 46.187707,
+      "lon": -74.609936
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/circuit-of-the-americas",
+    "name": "Circuit of the Americas",
+    "aliases": [
+      "Americas"
+    ],
+    "qid": "Q59626",
+    "schemaOrg": "StadiumOrArena",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "austin"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 30.132778,
+      "lon": -97.641111
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/circuit-park-zandvoort",
+    "name": "Circuit Park Zandvoort",
+    "aliases": [
+      "Zandvoort"
+    ],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "NLD",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "zandvoort"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 52.388819,
+      "lon": 4.540922
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/circuit-paul-ricard",
+    "name": "Circuit Paul Ricard",
+    "aliases": [
+      "Paul Ricard"
+    ],
+    "qid": "Q171424",
+    "schemaOrg": "StadiumOrArena",
+    "country": "FRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "paul-ricard"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 43.250556,
+      "lon": 5.791667
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/circuit-zolder",
+    "name": "Circuit Zolder",
+    "aliases": [
+      "Zolder"
+    ],
+    "qid": "Q172868",
+    "schemaOrg": "StadiumOrArena",
+    "country": "BEL",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "zolder"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 50.988889,
+      "lon": 5.255556
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/circuito-da-boavista",
+    "name": "Circuito da Boavista",
+    "aliases": [
+      "Boavista"
+    ],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "PRT",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "porto"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 41.170472,
+      "lon": -8.67325
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/circuito-de-jerez",
+    "name": "Circuito de Jerez",
+    "aliases": [
+      "Jerez"
+    ],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "ESP",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "jerez"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 36.708333,
+      "lon": -6.034167
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/circuito-de-madring",
+    "name": "Circuito de Madring",
+    "aliases": [
+      "Madring"
+    ],
+    "qid": "Q126193406",
+    "schemaOrg": "StadiumOrArena",
+    "country": "ESP",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "madring"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 40.465278,
+      "lon": -3.615278
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/circuito-de-monsanto",
+    "name": "Circuito de Monsanto",
+    "aliases": [
+      "Monsanto"
+    ],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "PRT",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "monsanto"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 38.719722,
+      "lon": -9.203056
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/circuito-de-montjuic",
+    "name": "Circuito de Montjuïc",
+    "aliases": [
+      "Montjuïc"
+    ],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "ESP",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "montjuic"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 41.366389,
+      "lon": 2.151667
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/circuito-del-jarama",
+    "name": "Circuito del Jarama",
+    "aliases": [
+      "Jarama"
+    ],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "ESP",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "jarama"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 40.617111,
+      "lon": -3.585583
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/detroit-street-circuit",
+    "name": "Detroit Street Circuit",
+    "aliases": [
+      "Detroit"
+    ],
+    "qid": "Q172887",
+    "schemaOrg": "StadiumOrArena",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "detroit"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 42.32975,
+      "lon": -83.040111
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/dijon-prenois",
+    "name": "Dijon-Prenois",
+    "aliases": [],
+    "qid": "Q172888",
+    "schemaOrg": "StadiumOrArena",
+    "country": "FRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "dijon"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 47.3625,
+      "lon": 4.899167
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/donington-park",
+    "name": "Donington Park",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "donington"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 52.829806,
+      "lon": -1.379556
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/fair-park",
+    "name": "Fair Park",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "dallas"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 32.781944,
+      "lon": -96.765556
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/fuji-speedway",
+    "name": "Fuji Speedway",
+    "aliases": [
+      "Fuji"
+    ],
+    "qid": "Q171399",
+    "schemaOrg": "StadiumOrArena",
+    "country": "JPN",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "fuji"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 35.371667,
+      "lon": 138.926667
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/hockenheimring",
+    "name": "Hockenheimring",
+    "aliases": [],
+    "qid": "Q152408",
+    "schemaOrg": "StadiumOrArena",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "hockenheimring"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 49.327778,
+      "lon": 8.565833
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/hungaroring",
+    "name": "Hungaroring",
+    "aliases": [],
+    "qid": "Q171356",
+    "schemaOrg": "StadiumOrArena",
+    "country": "HUN",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "hungaroring"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 47.582222,
+      "lon": 19.251111
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/indianapolis-motor-speedway",
+    "name": "Indianapolis Motor Speedway",
+    "aliases": [
+      "Indianapolis"
+    ],
+    "qid": "Q172732",
+    "schemaOrg": "StadiumOrArena",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "indianapolis"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 39.798333,
+      "lon": -86.232778
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/istanbul-park",
+    "name": "Istanbul Park",
+    "aliases": [],
+    "qid": "Q172743",
+    "schemaOrg": "StadiumOrArena",
+    "country": "TUR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "istanbul"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 40.951667,
+      "lon": 29.405
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/jeddah-corniche-circuit",
+    "name": "Jeddah Corniche Circuit",
+    "aliases": [
+      "Jeddah"
+    ],
+    "qid": "Q102141307",
+    "schemaOrg": "StadiumOrArena",
+    "country": "SAU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "jeddah"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 21.543333,
+      "lon": 39.172778
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/korea-international-circuit",
+    "name": "Korea International Circuit",
+    "aliases": [
+      "Korea"
+    ],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "KOR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "yeongam"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 34.733333,
+      "lon": 126.416667
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/kyalami-racing-circuit",
+    "name": "Kyalami Racing Circuit",
+    "aliases": [
+      "Kyalami"
+    ],
+    "qid": "Q171667",
+    "schemaOrg": "StadiumOrArena",
+    "country": "ZAF",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "kyalami"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": -25.998611,
+      "lon": 28.068889
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/las-vegas-street-circuit",
+    "name": "Las Vegas Street Circuit",
+    "aliases": [
+      "Las Vegas"
+    ],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "las-vegas"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 36.175,
+      "lon": -115.136389
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/long-beach",
+    "name": "Long Beach",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "long-beach"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 33.766389,
+      "lon": -118.192778
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/lusail-international-circuit",
+    "name": "Lusail International Circuit",
+    "aliases": [
+      "Lusail"
+    ],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "QAT",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "lusail"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 25.49,
+      "lon": 51.454167
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/marina-bay-street-circuit",
+    "name": "Marina Bay Street Circuit",
+    "aliases": [
+      "Marina Bay"
+    ],
+    "qid": "Q171390",
+    "schemaOrg": "StadiumOrArena",
+    "country": "SGP",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "marina-bay"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 1.291531,
+      "lon": 103.86385
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/melbourne-grand-prix-circuit",
+    "name": "Melbourne Grand Prix Circuit",
+    "aliases": [
+      "Melbourne"
+    ],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "AUS",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "melbourne"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": -37.849722,
+      "lon": 144.968333
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/miami-international-autodrome",
+    "name": "Miami International Autodrome",
+    "aliases": [
+      "Miami"
+    ],
+    "qid": "Q106544792",
+    "schemaOrg": "StadiumOrArena",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "miami"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 25.958056,
+      "lon": -80.238889
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/nivelles-baulers",
+    "name": "Nivelles-Baulers",
+    "aliases": [],
+    "qid": "Q172878",
+    "schemaOrg": "StadiumOrArena",
+    "country": "BEL",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "nivelles"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 50.621111,
+      "lon": 4.326944
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/nurburgring",
+    "name": "Nürburgring",
+    "aliases": [],
+    "qid": "Q152207",
+    "schemaOrg": "StadiumOrArena",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "nurburgring"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 50.335556,
+      "lon": 6.9475
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/okayama-international-circuit",
+    "name": "Okayama International Circuit",
+    "aliases": [
+      "Aida"
+    ],
+    "qid": "Q173185",
+    "schemaOrg": "StadiumOrArena",
+    "country": "JPN",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "aida"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 34.915,
+      "lon": 134.221111
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/pedralbes-circuit",
+    "name": "Pedralbes Circuit",
+    "aliases": [
+      "Pedralbes"
+    ],
+    "qid": "Q172898",
+    "schemaOrg": "StadiumOrArena",
+    "country": "ESP",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "pedralbes"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 41.390278,
+      "lon": 2.116667
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/pescara-circuit",
+    "name": "Pescara Circuit",
+    "aliases": [
+      "Pescara"
+    ],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "pescara"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 42.475,
+      "lon": 14.150833
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/phoenix-street-circuit",
+    "name": "Phoenix Street Circuit",
+    "aliases": [
+      "Phoenix"
+    ],
+    "qid": "Q173368",
+    "schemaOrg": "StadiumOrArena",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "phoenix"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 33.447917,
+      "lon": -112.074583
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/prince-george-circuit",
+    "name": "Prince George Circuit",
+    "aliases": [
+      "Prince George"
+    ],
+    "qid": "Q172865",
+    "schemaOrg": "StadiumOrArena",
+    "country": "ZAF",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "east-london"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": -33.048611,
+      "lon": 27.873611
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/red-bull-ring",
+    "name": "Red Bull Ring",
+    "aliases": [],
+    "qid": "Q171566",
+    "schemaOrg": "StadiumOrArena",
+    "country": "AUT",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "spielberg"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 47.219722,
+      "lon": 14.764722
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/reims-gueux",
+    "name": "Reims-Gueux",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "FRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "reims"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 49.254075,
+      "lon": 3.930561
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/riverside-international-raceway",
+    "name": "Riverside International Raceway",
+    "aliases": [
+      "Riverside"
+    ],
+    "qid": "Q172871",
+    "schemaOrg": "StadiumOrArena",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "riverside"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 33.937,
+      "lon": -117.272556
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/rouen-les-essarts",
+    "name": "Rouen-Les-Essarts",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "FRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "rouen"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 49.330639,
+      "lon": 1.004583
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/sebring-international-raceway",
+    "name": "Sebring International Raceway",
+    "aliases": [
+      "Sebring"
+    ],
+    "qid": "Q172883",
+    "schemaOrg": "StadiumOrArena",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "sebring"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 27.454741,
+      "lon": -81.348267
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/sepang-international-circuit",
+    "name": "Sepang International Circuit",
+    "aliases": [
+      "Sepang"
+    ],
+    "qid": "Q172738",
+    "schemaOrg": "StadiumOrArena",
+    "country": "MYS",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "sepang"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 2.760556,
+      "lon": 101.7375
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/shanghai-international-circuit",
+    "name": "Shanghai International Circuit",
+    "aliases": [
+      "Shanghai"
+    ],
+    "qid": "Q171358",
+    "schemaOrg": "StadiumOrArena",
+    "country": "CHN",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "shanghai"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 31.338889,
+      "lon": 121.219722
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/silverstone-circuit",
+    "name": "Silverstone Circuit",
+    "aliases": [
+      "Silverstone"
+    ],
+    "qid": "Q171402",
+    "schemaOrg": "StadiumOrArena",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "silverstone"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 52.078611,
+      "lon": -1.016944
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/sochi-autodrom",
+    "name": "Sochi Autodrom",
+    "aliases": [
+      "Sochi"
+    ],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "RUS",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "sochi"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 43.410278,
+      "lon": 39.968271
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/suzuka-circuit",
+    "name": "Suzuka Circuit",
+    "aliases": [
+      "Suzuka"
+    ],
+    "qid": "Q174170",
+    "schemaOrg": "StadiumOrArena",
+    "country": "JPN",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "suzuka"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 34.843056,
+      "lon": 136.540556
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/valencia-street-circuit",
+    "name": "Valencia Street Circuit",
+    "aliases": [
+      "Valencia"
+    ],
+    "qid": "Q171406",
+    "schemaOrg": "StadiumOrArena",
+    "country": "ESP",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "valencia"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 39.458778,
+      "lon": -0.325556
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/watkins-glen-international",
+    "name": "Watkins Glen International",
+    "aliases": [
+      "Watkins Glen"
+    ],
+    "qid": "Q171449",
+    "schemaOrg": "StadiumOrArena",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "watkins-glen"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 42.336944,
+      "lon": -76.927222
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/yas-marina-circuit",
+    "name": "Yas Marina Circuit",
+    "aliases": [
+      "Yas Marina"
+    ],
+    "qid": "Q172869",
+    "schemaOrg": "StadiumOrArena",
+    "country": "ARE",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "yas-marina"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 24.467222,
+      "lon": 54.603056
+    },
+    "coordsSource": "f1db"
+  },
+  {
+    "id": "venue/zeltweg",
+    "name": "Zeltweg",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "StadiumOrArena",
+    "country": "AUT",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "zeltweg"
+    },
+    "minted": "2026-07-19",
+    "coords": {
+      "lat": 47.202222,
+      "lon": 14.742222
+    },
+    "coordsSource": "f1db"
+  }
+]

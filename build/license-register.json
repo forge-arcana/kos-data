@@ -1,0 +1,94 @@
+[
+  {
+    "id": "f1db",
+    "license": "CC BY 4.0",
+    "grade": "open",
+    "evidenceUrl": "https://github.com/f1db/f1db/blob/main/LICENSE",
+    "verifiedDate": "2026-07-19",
+    "attribution": "F1 data by F1DB (https://github.com/f1db/f1db), licensed CC BY 4.0",
+    "obligations": [
+      "Attribute F1DB in redistribution (CC BY 4.0 §3a) — auto-emitted into catalog.json/llms.txt",
+      "Indicate if changes were made (rows are normalized from f1db CSVs)"
+    ],
+    "riskNote": "Volunteer-maintained single-GitHub-repo source; SPDX CC-BY-4.0 verified via the GitHub license API 2026-07-19. Re-licensing contingency: pin last-good release zip in archive/raw (design review #5).",
+    "publicEligible": true,
+    "customerEligible": true,
+    "signed": {
+      "by": "owner",
+      "date": "2026-07-19"
+    }
+  },
+  {
+    "id": "wikidata",
+    "license": "CC0 1.0",
+    "grade": "open",
+    "evidenceUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+    "verifiedDate": "2026-07-19",
+    "attribution": "Entity data from Wikidata (CC0 1.0)",
+    "obligations": [],
+    "riskNote": "Structured data is CC0; used for registry enrichment (qid, external IDs, venue coords) only — never gates minting.",
+    "publicEligible": true,
+    "customerEligible": true,
+    "signed": {
+      "by": "owner",
+      "date": "2026-07-19"
+    }
+  },
+  {
+    "id": "open-meteo",
+    "license": "CC BY 4.0 (data); API free tier is non-commercial",
+    "grade": "open",
+    "accessTier": "nc-free",
+    "evidenceUrl": "https://open-meteo.com/en/terms",
+    "verifiedDate": "2026-07-19",
+    "attribution": "Weather data by Open-Meteo.com (CC BY 4.0)",
+    "obligations": [
+      "Attribute Open-Meteo (CC BY 4.0)",
+      "accessTier gate: paid API plan REQUIRED before any commercial delivery of open-meteo-derived rows (OM OQ #3) — mirror-to-customer.sh refuses while accessTier == \"nc-free\""
+    ],
+    "riskNote": "Free API tier is limited to non-commercial use (<10k calls/day). Public free mirror is compatible; the customer artifact is mechanically blocked until the plan is upgraded and accessTier is edited to \"paid\".",
+    "publicEligible": true,
+    "customerEligible": true,
+    "signed": {
+      "by": "owner",
+      "date": "2026-07-19"
+    }
+  },
+  {
+    "id": "polymarket",
+    "license": "unstated — public read API, bulk-redistribution rights not located",
+    "grade": "facts-risk",
+    "evidenceUrl": "https://docs.polymarket.com/",
+    "verifiedDate": "2026-07-19",
+    "attribution": "Market prices via Polymarket public API",
+    "obligations": [
+      "Owner decision 2026-07-19 (OM OQ #6 closed): public free tier OK — redistribution rights unlocated, not denied; customerEligible stays false (no commercial delivery without prior approval)",
+      "Always set the fidelity param on /prices-history (SR §1 row 6)"
+    ],
+    "riskNote": "SR §1 row 6 FLAG-UNSTATED: public read API with no located bulk-redistribution license. Owner accepted free-tier display risk 2026-07-19; retraction path = set publicEligible:false (next mirror sync drops rows; orphan-commit mirror retains no history).",
+    "publicEligible": true,
+    "customerEligible": false,
+    "signed": {
+      "by": "owner",
+      "date": "2026-07-19"
+    }
+  },
+  {
+    "id": "geonames",
+    "license": "CC BY 4.0",
+    "grade": "open",
+    "evidenceUrl": "https://www.geonames.org/export/",
+    "verifiedDate": "2026-07-19",
+    "attribution": "Geocoding fallback by GeoNames (CC BY 4.0)",
+    "obligations": [
+      "Attribute GeoNames when geonames-derived coordinates are redistributed"
+    ],
+    "riskNote": "Fallback geocoder only — f1db ships circuit coordinates directly, so this source may remain unused in Phase 1; registered ahead of need.",
+    "publicEligible": true,
+    "customerEligible": true,
+    "signed": {
+      "by": "owner",
+      "date": "2026-07-19"
+    }
+  }
+]

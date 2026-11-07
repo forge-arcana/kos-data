@@ -1,0 +1,2437 @@
+[
+  {
+    "id": "team/adams",
+    "name": "Adams",
+    "aliases": [],
+    "qid": "Q1645121",
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "adams"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/afm",
+    "name": "AFM",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "afm"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/ags",
+    "name": "AGS",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "FRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "ags"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/alfa-romeo",
+    "name": "Alfa Romeo",
+    "aliases": [],
+    "qid": "Q109129555",
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "alfa-romeo"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/alfa-special",
+    "name": "Alfa Special",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "ZAF",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "alfa-special"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/alphatauri",
+    "name": "AlphaTauri",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "alphatauri"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/alpine",
+    "name": "Alpine",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "FRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "alpine"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/alta",
+    "name": "Alta",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "alta"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/amon",
+    "name": "Amon",
+    "aliases": [],
+    "qid": "Q108897193",
+    "schemaOrg": "SportsTeam",
+    "country": "NZL",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "amon"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/andrea-moda",
+    "name": "Andrea Moda",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "andrea-moda"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/apollon",
+    "name": "Apollon",
+    "aliases": [],
+    "qid": "Q2324666",
+    "schemaOrg": "SportsTeam",
+    "country": "CHE",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "apollon"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/arrows",
+    "name": "Arrows",
+    "aliases": [],
+    "qid": "Q174176",
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "arrows"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/arzani-volpini",
+    "name": "Arzani-Volpini",
+    "aliases": [],
+    "qid": "Q109133152",
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "arzani-volpini"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/aston-butterworth",
+    "name": "Aston Butterworth",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "aston-butterworth"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/aston-martin",
+    "name": "Aston Martin",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "aston-martin"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/ats",
+    "name": "ATS",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "foundingYear": "1963",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "ats"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/ats-1977",
+    "name": "ATS",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "DEU",
+    "foundingYear": "1977",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "ats-wheels"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/audi",
+    "name": "Audi",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "audi"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/balsa",
+    "name": "Balsa",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "balsa"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/bar",
+    "name": "BAR",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "bar"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/behra-porsche",
+    "name": "Behra-Porsche",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "behra-porsche"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/bellasi",
+    "name": "Bellasi",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "bellasi"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/benetton",
+    "name": "Benetton",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "benetton"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/bmw",
+    "name": "BMW",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "bmw"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/bmw-sauber",
+    "name": "BMW Sauber",
+    "aliases": [],
+    "qid": "Q154118",
+    "schemaOrg": "SportsTeam",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "bmw-sauber"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/boro",
+    "name": "Boro",
+    "aliases": [],
+    "qid": "Q171760",
+    "schemaOrg": "SportsTeam",
+    "country": "NLD",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "boro"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/brabham",
+    "name": "Brabham",
+    "aliases": [],
+    "qid": "Q173103",
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "brabham"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/brawn",
+    "name": "Brawn",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "brawn"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/brm",
+    "name": "BRM",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "brm"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/bromme",
+    "name": "Bromme",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "bromme"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/brp",
+    "name": "BRP",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "brp"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/bugatti",
+    "name": "Bugatti",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "FRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "bugatti"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/cadillac",
+    "name": "Cadillac",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "cadillac"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/caterham",
+    "name": "Caterham",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "MYS",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "caterham"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/christensen",
+    "name": "Christensen",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "christensen"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/cisitalia",
+    "name": "Cisitalia",
+    "aliases": [],
+    "qid": "Q108897561",
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "cisitalia"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/coloni",
+    "name": "Coloni",
+    "aliases": [],
+    "qid": "Q173314",
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "coloni"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/connaught",
+    "name": "Connaught",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "connaught"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/connew",
+    "name": "Connew",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "connew"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/cooper",
+    "name": "Cooper",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "cooper"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/dallara",
+    "name": "Dallara",
+    "aliases": [],
+    "qid": "Q1157975",
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "dallara"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/de-tomaso",
+    "name": "De Tomaso",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "de-tomaso"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/deidt",
+    "name": "Deidt",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "deidt"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/del-roy",
+    "name": "Del Roy",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "del-roy"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/derrington-francis",
+    "name": "Derrington-Francis",
+    "aliases": [],
+    "qid": "Q14913969",
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "derrington-francis"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/dunn",
+    "name": "Dunn",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "dunn"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/eagle",
+    "name": "Eagle",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "eagle"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/eifelland",
+    "name": "Eifelland",
+    "aliases": [],
+    "qid": "Q173543",
+    "schemaOrg": "SportsTeam",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "eifelland"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/elder",
+    "name": "Elder",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "elder"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/emeryson",
+    "name": "Emeryson",
+    "aliases": [],
+    "qid": "Q173553",
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "emeryson"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/emw",
+    "name": "EMW",
+    "aliases": [],
+    "qid": "Q108897806",
+    "schemaOrg": "SportsTeam",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "emw"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/enb",
+    "name": "ENB",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "BEL",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "enb"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/ensign",
+    "name": "Ensign",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "ensign"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/epperly",
+    "name": "Epperly",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "epperly"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/era",
+    "name": "ERA",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "era"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/eurobrun",
+    "name": "EuroBrun",
+    "aliases": [],
+    "qid": "Q173806",
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "eurobrun"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/ewing",
+    "name": "Ewing",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "ewing"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/ferguson",
+    "name": "Ferguson",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "ferguson"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/ferrari",
+    "name": "Ferrari",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "ferrari"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/first",
+    "name": "FIRST",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "first"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/fittipaldi",
+    "name": "Fittipaldi",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "BRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "fittipaldi"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/fondmetal",
+    "name": "Fondmetal",
+    "aliases": [],
+    "qid": "Q173473",
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "fondmetal"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/footwork",
+    "name": "Footwork",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "footwork"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/force-india",
+    "name": "Force India",
+    "aliases": [],
+    "qid": "Q138933",
+    "schemaOrg": "SportsTeam",
+    "country": "IND",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "force-india"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/forti",
+    "name": "Forti",
+    "aliases": [],
+    "qid": "Q172974",
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "forti"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/frank-williams-racing-cars",
+    "name": "Frank Williams Racing Cars",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "frank-williams-racing-cars"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/frazer-nash",
+    "name": "Frazer-Nash",
+    "aliases": [],
+    "qid": "Q108898207",
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "frazer-nash"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/fry",
+    "name": "Fry",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "fry"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/gilby",
+    "name": "Gilby",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "gilby"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/gordini",
+    "name": "Gordini",
+    "aliases": [],
+    "qid": "Q108898481",
+    "schemaOrg": "SportsTeam",
+    "country": "FRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "gordini"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/greifzu",
+    "name": "Greifzu",
+    "aliases": [],
+    "qid": "Q108898486",
+    "schemaOrg": "SportsTeam",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "greifzu"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/haas",
+    "name": "Haas",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "haas"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/hall",
+    "name": "Hall",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "hall"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/heck",
+    "name": "Heck",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "heck"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/hesketh",
+    "name": "Hesketh",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "hesketh"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/hill",
+    "name": "Hill",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "hill"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/honda",
+    "name": "Honda",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "JPN",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "honda"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/hrt",
+    "name": "HRT",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "ESP",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "hrt"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/hwm",
+    "name": "HWM",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "hwm"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/iso-marlboro",
+    "name": "Iso-Marlboro",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "iso-marlboro"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/jaguar",
+    "name": "Jaguar",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "jaguar"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/jbw",
+    "name": "JBW",
+    "aliases": [],
+    "qid": "Q108904424",
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "jbw"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/jordan",
+    "name": "Jordan",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "IRL",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "jordan"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/kauhsen",
+    "name": "Kauhsen",
+    "aliases": [],
+    "qid": "Q172541",
+    "schemaOrg": "SportsTeam",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "kauhsen"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/kick-sauber",
+    "name": "Kick Sauber",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "CHE",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "kick-sauber"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/klenk",
+    "name": "Klenk",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "klenk"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/kojima",
+    "name": "Kojima",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "JPN",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "kojima"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/krakau",
+    "name": "Krakau",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "krakau"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/kurtis-kraft",
+    "name": "Kurtis Kraft",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "kurtis-kraft"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/kuzma",
+    "name": "Kuzma",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "kuzma"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/lancia",
+    "name": "Lancia",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "lancia"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/langley",
+    "name": "Langley",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "langley"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/larrousse",
+    "name": "Larrousse",
+    "aliases": [],
+    "qid": "Q172958",
+    "schemaOrg": "SportsTeam",
+    "country": "FRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "larrousse"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/lds",
+    "name": "LDS",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "ZAF",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "lds"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/lec",
+    "name": "LEC",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "lec"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/lesovsky",
+    "name": "Lesovsky",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "lesovsky"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/leyton-house",
+    "name": "Leyton House",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "leyton-house"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/life",
+    "name": "Life",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "life"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/ligier",
+    "name": "Ligier",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "FRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "ligier"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/lola",
+    "name": "Lola",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "lola"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/lotus",
+    "name": "Lotus",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "foundingYear": "1958",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "lotus"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/lotus-2012",
+    "name": "Lotus",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "foundingYear": "2012",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "lotus-f1"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/lotus-racing",
+    "name": "Lotus Racing",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "MYS",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "lotus-racing"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/lyncar",
+    "name": "Lyncar",
+    "aliases": [],
+    "qid": "Q108904934",
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "lyncar"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/maki",
+    "name": "Maki",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "JPN",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "maki"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/manor",
+    "name": "Manor",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "manor"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/march",
+    "name": "March",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "march"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/marchese",
+    "name": "Marchese",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "marchese"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/martini",
+    "name": "Martini",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "FRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "martini"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/marussia",
+    "name": "Marussia",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "marussia"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/maserati",
+    "name": "Maserati",
+    "aliases": [],
+    "qid": "Q2666342",
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "maserati"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/matra",
+    "name": "Matra",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "FRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "matra"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/mcguire",
+    "name": "McGuire",
+    "aliases": [],
+    "qid": "Q2524270",
+    "schemaOrg": "SportsTeam",
+    "country": "AUS",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "mcguire"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/mclaren",
+    "name": "McLaren",
+    "aliases": [],
+    "qid": "Q172030",
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "mclaren"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/mercedes",
+    "name": "Mercedes",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "mercedes"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/merzario",
+    "name": "Merzario",
+    "aliases": [],
+    "qid": "Q172577",
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "merzario"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/meskowski",
+    "name": "Meskowski",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "meskowski"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/midland",
+    "name": "Midland",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "RUS",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "midland"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/minardi",
+    "name": "Minardi",
+    "aliases": [],
+    "qid": "Q142381",
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "minardi"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/modena",
+    "name": "Modena",
+    "aliases": [],
+    "qid": "Q173295",
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "modena"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/moore",
+    "name": "Moore",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "moore"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/nacke",
+    "name": "Nacke",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "nacke"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/nichels",
+    "name": "Nichels",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "nichels"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/olson",
+    "name": "Olson",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "olson"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/onyx",
+    "name": "Onyx",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "onyx"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/osca",
+    "name": "O.S.C.A.",
+    "aliases": [],
+    "qid": "Q108906133",
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "osca"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/osella",
+    "name": "Osella",
+    "aliases": [],
+    "qid": "Q171506",
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "osella"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/pacific",
+    "name": "Pacific",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "pacific"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/pankratz",
+    "name": "Pankratz",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "pankratz"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/parnelli",
+    "name": "Parnelli",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "parnelli"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/pawl",
+    "name": "Pawl",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "pawl"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/penske",
+    "name": "Penske",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "penske"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/phillips",
+    "name": "Phillips",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "phillips"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/politoys",
+    "name": "Politoys",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "politoys"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/porsche",
+    "name": "Porsche",
+    "aliases": [],
+    "qid": "Q842690",
+    "schemaOrg": "SportsTeam",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "porsche"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/prost",
+    "name": "Prost",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "FRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "prost"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/protos",
+    "name": "Protos",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "protos"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/racing-bulls",
+    "name": "Racing Bulls",
+    "aliases": [],
+    "qid": "Q124350606",
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "racing-bulls"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/racing-point",
+    "name": "Racing Point",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "racing-point"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/rae",
+    "name": "Rae",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "rae"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/ram",
+    "name": "RAM",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "ram"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/rb",
+    "name": "RB",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "rb"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/rebaque",
+    "name": "Rebaque",
+    "aliases": [],
+    "qid": "Q172622",
+    "schemaOrg": "SportsTeam",
+    "country": "MEX",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "rebaque"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/red-bull",
+    "name": "Red Bull",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "AUT",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "red-bull"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/reif",
+    "name": "Reif",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "reif"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/renault",
+    "name": "Renault",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "FRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "renault"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/rial",
+    "name": "Rial",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "rial"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/sauber",
+    "name": "Sauber",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "CHE",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "sauber"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/scarab",
+    "name": "Scarab",
+    "aliases": [],
+    "qid": "Q1783689",
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "scarab"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/schroeder",
+    "name": "Schroeder",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "schroeder"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/scirocco",
+    "name": "Scirocco",
+    "aliases": [],
+    "qid": "Q108917982",
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "scirocco"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/shadow",
+    "name": "Shadow",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "shadow"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/shannon",
+    "name": "Shannon",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "shannon"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/sherman",
+    "name": "Sherman",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "sherman"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/simca-gordini",
+    "name": "Simca-Gordini",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "FRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "simca-gordini"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/simtek",
+    "name": "Simtek",
+    "aliases": [],
+    "qid": "Q172976",
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "simtek"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/snowberger",
+    "name": "Snowberger",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "snowberger"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/spirit",
+    "name": "Spirit",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "spirit"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/spyker",
+    "name": "Spyker",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "NLD",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "spyker"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/stebro",
+    "name": "Stebro",
+    "aliases": [],
+    "qid": "Q108918000",
+    "schemaOrg": "SportsTeam",
+    "country": "CAN",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "stebro"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/stevens",
+    "name": "Stevens",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "stevens"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/stewart",
+    "name": "Stewart",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "stewart"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/super-aguri",
+    "name": "Super Aguri",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "JPN",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "super-aguri"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/surtees",
+    "name": "Surtees",
+    "aliases": [],
+    "qid": "Q173306",
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "surtees"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/sutton",
+    "name": "Sutton",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "sutton"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/talbot-lago",
+    "name": "Talbot-Lago",
+    "aliases": [],
+    "qid": "Q108918004",
+    "schemaOrg": "SportsTeam",
+    "country": "FRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "talbot-lago"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/tec-mec",
+    "name": "Tec-Mec",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "tec-mec"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/tecno",
+    "name": "Tecno",
+    "aliases": [],
+    "qid": "Q108918007",
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "tecno"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/theodore",
+    "name": "Theodore",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "HKG",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "theodore"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/token",
+    "name": "Token",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "token"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/toleman",
+    "name": "Toleman",
+    "aliases": [],
+    "qid": "Q172987",
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "toleman"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/toro-rosso",
+    "name": "Toro Rosso",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "ITA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "toro-rosso"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/toyota",
+    "name": "Toyota",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "JPN",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "toyota"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/trevis",
+    "name": "Trevis",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "trevis"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/trojan",
+    "name": "Trojan",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "trojan"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/turner",
+    "name": "Turner",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "turner"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/tyrrell",
+    "name": "Tyrrell",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "tyrrell"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/vanwall",
+    "name": "Vanwall",
+    "aliases": [],
+    "qid": "Q173093",
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "vanwall"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/venturi",
+    "name": "Venturi",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "FRA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "venturi"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/veritas",
+    "name": "Veritas",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "veritas"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/virgin",
+    "name": "Virgin",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "virgin"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/watson",
+    "name": "Watson",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "watson"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/wetteroth",
+    "name": "Wetteroth",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "USA",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "wetteroth"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/williams",
+    "name": "Williams",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "williams"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/wolf",
+    "name": "Wolf",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "CAN",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "wolf"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/wolf-williams",
+    "name": "Wolf-Williams",
+    "aliases": [],
+    "qid": null,
+    "schemaOrg": "SportsTeam",
+    "country": "GBR",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "wolf-williams"
+    },
+    "minted": "2026-07-19"
+  },
+  {
+    "id": "team/zakspeed",
+    "name": "Zakspeed",
+    "aliases": [],
+    "qid": "Q108918926",
+    "schemaOrg": "SportsTeam",
+    "country": "DEU",
+    "sport": "f1",
+    "sourceIds": {
+      "f1db": "zakspeed"
+    },
+    "minted": "2026-07-19"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/schema/athlete.schema.json",
+  "title": "KOS Athlete/Team Card",
+  "description": "Derived cache regenerated per build (OM §9.3) — cards are NOT evidence; their cites point at the evidence. Derived aggregates carry derivation + cites + rowCount; sourced aggregates carry the single sourced-row ref. coverage is the pack honesty block resolved for this entity.",
+  "type": "object",
+  "required": ["$schema", "dataset", "sport", "entity", "updated", "sources", "identity", "aggregates", "coverage"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "dataset": { "enum": ["athlete", "team"] },
+    "sport": { "type": "string" },
+    "entity": { "type": "string" },
+    "updated": { "type": "string" },
+    "sources": { "type": "array", "items": { "type": "string" } },
+    "identity": {
+      "type": "object",
+      "description": "name, aliases, qid, country, dob, sourceIds — from the registry"
+    },
+    "aggregates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["metric", "scope", "value", "provenance"],
+        "properties": {
+          "metric": { "type": "string" },
+          "scope": { "type": "string", "description": "career | season path | filter" },
+          "value": { "type": ["number", "string"] },
+          "unit": { "type": "string" },
+          "provenance": { "enum": ["derived", "sourced"] },
+          "derivation": { "type": "string", "description": "formula@packVersion when derived" },
+          "cites": { "type": "array", "items": { "type": "string" } },
+          "rowCount": { "type": "integer" }
+        }
+      }
+    },
+    "recent": { "type": "array", "description": "last-N event refs with headline rows" },
+    "series": { "type": "object", "description": "asof time-series excerpts within the public window" },
+    "coverage": { "type": "object" }
+  }
+}
