@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/analyst/brief.schema.json",
+  "title": "KOS Analyst Brief v1",
+  "description": "The brief is the only legal path to rendered prose (HM §1.2). Fields not declared here are forbidden. kos:/kod: namespaces are legal in refs; one namespace per brief (verifyBrief check 1). external[] entries are pointer-only — no value field exists to fill.",
+  "type": "object",
+  "required": ["protocolVersion", "question", "classification", "resolved", "claims", "explanation", "cannot_show", "external", "refusal", "sources"],
+  "additionalProperties": false,
+  "properties": {
+    "protocolVersion": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "question": { "type": "string" },
+    "classification": {
+      "type": "object",
+      "required": ["archetype", "method", "confidence"],
+      "additionalProperties": false,
+      "properties": {
+        "archetype": { "enum": ["causal", "comparative", "attribute"] },
+        "method": { "enum": ["rules", "llm"] },
+        "confidence": { "enum": ["high", "medium", "low"] }
+      }
+    },
+    "resolved": {
+      "type": "object",
+      "required": ["entities", "events", "metrics"],
+      "additionalProperties": false,
+      "properties": {
+        "entities": { "type": "array", "items": { "type": "string" } },
+        "events": { "type": "array", "items": { "type": "string" } },
+        "metrics": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "text", "tier"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^c\\d+$" },
+          "text": { "type": "string" },
+          "tier": { "enum": ["A", "B", "C"] },
+          "value": { "type": ["number", "string", "boolean"] },
+          "unit": { "type": "string" },
+          "refs": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "values": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name", "value", "refs"],
+              "additionalProperties": false,
+              "properties": {
+                "name": { "type": "string" },
+                "value": { "type": ["number", "string", "boolean"] },
+                "unit": { "type": "string" },
+                "refs": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+              }
+            }
+          },
+          "derivation": { "type": "string" },
+          "inlineFormula": {
+            "type": "object",
+            "required": ["expr", "inputs"],
+            "additionalProperties": false,
+            "properties": {
+              "expr": { "type": "string" },
+              "inputs": { "type": "object", "additionalProperties": { "type": "string" } }
+            }
+          },
+          "rowCount": { "type": "integer" },
+          "window": {
+            "type": "object",
+            "required": ["from", "to"],
+            "additionalProperties": false,
+            "properties": {
+              "from": { "type": "string" },
+              "to": { "type": "string" },
+              "floor": { "type": "string" }
+            }
+          },
+          "disclosure": { "type": "string" }
+        }
+      }
+    },
+    "explanation": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["factor", "family", "strength", "claims"],
+        "additionalProperties": false,
+        "properties": {
+          "factor": { "type": "string" },
+          "family": { "type": "string" },
+          "strength": { "enum": ["determinative", "direct", "contributing", "contextual"] },
+          "claims": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "cannot_show": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["family", "status", "note"],
+        "additionalProperties": false,
+        "properties": {
+          "family": { "type": "string" },
+          "scope": { "type": "string" },
+          "status": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "external": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "license", "url", "description"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "license": { "type": "string" },
+          "url": { "type": "string" },
+          "description": { "type": "string" }
+        }
+      }
+    },
+    "refusal": {
+      "anyOf": [{ "type": "null" }, { "type": "object" }]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "attribution"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "attribution": { "type": "string" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "sport": "f1",
+  "season": "2021",
+  "days": {
+    "2021-03-28": [
+      {
+        "event": "f1/2021/wc/r01-bahrain-gp/race",
+        "kind": "race",
+        "start": "2021-03-28T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/bahrain-international-circuit",
+        "name": "Formula 1 Gulf Air Bahrain Grand Prix 2021"
+      }
+    ],
+    "2021-04-18": [
+      {
+        "event": "f1/2021/wc/r02-emilia-romagna-gp/race",
+        "kind": "race",
+        "start": "2021-04-18T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-internazionale-enzo-e-dino-ferrari",
+        "name": "Formula 1 Pirelli Gran Premio del Made in Italy e dell'Emilia Romagna 2021"
+      }
+    ],
+    "2021-05-02": [
+      {
+        "event": "f1/2021/wc/r03-portuguese-gp/race",
+        "kind": "race",
+        "start": "2021-05-02T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/algarve-international-circuit",
+        "name": "Formula 1 Heineken Grande Prémio de Portugal 2021"
+      }
+    ],
+    "2021-05-09": [
+      {
+        "event": "f1/2021/wc/r04-spanish-gp/race",
+        "kind": "race",
+        "start": "2021-05-09T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-barcelona-catalunya",
+        "name": "Formula 1 Aramco Gran Premio de España 2021"
+      }
+    ],
+    "2021-05-23": [
+      {
+        "event": "f1/2021/wc/r05-monaco-gp/race",
+        "kind": "race",
+        "start": "2021-05-23T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Formula 1 Grand Prix de Monaco 2021"
+      }
+    ],
+    "2021-06-06": [
+      {
+        "event": "f1/2021/wc/r06-azerbaijan-gp/race",
+        "kind": "race",
+        "start": "2021-06-06T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/baku-city-circuit",
+        "name": "Formula 1 Azerbaijan Grand Prix 2021"
+      }
+    ],
+    "2021-06-20": [
+      {
+        "event": "f1/2021/wc/r07-french-gp/race",
+        "kind": "race",
+        "start": "2021-06-20T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-paul-ricard",
+        "name": "Formula 1 Emirates Grand Prix de France 2021"
+      }
+    ],
+    "2021-06-27": [
+      {
+        "event": "f1/2021/wc/r08-styrian-gp/race",
+        "kind": "race",
+        "start": "2021-06-27T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/red-bull-ring",
+        "name": "Formula 1 BWT Grosser Preis der Steiermark 2021"
+      }
+    ],
+    "2021-07-04": [
+      {
+        "event": "f1/2021/wc/r09-austrian-gp/race",
+        "kind": "race",
+        "start": "2021-07-04T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/red-bull-ring",
+        "name": "Formula 1 BWT Grosser Preis von Österreich 2021"
+      }
+    ],
+    "2021-07-18": [
+      {
+        "event": "f1/2021/wc/r10-british-gp/race",
+        "kind": "race",
+        "start": "2021-07-18T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "Formula 1 Pirelli British Grand Prix 2021"
+      }
+    ],
+    "2021-08-01": [
+      {
+        "event": "f1/2021/wc/r11-hungarian-gp/race",
+        "kind": "race",
+        "start": "2021-08-01T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hungaroring",
+        "name": "Formula 1 Rolex Magyar Nagydíj 2021"
+      }
+    ],
+    "2021-08-29": [
+      {
+        "event": "f1/2021/wc/r12-belgian-gp/race",
+        "kind": "race",
+        "start": "2021-08-29T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "Formula 1 Rolex Belgian Grand Prix 2021"
+      }
+    ],
+    "2021-09-05": [
+      {
+        "event": "f1/2021/wc/r13-dutch-gp/race",
+        "kind": "race",
+        "start": "2021-09-05T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-park-zandvoort",
+        "name": "Formula 1 Heineken Dutch Grand Prix 2021"
+      }
+    ],
+    "2021-09-12": [
+      {
+        "event": "f1/2021/wc/r14-italian-gp/race",
+        "kind": "race",
+        "start": "2021-09-12T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Formula 1 Heineken Gran Premio d'Italia 2021"
+      }
+    ],
+    "2021-09-26": [
+      {
+        "event": "f1/2021/wc/r15-russian-gp/race",
+        "kind": "race",
+        "start": "2021-09-26T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/sochi-autodrom",
+        "name": "Formula 1 VTB Russian Grand Prix 2021"
+      }
+    ],
+    "2021-10-03": [
+      {
+        "event": "f1/2021/wc/r16-turkish-gp/race",
+        "kind": "race",
+        "start": "2021-10-03T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/istanbul-park",
+        "name": "Formula 1 Rolex Turkish Grand Prix 2021"
+      }
+    ],
+    "2021-10-24": [
+      {
+        "event": "f1/2021/wc/r17-united-states-gp/race",
+        "kind": "race",
+        "start": "2021-10-24T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-of-the-americas",
+        "name": "Formula 1 Aramco United States Grand Prix 2021"
+      }
+    ],
+    "2021-11-07": [
+      {
+        "event": "f1/2021/wc/r18-mexican-gp/race",
+        "kind": "race",
+        "start": "2021-11-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-hermanos-rodriguez",
+        "name": "Formula 1 Gran Premio de la Ciudad de México 2021"
+      }
+    ],
+    "2021-11-14": [
+      {
+        "event": "f1/2021/wc/r19-sao-paulo-gp/race",
+        "kind": "race",
+        "start": "2021-11-14T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-jose-carlos-pace",
+        "name": "Formula 1 Heineken Grande Prêmio de São Paulo 2021"
+      }
+    ],
+    "2021-11-21": [
+      {
+        "event": "f1/2021/wc/r20-qatar-gp/race",
+        "kind": "race",
+        "start": "2021-11-21T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/lusail-international-circuit",
+        "name": "Formula 1 Ooredoo Qatar Grand Prix 2021"
+      }
+    ],
+    "2021-12-05": [
+      {
+        "event": "f1/2021/wc/r21-saudi-arabian-gp/race",
+        "kind": "race",
+        "start": "2021-12-05T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/jeddah-corniche-circuit",
+        "name": "Formula 1 stc Saudi Arabian Grand Prix 2021"
+      }
+    ],
+    "2021-12-12": [
+      {
+        "event": "f1/2021/wc/r22-abu-dhabi-gp/race",
+        "kind": "race",
+        "start": "2021-12-12T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/yas-marina-circuit",
+        "name": "Formula 1 Etihad Airways Abu Dhabi Grand Prix 2021"
+      }
+    ]
+  }
+}

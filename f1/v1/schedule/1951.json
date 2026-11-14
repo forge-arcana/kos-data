@@ -1,0 +1,86 @@
+{
+  "sport": "f1",
+  "season": "1951",
+  "days": {
+    "1951-05-27": [
+      {
+        "event": "f1/1951/wc/r01-swiss-gp/race",
+        "kind": "race",
+        "start": "1951-05-27T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-bremgarten",
+        "name": "Grosser Preis der Schweiz 1951"
+      }
+    ],
+    "1951-05-30": [
+      {
+        "event": "f1/1951/wc/r02-indy-500/race",
+        "kind": "race",
+        "start": "1951-05-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/indianapolis-motor-speedway",
+        "name": "1951 Indianapolis 500"
+      }
+    ],
+    "1951-06-17": [
+      {
+        "event": "f1/1951/wc/r03-belgian-gp/race",
+        "kind": "race",
+        "start": "1951-06-17T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "1951 Belgian Grand Prix"
+      }
+    ],
+    "1951-07-01": [
+      {
+        "event": "f1/1951/wc/r04-french-gp/race",
+        "kind": "race",
+        "start": "1951-07-01T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/reims-gueux",
+        "name": "Grand Prix de France 1951"
+      }
+    ],
+    "1951-07-14": [
+      {
+        "event": "f1/1951/wc/r05-british-gp/race",
+        "kind": "race",
+        "start": "1951-07-14T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "1951 RAC British Grand Prix"
+      }
+    ],
+    "1951-07-29": [
+      {
+        "event": "f1/1951/wc/r06-german-gp/race",
+        "kind": "race",
+        "start": "1951-07-29T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/nurburgring",
+        "name": "Grosser Preis von Deutschland 1951"
+      }
+    ],
+    "1951-09-16": [
+      {
+        "event": "f1/1951/wc/r07-italian-gp/race",
+        "kind": "race",
+        "start": "1951-09-16T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Gran Premio d'Italia 1951"
+      }
+    ],
+    "1951-10-28": [
+      {
+        "event": "f1/1951/wc/r08-spanish-gp/race",
+        "kind": "race",
+        "start": "1951-10-28T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/pedralbes-circuit",
+        "name": "Gran Premio de España 1951"
+      }
+    ]
+  }
+}

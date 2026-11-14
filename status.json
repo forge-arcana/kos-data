@@ -1,0 +1,93 @@
+{
+  "updated": "2026-07-19T21:42:50.602Z",
+  "sources": {
+    "f1db": {
+      "grade": "open",
+      "cadence": "24h",
+      "staleAfterDays": null,
+      "stale": false
+    },
+    "geonames": {
+      "grade": "open",
+      "cadence": null,
+      "staleAfterDays": null,
+      "stale": false
+    },
+    "open-meteo": {
+      "grade": "open",
+      "cadence": "6h",
+      "staleAfterDays": null,
+      "stale": false
+    },
+    "polymarket": {
+      "grade": "facts-risk",
+      "cadence": "6h",
+      "staleAfterDays": null,
+      "stale": false
+    },
+    "wikidata": {
+      "grade": "open",
+      "cadence": "weekly",
+      "staleAfterDays": null,
+      "stale": false
+    }
+  },
+  "unresolvedNames": 0,
+  "discrepancies": [],
+  "coverage": {
+    "f1": {
+      "result": {
+        "status": "full",
+        "floor": "1950",
+        "note": "f1db CC BY backbone: every world-championship session 1950-present."
+      },
+      "perf": {
+        "status": "partial",
+        "floor": "1994",
+        "note": "Pit-stop counts from f1db's pit-stop data era (1994+); earlier races have no per-stop records.",
+        "wouldUnblock": "A licensed historical pit-stop dataset for pre-1994 seasons."
+      },
+      "form": {
+        "status": "full",
+        "floor": "1950",
+        "note": "Drivers' standings after every round, f1db 1950-present."
+      },
+      "cond": {
+        "status": "partial",
+        "floor": "1950",
+        "note": "Open-Meteo hourly reanalysis joined by venue coordinates; model estimate at the venue, not track-side sensor data.",
+        "proxies": [
+          "cond.temp_c",
+          "cond.precip_mm",
+          "cond.wind_kmh"
+        ]
+      },
+      "avail": {
+        "status": "none",
+        "note": "No keyless personnel-status feed exists for F1; driver substitutions surface only post-hoc in results.",
+        "wouldUnblock": "A licensed entry-list/withdrawal feed."
+      },
+      "market": {
+        "status": "partial",
+        "floor": "2024",
+        "note": "Prediction markets (Polymarket) 2024-present only; no keyless bookmaker odds history for F1. Public per owner decision 2026-07-19 (OQ #6 closed: rights unlocated, not denied); excluded from commercial delivery.",
+        "wouldUnblock": "A licensed historical odds feed would extend the floor past 2024."
+      },
+      "meas": {
+        "status": "partial",
+        "floor": "1950",
+        "note": "Fastest race lap from f1db (stepped horizon: timing precision improves by era). Speed-trap and telemetry measurements have no license-clean source (SR G7).",
+        "wouldUnblock": "A licensed telemetry/speed-trap dataset."
+      },
+      "agg": {
+        "status": "full",
+        "floor": "1950",
+        "note": "f1db source-published driver season and career totals; independent cross-check for card-derived aggregates."
+      },
+      "h2h": {
+        "status": "full",
+        "note": "Derived-only from stored result rows over shared events; no stored metric (OM §14.1)."
+      }
+    }
+  }
+}
