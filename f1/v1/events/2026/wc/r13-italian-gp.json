@@ -1,0 +1,5521 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/forge-arcana/kos-data@main/schema/event.schema.json",
+  "dataset": "event",
+  "sport": "f1",
+  "event": {
+    "id": "f1/2026/wc/r13-italian-gp",
+    "name": "Formula 1 Pirelli Gran Premio d'Italia 2026",
+    "kind": "race",
+    "season": "f1/2026",
+    "venue": "venue/autodromo-nazionale-monza",
+    "start": "2026-09-06T12:00:00Z",
+    "status": "final"
+  },
+  "date": "2026-09-06",
+  "updated": "2026-09-07T01:31:38.442Z",
+  "sources": [
+    "f1db",
+    "open-meteo",
+    "polymarket"
+  ],
+  "sourcesMeta": {
+    "f1db": {
+      "date": "2026-09-06"
+    },
+    "open-meteo": {
+      "date": "2026-09-06"
+    },
+    "polymarket": {
+      "date": "2026-09-06"
+    }
+  },
+  "entities": [
+    "athlete/alexander-albon",
+    "athlete/arvid-lindblad",
+    "athlete/ayumu-iwasa",
+    "athlete/carlos-sainz-jr",
+    "athlete/charles-leclerc",
+    "athlete/colton-herta",
+    "athlete/esteban-ocon",
+    "athlete/fernando-alonso",
+    "athlete/franco-colapinto",
+    "athlete/gabriel-bortoleto",
+    "athlete/george-russell",
+    "athlete/kimi-antonelli",
+    "athlete/lance-stroll",
+    "athlete/lando-norris",
+    "athlete/lewis-hamilton",
+    "athlete/liam-lawson",
+    "athlete/luke-browning",
+    "athlete/max-verstappen",
+    "athlete/nico-hulkenberg",
+    "athlete/oliver-bearman",
+    "athlete/oscar-piastri",
+    "athlete/paul-aron",
+    "athlete/pierre-gasly",
+    "athlete/sergio-perez",
+    "athlete/valtteri-bottas",
+    "athlete/yuki-tsunoda"
+  ],
+  "rows": [
+    {
+      "session": "fp1",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "result.position",
+      "value": 7,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp1",
+      "entity": "athlete/ayumu-iwasa",
+      "metric": "result.position",
+      "value": 17,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp1",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "result.position",
+      "value": 16,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp1",
+      "entity": "athlete/charles-leclerc",
+      "metric": "result.position",
+      "value": 1,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp1",
+      "entity": "athlete/colton-herta",
+      "metric": "result.position",
+      "value": 22,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp1",
+      "entity": "athlete/esteban-ocon",
+      "metric": "result.position",
+      "value": 18,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp1",
+      "entity": "athlete/fernando-alonso",
+      "metric": "result.position",
+      "value": 21,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp1",
+      "entity": "athlete/franco-colapinto",
+      "metric": "result.position",
+      "value": 9,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp1",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "result.position",
+      "value": 8,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp1",
+      "entity": "athlete/george-russell",
+      "metric": "result.position",
+      "value": 3,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp1",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "result.position",
+      "value": 5,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp1",
+      "entity": "athlete/lance-stroll",
+      "metric": "result.position",
+      "value": 20,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp1",
+      "entity": "athlete/lando-norris",
+      "metric": "result.position",
+      "value": 6,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp1",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "result.position",
+      "value": 2,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp1",
+      "entity": "athlete/liam-lawson",
+      "metric": "result.position",
+      "value": 4,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp1",
+      "entity": "athlete/luke-browning",
+      "metric": "result.position",
+      "value": 15,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp1",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "result.position",
+      "value": 13,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp1",
+      "entity": "athlete/oliver-bearman",
+      "metric": "result.position",
+      "value": 14,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp1",
+      "entity": "athlete/oscar-piastri",
+      "metric": "result.position",
+      "value": 11,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp1",
+      "entity": "athlete/paul-aron",
+      "metric": "result.position",
+      "value": 10,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp1",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "result.position",
+      "value": 19,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp1",
+      "entity": "athlete/yuki-tsunoda",
+      "metric": "result.position",
+      "value": 12,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/alexander-albon",
+      "metric": "result.position",
+      "value": 16,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "result.position",
+      "value": 7,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "result.position",
+      "value": 17,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/charles-leclerc",
+      "metric": "result.position",
+      "value": 2,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/esteban-ocon",
+      "metric": "result.position",
+      "value": 18,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/fernando-alonso",
+      "metric": "result.position",
+      "value": 19,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/franco-colapinto",
+      "metric": "result.position",
+      "value": 11,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "result.position",
+      "value": 15,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/george-russell",
+      "metric": "result.position",
+      "value": 1,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "result.position",
+      "value": 3,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/lance-stroll",
+      "metric": "result.position",
+      "value": 22,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/lando-norris",
+      "metric": "result.position",
+      "value": 4,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "result.position",
+      "value": 5,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/liam-lawson",
+      "metric": "result.position",
+      "value": 12,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/max-verstappen",
+      "metric": "result.position",
+      "value": 9,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "result.position",
+      "value": 13,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/oliver-bearman",
+      "metric": "result.position",
+      "value": 8,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/oscar-piastri",
+      "metric": "result.position",
+      "value": 6,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/pierre-gasly",
+      "metric": "result.position",
+      "value": 14,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/sergio-perez",
+      "metric": "result.position",
+      "value": 20,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "result.position",
+      "value": 21,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp2",
+      "entity": "athlete/yuki-tsunoda",
+      "metric": "result.position",
+      "value": 10,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/alexander-albon",
+      "metric": "result.position",
+      "value": 18,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "result.position",
+      "value": 7,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "result.position",
+      "value": 16,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/charles-leclerc",
+      "metric": "result.position",
+      "value": 6,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/esteban-ocon",
+      "metric": "result.position",
+      "value": 17,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/fernando-alonso",
+      "metric": "result.position",
+      "value": 19,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/franco-colapinto",
+      "metric": "result.position",
+      "value": 10,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "result.position",
+      "value": 13,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/george-russell",
+      "metric": "result.position",
+      "value": 1,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "result.position",
+      "value": 4,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/lance-stroll",
+      "metric": "result.position",
+      "value": 22,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/lando-norris",
+      "metric": "result.position",
+      "value": 5,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "result.position",
+      "value": 2,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/liam-lawson",
+      "metric": "result.position",
+      "value": 12,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/max-verstappen",
+      "metric": "result.position",
+      "value": 3,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "result.position",
+      "value": 11,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/oliver-bearman",
+      "metric": "result.position",
+      "value": 14,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/oscar-piastri",
+      "metric": "result.position",
+      "value": 8,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/pierre-gasly",
+      "metric": "result.position",
+      "value": 9,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/sergio-perez",
+      "metric": "result.position",
+      "value": 21,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "result.position",
+      "value": 20,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "fp3",
+      "entity": "athlete/yuki-tsunoda",
+      "metric": "result.position",
+      "value": 15,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/alexander-albon",
+      "metric": "result.position",
+      "value": 18,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "result.position",
+      "value": 10,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "result.position",
+      "value": 15,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/charles-leclerc",
+      "metric": "result.position",
+      "value": 4,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/esteban-ocon",
+      "metric": "result.position",
+      "value": 16,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/fernando-alonso",
+      "metric": "result.position",
+      "value": 21,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/franco-colapinto",
+      "metric": "result.position",
+      "value": 8,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "result.position",
+      "value": 11,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/george-russell",
+      "metric": "result.position",
+      "value": 2,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "result.position",
+      "value": 7,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/lance-stroll",
+      "metric": "result.position",
+      "value": 22,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/lando-norris",
+      "metric": "result.position",
+      "value": 9,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "result.position",
+      "value": 5,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/liam-lawson",
+      "metric": "result.position",
+      "value": 14,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/max-verstappen",
+      "metric": "result.position",
+      "value": 6,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "result.position",
+      "value": 13,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/oliver-bearman",
+      "metric": "result.position",
+      "value": 12,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/oscar-piastri",
+      "metric": "result.position",
+      "value": 3,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/pierre-gasly",
+      "metric": "result.position",
+      "value": 1,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/sergio-perez",
+      "metric": "result.position",
+      "value": 20,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "result.position",
+      "value": 19,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "q",
+      "entity": "athlete/yuki-tsunoda",
+      "metric": "result.position",
+      "value": 17,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "metric": "cond.precip_mm",
+      "value": 0,
+      "unit": "mm",
+      "source": "open-meteo"
+    },
+    {
+      "session": "race",
+      "metric": "cond.temp_c",
+      "value": 31.6,
+      "unit": "c",
+      "source": "open-meteo"
+    },
+    {
+      "session": "race",
+      "metric": "cond.wind_kmh",
+      "value": 4.7,
+      "unit": "kmh",
+      "source": "open-meteo"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/alexander-albon",
+      "metric": "meas.fastest_lap_ms",
+      "value": 85341,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/alexander-albon",
+      "metric": "perf.pit_stops",
+      "value": 2,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/alexander-albon",
+      "metric": "result.grid",
+      "value": 20,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/alexander-albon",
+      "metric": "result.position",
+      "value": 17,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/alexander-albon",
+      "metric": "result.positions_gained",
+      "value": 3,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/alexander-albon",
+      "metric": "result.winner",
+      "value": false,
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "meas.fastest_lap_ms",
+      "value": 86028,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "perf.pit_stops",
+      "value": 0,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "result.gap_ms",
+      "value": 45136,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "result.grid",
+      "value": 9,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "result.position",
+      "value": 8,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "result.positions_gained",
+      "value": 1,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "result.winner",
+      "value": false,
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "meas.fastest_lap_ms",
+      "value": 85683,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "perf.pit_stops",
+      "value": 2,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "result.gap_ms",
+      "value": 74117,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "result.grid",
+      "value": 13,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "result.position",
+      "value": 13,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "result.positions_gained",
+      "value": 0,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "result.winner",
+      "value": false,
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/charles-leclerc",
+      "metric": "perf.pit_stops",
+      "value": 0,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/charles-leclerc",
+      "metric": "result.grid",
+      "value": 3,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/charles-leclerc",
+      "metric": "result.reason_retired",
+      "value": "accident",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/esteban-ocon",
+      "metric": "meas.fastest_lap_ms",
+      "value": 85711,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/esteban-ocon",
+      "metric": "perf.pit_stops",
+      "value": 2,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/esteban-ocon",
+      "metric": "result.grid",
+      "value": 14,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/esteban-ocon",
+      "metric": "result.position",
+      "value": 16,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/esteban-ocon",
+      "metric": "result.positions_gained",
+      "value": -2,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/esteban-ocon",
+      "metric": "result.winner",
+      "value": false,
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/fernando-alonso",
+      "metric": "meas.fastest_lap_ms",
+      "value": 87961,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/fernando-alonso",
+      "metric": "perf.pit_stops",
+      "value": 0,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/fernando-alonso",
+      "metric": "result.reason_retired",
+      "value": "mechanical",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/franco-colapinto",
+      "metric": "meas.fastest_lap_ms",
+      "value": 84933,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/franco-colapinto",
+      "metric": "perf.pit_stops",
+      "value": 0,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/franco-colapinto",
+      "metric": "result.gap_ms",
+      "value": 47353,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/franco-colapinto",
+      "metric": "result.grid",
+      "value": 7,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/franco-colapinto",
+      "metric": "result.position",
+      "value": 9,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/franco-colapinto",
+      "metric": "result.positions_gained",
+      "value": -2,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/franco-colapinto",
+      "metric": "result.winner",
+      "value": false,
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "meas.fastest_lap_ms",
+      "value": 86188,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "perf.pit_stops",
+      "value": 0,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "result.gap_ms",
+      "value": 65187,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "result.grid",
+      "value": 10,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "result.position",
+      "value": 11,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "result.positions_gained",
+      "value": -1,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "result.winner",
+      "value": false,
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/george-russell",
+      "metric": "meas.fastest_lap_ms",
+      "value": 84390,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/george-russell",
+      "metric": "perf.pit_stops",
+      "value": 0,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/george-russell",
+      "metric": "result.gap_ms",
+      "value": 3857,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/george-russell",
+      "metric": "result.grid",
+      "value": 2,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/george-russell",
+      "metric": "result.position",
+      "value": 2,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/george-russell",
+      "metric": "result.positions_gained",
+      "value": 0,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/george-russell",
+      "metric": "result.winner",
+      "value": false,
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "meas.fastest_lap_ms",
+      "value": 83504,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "perf.pit_stops",
+      "value": 2,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "result.grid",
+      "value": 19,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "result.position",
+      "value": 1,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "result.positions_gained",
+      "value": 18,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "result.winner",
+      "value": true,
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/lance-stroll",
+      "metric": "meas.fastest_lap_ms",
+      "value": 88415,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/lance-stroll",
+      "metric": "perf.pit_stops",
+      "value": 0,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/lance-stroll",
+      "metric": "result.grid",
+      "value": 18,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/lance-stroll",
+      "metric": "result.reason_retired",
+      "value": "hydraulics",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/lando-norris",
+      "metric": "meas.fastest_lap_ms",
+      "value": 84864,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/lando-norris",
+      "metric": "perf.pit_stops",
+      "value": 0,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/lando-norris",
+      "metric": "result.gap_ms",
+      "value": 19056,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/lando-norris",
+      "metric": "result.grid",
+      "value": 8,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/lando-norris",
+      "metric": "result.position",
+      "value": 4,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/lando-norris",
+      "metric": "result.positions_gained",
+      "value": 4,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/lando-norris",
+      "metric": "result.winner",
+      "value": false,
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "meas.fastest_lap_ms",
+      "value": 85300,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "perf.pit_stops",
+      "value": 0,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "result.gap_ms",
+      "value": 24655,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "result.grid",
+      "value": 4,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "result.position",
+      "value": 6,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "result.positions_gained",
+      "value": -2,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "result.winner",
+      "value": false,
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/liam-lawson",
+      "metric": "meas.fastest_lap_ms",
+      "value": 85578,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/liam-lawson",
+      "metric": "perf.pit_stops",
+      "value": 2,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/liam-lawson",
+      "metric": "result.gap_ms",
+      "value": 75609,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/liam-lawson",
+      "metric": "result.position",
+      "value": 14,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/liam-lawson",
+      "metric": "result.positions_gained",
+      "value": 8,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/liam-lawson",
+      "metric": "result.winner",
+      "value": false,
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/max-verstappen",
+      "metric": "meas.fastest_lap_ms",
+      "value": 84242,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/max-verstappen",
+      "metric": "perf.pit_stops",
+      "value": 2,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/max-verstappen",
+      "metric": "result.gap_ms",
+      "value": 14718,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/max-verstappen",
+      "metric": "result.grid",
+      "value": 5,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/max-verstappen",
+      "metric": "result.position",
+      "value": 3,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/max-verstappen",
+      "metric": "result.positions_gained",
+      "value": 2,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/max-verstappen",
+      "metric": "result.winner",
+      "value": false,
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "meas.fastest_lap_ms",
+      "value": 84364,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "perf.pit_stops",
+      "value": 2,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "result.gap_ms",
+      "value": 66187,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "result.grid",
+      "value": 12,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "result.position",
+      "value": 12,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "result.positions_gained",
+      "value": 0,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "result.winner",
+      "value": false,
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/oliver-bearman",
+      "metric": "meas.fastest_lap_ms",
+      "value": 86356,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/oliver-bearman",
+      "metric": "perf.pit_stops",
+      "value": 0,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/oliver-bearman",
+      "metric": "result.gap_ms",
+      "value": 78958,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/oliver-bearman",
+      "metric": "result.grid",
+      "value": 11,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/oliver-bearman",
+      "metric": "result.position",
+      "value": 15,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/oliver-bearman",
+      "metric": "result.positions_gained",
+      "value": -4,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/oliver-bearman",
+      "metric": "result.winner",
+      "value": false,
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/oscar-piastri",
+      "metric": "meas.fastest_lap_ms",
+      "value": 85125,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/oscar-piastri",
+      "metric": "perf.pit_stops",
+      "value": 0,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/oscar-piastri",
+      "metric": "result.gap_ms",
+      "value": 19253,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/oscar-piastri",
+      "metric": "result.grid",
+      "value": 6,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/oscar-piastri",
+      "metric": "result.position",
+      "value": 5,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/oscar-piastri",
+      "metric": "result.positions_gained",
+      "value": 1,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/oscar-piastri",
+      "metric": "result.winner",
+      "value": false,
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/pierre-gasly",
+      "metric": "meas.fastest_lap_ms",
+      "value": 84927,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/pierre-gasly",
+      "metric": "perf.pit_stops",
+      "value": 0,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/pierre-gasly",
+      "metric": "result.gap_ms",
+      "value": 27351,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/pierre-gasly",
+      "metric": "result.grid",
+      "value": 1,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/pierre-gasly",
+      "metric": "result.position",
+      "value": 7,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/pierre-gasly",
+      "metric": "result.positions_gained",
+      "value": -6,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/pierre-gasly",
+      "metric": "result.winner",
+      "value": false,
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/sergio-perez",
+      "metric": "meas.fastest_lap_ms",
+      "value": 86914,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/sergio-perez",
+      "metric": "perf.pit_stops",
+      "value": 2,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/sergio-perez",
+      "metric": "result.grid",
+      "value": 17,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/sergio-perez",
+      "metric": "result.position",
+      "value": 18,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/sergio-perez",
+      "metric": "result.positions_gained",
+      "value": -1,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/sergio-perez",
+      "metric": "result.winner",
+      "value": false,
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "meas.fastest_lap_ms",
+      "value": 87325,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "perf.pit_stops",
+      "value": 2,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "result.grid",
+      "value": 16,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "result.position",
+      "value": 19,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "result.positions_gained",
+      "value": -3,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "result.winner",
+      "value": false,
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/yuki-tsunoda",
+      "metric": "meas.fastest_lap_ms",
+      "value": 86320,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/yuki-tsunoda",
+      "metric": "perf.pit_stops",
+      "value": 0,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/yuki-tsunoda",
+      "metric": "result.gap_ms",
+      "value": 58187,
+      "unit": "ms",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/yuki-tsunoda",
+      "metric": "result.grid",
+      "value": 15,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/yuki-tsunoda",
+      "metric": "result.position",
+      "value": 10,
+      "unit": "rank",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/yuki-tsunoda",
+      "metric": "result.positions_gained",
+      "value": 5,
+      "unit": "count",
+      "source": "f1db"
+    },
+    {
+      "session": "race",
+      "entity": "athlete/yuki-tsunoda",
+      "metric": "result.winner",
+      "value": false,
+      "source": "f1db"
+    }
+  ],
+  "preEvent": [
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/alexander-albon",
+      "metric": "form.standing_points",
+      "value": 5,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/alexander-albon",
+      "metric": "form.standing_position",
+      "value": 17,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/alexander-albon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "form.standing_points",
+      "value": 25,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "form.standing_position",
+      "value": 11,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "form.standing_points",
+      "value": 6,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "form.standing_position",
+      "value": 16,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/charles-leclerc",
+      "metric": "form.standing_points",
+      "value": 155,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/charles-leclerc",
+      "metric": "form.standing_position",
+      "value": 5,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/charles-leclerc",
+      "metric": "market.prob_win",
+      "value": 0.024,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/esteban-ocon",
+      "metric": "form.standing_points",
+      "value": 3,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/esteban-ocon",
+      "metric": "form.standing_position",
+      "value": 18,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/esteban-ocon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/fernando-alonso",
+      "metric": "form.standing_points",
+      "value": 3,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/fernando-alonso",
+      "metric": "form.standing_position",
+      "value": 19,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/fernando-alonso",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/franco-colapinto",
+      "metric": "form.standing_points",
+      "value": 19,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/franco-colapinto",
+      "metric": "form.standing_position",
+      "value": 12,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/franco-colapinto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "form.standing_points",
+      "value": 10,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "form.standing_position",
+      "value": 14,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/george-russell",
+      "metric": "form.standing_points",
+      "value": 183,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/george-russell",
+      "metric": "form.standing_position",
+      "value": 2,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/george-russell",
+      "metric": "market.prob_win",
+      "value": 0.095,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "form.standing_points",
+      "value": 242,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "form.standing_position",
+      "value": 1,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "market.prob_win",
+      "value": 0.716,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/lance-stroll",
+      "metric": "form.standing_points",
+      "value": 0,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/lance-stroll",
+      "metric": "form.standing_position",
+      "value": 21,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/lance-stroll",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/lando-norris",
+      "metric": "form.standing_points",
+      "value": 159,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/lando-norris",
+      "metric": "form.standing_position",
+      "value": 4,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/lando-norris",
+      "metric": "market.prob_win",
+      "value": 0.04,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "form.standing_points",
+      "value": 183,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "form.standing_position",
+      "value": 3,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "market.prob_win",
+      "value": 0.088,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/liam-lawson",
+      "metric": "form.standing_points",
+      "value": 51,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/liam-lawson",
+      "metric": "form.standing_position",
+      "value": 9,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/liam-lawson",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/max-verstappen",
+      "metric": "form.standing_points",
+      "value": 112,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/max-verstappen",
+      "metric": "form.standing_position",
+      "value": 6,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/max-verstappen",
+      "metric": "market.prob_win",
+      "value": 0.014,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "form.standing_points",
+      "value": 6,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "form.standing_position",
+      "value": 15,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/oliver-bearman",
+      "metric": "form.standing_points",
+      "value": 18,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/oliver-bearman",
+      "metric": "form.standing_position",
+      "value": 13,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/oliver-bearman",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/oscar-piastri",
+      "metric": "form.standing_points",
+      "value": 106,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/oscar-piastri",
+      "metric": "form.standing_position",
+      "value": 7,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/oscar-piastri",
+      "metric": "market.prob_win",
+      "value": 0.004,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/pierre-gasly",
+      "metric": "form.standing_points",
+      "value": 35,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/pierre-gasly",
+      "metric": "form.standing_position",
+      "value": 10,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/pierre-gasly",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/sergio-perez",
+      "metric": "form.standing_points",
+      "value": 0,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/sergio-perez",
+      "metric": "form.standing_position",
+      "value": 23,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/sergio-perez",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "form.standing_points",
+      "value": 0,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "form.standing_position",
+      "value": 22,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/yuki-tsunoda",
+      "metric": "form.standing_points",
+      "value": 0,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-23",
+      "entity": "athlete/yuki-tsunoda",
+      "metric": "form.standing_position",
+      "value": 20,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r12-dutch-gp"
+    },
+    {
+      "date": "2026-08-24",
+      "entity": "athlete/alexander-albon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-24",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-24",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-24",
+      "entity": "athlete/charles-leclerc",
+      "metric": "market.prob_win",
+      "value": 0.019,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-24",
+      "entity": "athlete/esteban-ocon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-24",
+      "entity": "athlete/fernando-alonso",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-24",
+      "entity": "athlete/franco-colapinto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-24",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-24",
+      "entity": "athlete/george-russell",
+      "metric": "market.prob_win",
+      "value": 0.065,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-24",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "market.prob_win",
+      "value": 0.741,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-24",
+      "entity": "athlete/lance-stroll",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-24",
+      "entity": "athlete/lando-norris",
+      "metric": "market.prob_win",
+      "value": 0.09,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-24",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "market.prob_win",
+      "value": 0.069,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-24",
+      "entity": "athlete/liam-lawson",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-24",
+      "entity": "athlete/max-verstappen",
+      "metric": "market.prob_win",
+      "value": 0.007,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-24",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-24",
+      "entity": "athlete/oliver-bearman",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-24",
+      "entity": "athlete/oscar-piastri",
+      "metric": "market.prob_win",
+      "value": 0.005,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-24",
+      "entity": "athlete/pierre-gasly",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-24",
+      "entity": "athlete/sergio-perez",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-24",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-25",
+      "entity": "athlete/alexander-albon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-25",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-25",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-25",
+      "entity": "athlete/charles-leclerc",
+      "metric": "market.prob_win",
+      "value": 0.02,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-25",
+      "entity": "athlete/esteban-ocon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-25",
+      "entity": "athlete/fernando-alonso",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-25",
+      "entity": "athlete/franco-colapinto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-25",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-25",
+      "entity": "athlete/george-russell",
+      "metric": "market.prob_win",
+      "value": 0.054,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-25",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "market.prob_win",
+      "value": 0.749,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-25",
+      "entity": "athlete/lance-stroll",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-25",
+      "entity": "athlete/lando-norris",
+      "metric": "market.prob_win",
+      "value": 0.092,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-25",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "market.prob_win",
+      "value": 0.065,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-25",
+      "entity": "athlete/liam-lawson",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-25",
+      "entity": "athlete/max-verstappen",
+      "metric": "market.prob_win",
+      "value": 0.007,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-25",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-25",
+      "entity": "athlete/oliver-bearman",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-25",
+      "entity": "athlete/oscar-piastri",
+      "metric": "market.prob_win",
+      "value": 0.006,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-25",
+      "entity": "athlete/pierre-gasly",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-25",
+      "entity": "athlete/sergio-perez",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-25",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-26",
+      "entity": "athlete/alexander-albon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-26",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-26",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-26",
+      "entity": "athlete/charles-leclerc",
+      "metric": "market.prob_win",
+      "value": 0.019,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-26",
+      "entity": "athlete/esteban-ocon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-26",
+      "entity": "athlete/fernando-alonso",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-26",
+      "entity": "athlete/franco-colapinto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-26",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-26",
+      "entity": "athlete/george-russell",
+      "metric": "market.prob_win",
+      "value": 0.053,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-26",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "market.prob_win",
+      "value": 0.75,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-26",
+      "entity": "athlete/lance-stroll",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-26",
+      "entity": "athlete/lando-norris",
+      "metric": "market.prob_win",
+      "value": 0.092,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-26",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "market.prob_win",
+      "value": 0.069,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-26",
+      "entity": "athlete/liam-lawson",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-26",
+      "entity": "athlete/max-verstappen",
+      "metric": "market.prob_win",
+      "value": 0.006,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-26",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-26",
+      "entity": "athlete/oliver-bearman",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-26",
+      "entity": "athlete/oscar-piastri",
+      "metric": "market.prob_win",
+      "value": 0.006,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-26",
+      "entity": "athlete/pierre-gasly",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-26",
+      "entity": "athlete/sergio-perez",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-26",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-27",
+      "entity": "athlete/alexander-albon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-27",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-27",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-27",
+      "entity": "athlete/charles-leclerc",
+      "metric": "market.prob_win",
+      "value": 0.018,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-27",
+      "entity": "athlete/esteban-ocon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-27",
+      "entity": "athlete/fernando-alonso",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-27",
+      "entity": "athlete/franco-colapinto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-27",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-27",
+      "entity": "athlete/george-russell",
+      "metric": "market.prob_win",
+      "value": 0.059,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-27",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "market.prob_win",
+      "value": 0.75,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-27",
+      "entity": "athlete/lance-stroll",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-27",
+      "entity": "athlete/lando-norris",
+      "metric": "market.prob_win",
+      "value": 0.091,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-27",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "market.prob_win",
+      "value": 0.068,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-27",
+      "entity": "athlete/liam-lawson",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-27",
+      "entity": "athlete/max-verstappen",
+      "metric": "market.prob_win",
+      "value": 0.007,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-27",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-27",
+      "entity": "athlete/oliver-bearman",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-27",
+      "entity": "athlete/oscar-piastri",
+      "metric": "market.prob_win",
+      "value": 0.006,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-27",
+      "entity": "athlete/pierre-gasly",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-27",
+      "entity": "athlete/sergio-perez",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-27",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "entity": "athlete/alexander-albon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "entity": "athlete/charles-leclerc",
+      "metric": "market.prob_win",
+      "value": 0.021,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "entity": "athlete/esteban-ocon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "entity": "athlete/fernando-alonso",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "entity": "athlete/franco-colapinto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "entity": "athlete/george-russell",
+      "metric": "market.prob_win",
+      "value": 0.066,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "market.prob_win",
+      "value": 0.745,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "entity": "athlete/lance-stroll",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "entity": "athlete/lando-norris",
+      "metric": "market.prob_win",
+      "value": 0.081,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "market.prob_win",
+      "value": 0.066,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "entity": "athlete/liam-lawson",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "entity": "athlete/max-verstappen",
+      "metric": "market.prob_win",
+      "value": 0.007,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "entity": "athlete/oliver-bearman",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "entity": "athlete/oscar-piastri",
+      "metric": "market.prob_win",
+      "value": 0.004,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "entity": "athlete/pierre-gasly",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "entity": "athlete/sergio-perez",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-29",
+      "entity": "athlete/alexander-albon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-29",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-29",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-29",
+      "entity": "athlete/charles-leclerc",
+      "metric": "market.prob_win",
+      "value": 0.019,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-29",
+      "entity": "athlete/esteban-ocon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-29",
+      "entity": "athlete/fernando-alonso",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-29",
+      "entity": "athlete/franco-colapinto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-29",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-29",
+      "entity": "athlete/george-russell",
+      "metric": "market.prob_win",
+      "value": 0.064,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-29",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "market.prob_win",
+      "value": 0.745,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-29",
+      "entity": "athlete/lance-stroll",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-29",
+      "entity": "athlete/lando-norris",
+      "metric": "market.prob_win",
+      "value": 0.086,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-29",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "market.prob_win",
+      "value": 0.066,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-29",
+      "entity": "athlete/liam-lawson",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-29",
+      "entity": "athlete/max-verstappen",
+      "metric": "market.prob_win",
+      "value": 0.007,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-29",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-29",
+      "entity": "athlete/oliver-bearman",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-29",
+      "entity": "athlete/oscar-piastri",
+      "metric": "market.prob_win",
+      "value": 0.004,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-29",
+      "entity": "athlete/pierre-gasly",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-29",
+      "entity": "athlete/sergio-perez",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-29",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-30",
+      "entity": "athlete/alexander-albon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-30",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-30",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-30",
+      "entity": "athlete/charles-leclerc",
+      "metric": "market.prob_win",
+      "value": 0.02,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-30",
+      "entity": "athlete/esteban-ocon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-30",
+      "entity": "athlete/fernando-alonso",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-30",
+      "entity": "athlete/franco-colapinto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-30",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-30",
+      "entity": "athlete/george-russell",
+      "metric": "market.prob_win",
+      "value": 0.062,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-30",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "market.prob_win",
+      "value": 0.746,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-30",
+      "entity": "athlete/lance-stroll",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-30",
+      "entity": "athlete/lando-norris",
+      "metric": "market.prob_win",
+      "value": 0.085,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-30",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "market.prob_win",
+      "value": 0.065,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-30",
+      "entity": "athlete/liam-lawson",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-30",
+      "entity": "athlete/max-verstappen",
+      "metric": "market.prob_win",
+      "value": 0.006,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-30",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-30",
+      "entity": "athlete/oliver-bearman",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-30",
+      "entity": "athlete/oscar-piastri",
+      "metric": "market.prob_win",
+      "value": 0.004,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-30",
+      "entity": "athlete/pierre-gasly",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-30",
+      "entity": "athlete/sergio-perez",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-30",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-31",
+      "entity": "athlete/alexander-albon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-31",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-31",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-31",
+      "entity": "athlete/charles-leclerc",
+      "metric": "market.prob_win",
+      "value": 0.017,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-31",
+      "entity": "athlete/esteban-ocon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-31",
+      "entity": "athlete/fernando-alonso",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-31",
+      "entity": "athlete/franco-colapinto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-31",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-31",
+      "entity": "athlete/george-russell",
+      "metric": "market.prob_win",
+      "value": 0.063,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-31",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "market.prob_win",
+      "value": 0.747,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-31",
+      "entity": "athlete/lance-stroll",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-31",
+      "entity": "athlete/lando-norris",
+      "metric": "market.prob_win",
+      "value": 0.083,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-31",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "market.prob_win",
+      "value": 0.065,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-31",
+      "entity": "athlete/liam-lawson",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-31",
+      "entity": "athlete/max-verstappen",
+      "metric": "market.prob_win",
+      "value": 0.006,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-31",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-31",
+      "entity": "athlete/oliver-bearman",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-31",
+      "entity": "athlete/oscar-piastri",
+      "metric": "market.prob_win",
+      "value": 0.005,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-31",
+      "entity": "athlete/pierre-gasly",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-31",
+      "entity": "athlete/sergio-perez",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-08-31",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "entity": "athlete/alexander-albon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "entity": "athlete/charles-leclerc",
+      "metric": "market.prob_win",
+      "value": 0.019,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "entity": "athlete/esteban-ocon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "entity": "athlete/fernando-alonso",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "entity": "athlete/franco-colapinto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "entity": "athlete/george-russell",
+      "metric": "market.prob_win",
+      "value": 0.067,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "market.prob_win",
+      "value": 0.744,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "entity": "athlete/lance-stroll",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "entity": "athlete/lando-norris",
+      "metric": "market.prob_win",
+      "value": 0.081,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "market.prob_win",
+      "value": 0.067,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "entity": "athlete/liam-lawson",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "entity": "athlete/max-verstappen",
+      "metric": "market.prob_win",
+      "value": 0.006,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "entity": "athlete/oliver-bearman",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "entity": "athlete/oscar-piastri",
+      "metric": "market.prob_win",
+      "value": 0.004,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "entity": "athlete/pierre-gasly",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "entity": "athlete/sergio-perez",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-02",
+      "entity": "athlete/alexander-albon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-02",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-02",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-02",
+      "entity": "athlete/charles-leclerc",
+      "metric": "market.prob_win",
+      "value": 0.02,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-02",
+      "entity": "athlete/esteban-ocon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-02",
+      "entity": "athlete/fernando-alonso",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-02",
+      "entity": "athlete/franco-colapinto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-02",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-02",
+      "entity": "athlete/george-russell",
+      "metric": "market.prob_win",
+      "value": 0.069,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-02",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "market.prob_win",
+      "value": 0.741,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-02",
+      "entity": "athlete/lance-stroll",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-02",
+      "entity": "athlete/lando-norris",
+      "metric": "market.prob_win",
+      "value": 0.08,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-02",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "market.prob_win",
+      "value": 0.062,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-02",
+      "entity": "athlete/liam-lawson",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-02",
+      "entity": "athlete/max-verstappen",
+      "metric": "market.prob_win",
+      "value": 0.006,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-02",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-02",
+      "entity": "athlete/oliver-bearman",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-02",
+      "entity": "athlete/oscar-piastri",
+      "metric": "market.prob_win",
+      "value": 0.004,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-02",
+      "entity": "athlete/pierre-gasly",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-02",
+      "entity": "athlete/sergio-perez",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-02",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-03",
+      "entity": "athlete/alexander-albon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-03",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-03",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-03",
+      "entity": "athlete/charles-leclerc",
+      "metric": "market.prob_win",
+      "value": 0.02,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-03",
+      "entity": "athlete/esteban-ocon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-03",
+      "entity": "athlete/fernando-alonso",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-03",
+      "entity": "athlete/franco-colapinto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-03",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-03",
+      "entity": "athlete/george-russell",
+      "metric": "market.prob_win",
+      "value": 0.071,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-03",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "market.prob_win",
+      "value": 0.725,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-03",
+      "entity": "athlete/lance-stroll",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-03",
+      "entity": "athlete/lando-norris",
+      "metric": "market.prob_win",
+      "value": 0.079,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-03",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "market.prob_win",
+      "value": 0.062,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-03",
+      "entity": "athlete/liam-lawson",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-03",
+      "entity": "athlete/max-verstappen",
+      "metric": "market.prob_win",
+      "value": 0.006,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-03",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-03",
+      "entity": "athlete/oliver-bearman",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-03",
+      "entity": "athlete/oscar-piastri",
+      "metric": "market.prob_win",
+      "value": 0.004,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-03",
+      "entity": "athlete/pierre-gasly",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-03",
+      "entity": "athlete/sergio-perez",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-03",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-04",
+      "entity": "athlete/alexander-albon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-04",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-04",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-04",
+      "entity": "athlete/charles-leclerc",
+      "metric": "market.prob_win",
+      "value": 0.018,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-04",
+      "entity": "athlete/esteban-ocon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-04",
+      "entity": "athlete/fernando-alonso",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-04",
+      "entity": "athlete/franco-colapinto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-04",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-04",
+      "entity": "athlete/george-russell",
+      "metric": "market.prob_win",
+      "value": 0.068,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-04",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "market.prob_win",
+      "value": 0.727,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-04",
+      "entity": "athlete/lance-stroll",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-04",
+      "entity": "athlete/lando-norris",
+      "metric": "market.prob_win",
+      "value": 0.094,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-04",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "market.prob_win",
+      "value": 0.062,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-04",
+      "entity": "athlete/liam-lawson",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-04",
+      "entity": "athlete/max-verstappen",
+      "metric": "market.prob_win",
+      "value": 0.006,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-04",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-04",
+      "entity": "athlete/oliver-bearman",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-04",
+      "entity": "athlete/oscar-piastri",
+      "metric": "market.prob_win",
+      "value": 0.004,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-04",
+      "entity": "athlete/pierre-gasly",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-04",
+      "entity": "athlete/sergio-perez",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-04",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "athlete/alexander-albon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "athlete/charles-leclerc",
+      "metric": "market.prob_win",
+      "value": 0.02,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "athlete/esteban-ocon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "athlete/fernando-alonso",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "athlete/franco-colapinto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "athlete/george-russell",
+      "metric": "market.prob_win",
+      "value": 0.092,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "market.prob_win",
+      "value": 0.716,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "athlete/lance-stroll",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "athlete/lando-norris",
+      "metric": "market.prob_win",
+      "value": 0.095,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "market.prob_win",
+      "value": 0.047,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "athlete/liam-lawson",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "athlete/max-verstappen",
+      "metric": "market.prob_win",
+      "value": 0.006,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "athlete/oliver-bearman",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "athlete/oscar-piastri",
+      "metric": "market.prob_win",
+      "value": 0.005,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "athlete/pierre-gasly",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "athlete/sergio-perez",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/alexander-albon",
+      "metric": "form.standing_points",
+      "value": 5,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/alexander-albon",
+      "metric": "form.standing_position",
+      "value": 17,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/alexander-albon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "form.standing_points",
+      "value": 29,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "form.standing_position",
+      "value": 11,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/arvid-lindblad",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "form.standing_points",
+      "value": 6,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "form.standing_position",
+      "value": 16,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/carlos-sainz-jr",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/charles-leclerc",
+      "metric": "form.standing_points",
+      "value": 155,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/charles-leclerc",
+      "metric": "form.standing_position",
+      "value": 5,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/charles-leclerc",
+      "metric": "market.prob_win",
+      "value": 0.019,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/esteban-ocon",
+      "metric": "form.standing_points",
+      "value": 3,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/esteban-ocon",
+      "metric": "form.standing_position",
+      "value": 18,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/esteban-ocon",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/fernando-alonso",
+      "metric": "form.standing_points",
+      "value": 3,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/fernando-alonso",
+      "metric": "form.standing_position",
+      "value": 19,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/fernando-alonso",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/franco-colapinto",
+      "metric": "form.standing_points",
+      "value": 21,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/franco-colapinto",
+      "metric": "form.standing_position",
+      "value": 12,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/franco-colapinto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "form.standing_points",
+      "value": 10,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "form.standing_position",
+      "value": 14,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/gabriel-bortoleto",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/george-russell",
+      "metric": "form.standing_points",
+      "value": 201,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/george-russell",
+      "metric": "form.standing_position",
+      "value": 2,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/george-russell",
+      "metric": "market.prob_win",
+      "value": 0.096,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "form.standing_points",
+      "value": 267,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "form.standing_position",
+      "value": 1,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/kimi-antonelli",
+      "metric": "market.prob_win",
+      "value": 0.712,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/lance-stroll",
+      "metric": "form.standing_points",
+      "value": 0,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/lance-stroll",
+      "metric": "form.standing_position",
+      "value": 21,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/lance-stroll",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/lando-norris",
+      "metric": "form.standing_points",
+      "value": 171,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/lando-norris",
+      "metric": "form.standing_position",
+      "value": 4,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/lando-norris",
+      "metric": "market.prob_win",
+      "value": 0.084,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "form.standing_points",
+      "value": 191,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "form.standing_position",
+      "value": 3,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/lewis-hamilton",
+      "metric": "market.prob_win",
+      "value": 0.064,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/liam-lawson",
+      "metric": "form.standing_points",
+      "value": 51,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/liam-lawson",
+      "metric": "form.standing_position",
+      "value": 9,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/liam-lawson",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/max-verstappen",
+      "metric": "form.standing_points",
+      "value": 127,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/max-verstappen",
+      "metric": "form.standing_position",
+      "value": 6,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/max-verstappen",
+      "metric": "market.prob_win",
+      "value": 0.007,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "form.standing_points",
+      "value": 6,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "form.standing_position",
+      "value": 15,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/nico-hulkenberg",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/oliver-bearman",
+      "metric": "form.standing_points",
+      "value": 18,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/oliver-bearman",
+      "metric": "form.standing_position",
+      "value": 13,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/oliver-bearman",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/oscar-piastri",
+      "metric": "form.standing_points",
+      "value": 116,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/oscar-piastri",
+      "metric": "form.standing_position",
+      "value": 7,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/oscar-piastri",
+      "metric": "market.prob_win",
+      "value": 0.005,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/pierre-gasly",
+      "metric": "form.standing_points",
+      "value": 41,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/pierre-gasly",
+      "metric": "form.standing_position",
+      "value": 10,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/pierre-gasly",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/sergio-perez",
+      "metric": "form.standing_points",
+      "value": 0,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/sergio-perez",
+      "metric": "form.standing_position",
+      "value": 23,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/sergio-perez",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "form.standing_points",
+      "value": 0,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "form.standing_position",
+      "value": 22,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/valtteri-bottas",
+      "metric": "market.prob_win",
+      "value": 0.001,
+      "unit": "probability",
+      "source": "polymarket",
+      "event": "f1/2026"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/yuki-tsunoda",
+      "metric": "form.standing_points",
+      "value": 1,
+      "unit": "points",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    },
+    {
+      "date": "2026-09-06",
+      "entity": "athlete/yuki-tsunoda",
+      "metric": "form.standing_position",
+      "value": 20,
+      "unit": "rank",
+      "source": "f1db",
+      "event": "f1/2026/wc/r13-italian-gp"
+    }
+  ],
+  "gaps": [
+    {
+      "family": "perf",
+      "status": "partial",
+      "note": "Pit-stop counts from f1db's pit-stop data era (1994+); earlier races have no per-stop records.",
+      "floor": "1994"
+    },
+    {
+      "family": "cond",
+      "status": "partial",
+      "note": "Open-Meteo hourly reanalysis joined by venue coordinates; model estimate at the venue, not track-side sensor data.",
+      "floor": "1950"
+    },
+    {
+      "family": "avail",
+      "status": "none",
+      "note": "No keyless personnel-status feed exists for F1; driver substitutions surface only post-hoc in results."
+    },
+    {
+      "family": "market",
+      "status": "partial",
+      "note": "Prediction markets (Polymarket) 2024-present only; no keyless bookmaker odds history for F1. Public per owner decision 2026-07-19 (OQ #6 closed: rights unlocated, not denied); excluded from commercial delivery.",
+      "floor": "2024"
+    },
+    {
+      "family": "meas",
+      "status": "partial",
+      "note": "Fastest race lap from f1db (stepped horizon: timing precision improves by era). Speed-trap and telemetry measurements have no license-clean source (SR G7).",
+      "floor": "1950"
+    }
+  ]
+}

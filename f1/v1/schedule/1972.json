@@ -1,0 +1,126 @@
+{
+  "sport": "f1",
+  "season": "1972",
+  "days": {
+    "1972-01-23": [
+      {
+        "event": "f1/1972/wc/r01-argentine-gp/race",
+        "kind": "race",
+        "start": "1972-01-23T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-juan-y-oscar-galvez",
+        "name": "Gran Premio de Argentina 1972"
+      }
+    ],
+    "1972-03-04": [
+      {
+        "event": "f1/1972/wc/r02-south-african-gp/race",
+        "kind": "race",
+        "start": "1972-03-04T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/kyalami-racing-circuit",
+        "name": "South African Grand Prix 1972"
+      }
+    ],
+    "1972-05-01": [
+      {
+        "event": "f1/1972/wc/r03-spanish-gp/race",
+        "kind": "race",
+        "start": "1972-05-01T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuito-del-jarama",
+        "name": "Gran Premio de España 1972"
+      }
+    ],
+    "1972-05-14": [
+      {
+        "event": "f1/1972/wc/r04-monaco-gp/race",
+        "kind": "race",
+        "start": "1972-05-14T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Grand Prix de Monaco 1972"
+      }
+    ],
+    "1972-06-04": [
+      {
+        "event": "f1/1972/wc/r05-belgian-gp/race",
+        "kind": "race",
+        "start": "1972-06-04T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/nivelles-baulers",
+        "name": "1972 Belgian Grand Prix"
+      }
+    ],
+    "1972-07-02": [
+      {
+        "event": "f1/1972/wc/r06-french-gp/race",
+        "kind": "race",
+        "start": "1972-07-02T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/charade-circuit",
+        "name": "Grand Prix de France 1972"
+      }
+    ],
+    "1972-07-15": [
+      {
+        "event": "f1/1972/wc/r07-british-gp/race",
+        "kind": "race",
+        "start": "1972-07-15T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/brands-hatch",
+        "name": "1972 John Player British Grand Prix"
+      }
+    ],
+    "1972-07-30": [
+      {
+        "event": "f1/1972/wc/r08-german-gp/race",
+        "kind": "race",
+        "start": "1972-07-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/nurburgring",
+        "name": "Grosser Preis von Deutschland 1972"
+      }
+    ],
+    "1972-08-13": [
+      {
+        "event": "f1/1972/wc/r09-austrian-gp/race",
+        "kind": "race",
+        "start": "1972-08-13T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/red-bull-ring",
+        "name": "Grosser Preis von Österreich 1972"
+      }
+    ],
+    "1972-09-10": [
+      {
+        "event": "f1/1972/wc/r10-italian-gp/race",
+        "kind": "race",
+        "start": "1972-09-10T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Gran Premio d'Italia 1972"
+      }
+    ],
+    "1972-09-24": [
+      {
+        "event": "f1/1972/wc/r11-canadian-gp/race",
+        "kind": "race",
+        "start": "1972-09-24T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/canadian-tire-motorsport-park",
+        "name": "Labatt's Canadian Grand Prix 1972"
+      }
+    ],
+    "1972-10-08": [
+      {
+        "event": "f1/1972/wc/r12-united-states-gp/race",
+        "kind": "race",
+        "start": "1972-10-08T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/watkins-glen-international",
+        "name": "1972 United States Grand Prix"
+      }
+    ]
+  }
+}
