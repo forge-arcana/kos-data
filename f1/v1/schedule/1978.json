@@ -1,0 +1,166 @@
+{
+  "sport": "f1",
+  "season": "1978",
+  "days": {
+    "1978-01-15": [
+      {
+        "event": "f1/1978/wc/r01-argentine-gp/race",
+        "kind": "race",
+        "start": "1978-01-15T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-juan-y-oscar-galvez",
+        "name": "Gran Premio de Argentina 1978"
+      }
+    ],
+    "1978-01-29": [
+      {
+        "event": "f1/1978/wc/r02-brazilian-gp/race",
+        "kind": "race",
+        "start": "1978-01-29T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-internacional-nelson-piquet",
+        "name": "Grande Prêmio do Brasil 1978"
+      }
+    ],
+    "1978-03-04": [
+      {
+        "event": "f1/1978/wc/r03-south-african-gp/race",
+        "kind": "race",
+        "start": "1978-03-04T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/kyalami-racing-circuit",
+        "name": "The Citizen and Asseng Grand Prix of South Africa 1978"
+      }
+    ],
+    "1978-04-02": [
+      {
+        "event": "f1/1978/wc/r04-united-states-gp-west/race",
+        "kind": "race",
+        "start": "1978-04-02T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/long-beach",
+        "name": "1978 Long Beach Grand Prix"
+      }
+    ],
+    "1978-05-07": [
+      {
+        "event": "f1/1978/wc/r05-monaco-gp/race",
+        "kind": "race",
+        "start": "1978-05-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Grand Prix de Monaco 1978"
+      }
+    ],
+    "1978-05-21": [
+      {
+        "event": "f1/1978/wc/r06-belgian-gp/race",
+        "kind": "race",
+        "start": "1978-05-21T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-zolder",
+        "name": "1978 Belgian Grand Prix"
+      }
+    ],
+    "1978-06-04": [
+      {
+        "event": "f1/1978/wc/r07-spanish-gp/race",
+        "kind": "race",
+        "start": "1978-06-04T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuito-del-jarama",
+        "name": "Gran Premio de España 1978"
+      }
+    ],
+    "1978-06-17": [
+      {
+        "event": "f1/1978/wc/r08-swedish-gp/race",
+        "kind": "race",
+        "start": "1978-06-17T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/anderstorp-raceway",
+        "name": "Sveriges Grand Prix 1978"
+      }
+    ],
+    "1978-07-02": [
+      {
+        "event": "f1/1978/wc/r09-french-gp/race",
+        "kind": "race",
+        "start": "1978-07-02T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-paul-ricard",
+        "name": "Grand Prix de France 1978"
+      }
+    ],
+    "1978-07-16": [
+      {
+        "event": "f1/1978/wc/r10-british-gp/race",
+        "kind": "race",
+        "start": "1978-07-16T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/brands-hatch",
+        "name": "1978 John Player British Grand Prix"
+      }
+    ],
+    "1978-07-30": [
+      {
+        "event": "f1/1978/wc/r11-german-gp/race",
+        "kind": "race",
+        "start": "1978-07-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hockenheimring",
+        "name": "Grosser Preis von Deutschland 1978"
+      }
+    ],
+    "1978-08-13": [
+      {
+        "event": "f1/1978/wc/r12-austrian-gp/race",
+        "kind": "race",
+        "start": "1978-08-13T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/red-bull-ring",
+        "name": "Grosser Preis von Österreich 1978"
+      }
+    ],
+    "1978-08-27": [
+      {
+        "event": "f1/1978/wc/r13-dutch-gp/race",
+        "kind": "race",
+        "start": "1978-08-27T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-park-zandvoort",
+        "name": "Grote Prijs van Nederland 1978"
+      }
+    ],
+    "1978-09-10": [
+      {
+        "event": "f1/1978/wc/r14-italian-gp/race",
+        "kind": "race",
+        "start": "1978-09-10T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Gran Premio d'Italia 1978"
+      }
+    ],
+    "1978-10-01": [
+      {
+        "event": "f1/1978/wc/r15-united-states-gp/race",
+        "kind": "race",
+        "start": "1978-10-01T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/watkins-glen-international",
+        "name": "1978 Toyota United States Grand Prix"
+      }
+    ],
+    "1978-10-08": [
+      {
+        "event": "f1/1978/wc/r16-canadian-gp/race",
+        "kind": "race",
+        "start": "1978-10-08T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-gilles-villeneuve",
+        "name": "Grand Prix du Canada 1978"
+      }
+    ]
+  }
+}

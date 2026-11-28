@@ -1,0 +1,176 @@
+{
+  "sport": "f1",
+  "season": "2002",
+  "days": {
+    "2002-03-03": [
+      {
+        "event": "f1/2002/wc/r01-australian-gp/race",
+        "kind": "race",
+        "start": "2002-03-03T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/melbourne-grand-prix-circuit",
+        "name": "2002 Foster's Australian Grand Prix"
+      }
+    ],
+    "2002-03-17": [
+      {
+        "event": "f1/2002/wc/r02-malaysian-gp/race",
+        "kind": "race",
+        "start": "2002-03-17T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/sepang-international-circuit",
+        "name": "2002 Petronas Malaysian Grand Prix"
+      }
+    ],
+    "2002-03-31": [
+      {
+        "event": "f1/2002/wc/r03-brazilian-gp/race",
+        "kind": "race",
+        "start": "2002-03-31T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-jose-carlos-pace",
+        "name": "Grande Prêmio do Brasil 2002"
+      }
+    ],
+    "2002-04-14": [
+      {
+        "event": "f1/2002/wc/r04-san-marino-gp/race",
+        "kind": "race",
+        "start": "2002-04-14T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-internazionale-enzo-e-dino-ferrari",
+        "name": "Gran Premio di San Marino 2002"
+      }
+    ],
+    "2002-04-28": [
+      {
+        "event": "f1/2002/wc/r05-spanish-gp/race",
+        "kind": "race",
+        "start": "2002-04-28T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-barcelona-catalunya",
+        "name": "Gran Premio Marlboro de España 2002"
+      }
+    ],
+    "2002-05-12": [
+      {
+        "event": "f1/2002/wc/r06-austrian-gp/race",
+        "kind": "race",
+        "start": "2002-05-12T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/red-bull-ring",
+        "name": "Grosser A1 Preis von Österreich 2002"
+      }
+    ],
+    "2002-05-26": [
+      {
+        "event": "f1/2002/wc/r07-monaco-gp/race",
+        "kind": "race",
+        "start": "2002-05-26T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-monaco",
+        "name": "Grand Prix de Monaco 2002"
+      }
+    ],
+    "2002-06-09": [
+      {
+        "event": "f1/2002/wc/r08-canadian-gp/race",
+        "kind": "race",
+        "start": "2002-06-09T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-gilles-villeneuve",
+        "name": "Grand Prix Air Canada 2002"
+      }
+    ],
+    "2002-06-23": [
+      {
+        "event": "f1/2002/wc/r09-european-gp/race",
+        "kind": "race",
+        "start": "2002-06-23T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/nurburgring",
+        "name": "2002 Allianz Grand Prix of Europe"
+      }
+    ],
+    "2002-07-07": [
+      {
+        "event": "f1/2002/wc/r10-british-gp/race",
+        "kind": "race",
+        "start": "2002-07-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "2002 Foster's British Grand Prix"
+      }
+    ],
+    "2002-07-21": [
+      {
+        "event": "f1/2002/wc/r11-french-gp/race",
+        "kind": "race",
+        "start": "2002-07-21T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-nevers-magny-cours",
+        "name": "Mobil 1 Grand Prix de France 2002"
+      }
+    ],
+    "2002-07-28": [
+      {
+        "event": "f1/2002/wc/r12-german-gp/race",
+        "kind": "race",
+        "start": "2002-07-28T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hockenheimring",
+        "name": "Grosser Mobil 1 Preis von Deutschland 2002"
+      }
+    ],
+    "2002-08-18": [
+      {
+        "event": "f1/2002/wc/r13-hungarian-gp/race",
+        "kind": "race",
+        "start": "2002-08-18T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/hungaroring",
+        "name": "Marlboro Magyar Nagydíj 2002"
+      }
+    ],
+    "2002-09-01": [
+      {
+        "event": "f1/2002/wc/r14-belgian-gp/race",
+        "kind": "race",
+        "start": "2002-09-01T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "2002 Foster's Belgian Grand Prix"
+      }
+    ],
+    "2002-09-15": [
+      {
+        "event": "f1/2002/wc/r15-italian-gp/race",
+        "kind": "race",
+        "start": "2002-09-15T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Gran Premio Vodafone d'Italia 2002"
+      }
+    ],
+    "2002-09-29": [
+      {
+        "event": "f1/2002/wc/r16-united-states-gp/race",
+        "kind": "race",
+        "start": "2002-09-29T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/indianapolis-motor-speedway",
+        "name": "2002 SAP United States Grand Prix"
+      }
+    ],
+    "2002-10-13": [
+      {
+        "event": "f1/2002/wc/r17-japanese-gp/race",
+        "kind": "race",
+        "start": "2002-10-13T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/suzuka-circuit",
+        "name": "2002 Fuji Television Japanese Grand Prix"
+      }
+    ]
+  }
+}

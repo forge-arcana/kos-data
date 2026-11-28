@@ -1,0 +1,96 @@
+{
+  "sport": "f1",
+  "season": "1953",
+  "days": {
+    "1953-01-18": [
+      {
+        "event": "f1/1953/wc/r01-argentine-gp/race",
+        "kind": "race",
+        "start": "1953-01-18T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-juan-y-oscar-galvez",
+        "name": "Gran Premio de Argentina 1953"
+      }
+    ],
+    "1953-05-30": [
+      {
+        "event": "f1/1953/wc/r02-indy-500/race",
+        "kind": "race",
+        "start": "1953-05-30T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/indianapolis-motor-speedway",
+        "name": "1953 Indianapolis 500"
+      }
+    ],
+    "1953-06-07": [
+      {
+        "event": "f1/1953/wc/r03-dutch-gp/race",
+        "kind": "race",
+        "start": "1953-06-07T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-park-zandvoort",
+        "name": "Grote Prijs van Nederland 1953"
+      }
+    ],
+    "1953-06-21": [
+      {
+        "event": "f1/1953/wc/r04-belgian-gp/race",
+        "kind": "race",
+        "start": "1953-06-21T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-de-spa-francorchamps",
+        "name": "1953 Belgian Grand Prix"
+      }
+    ],
+    "1953-07-05": [
+      {
+        "event": "f1/1953/wc/r05-french-gp/race",
+        "kind": "race",
+        "start": "1953-07-05T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/reims-gueux",
+        "name": "Grand Prix de France 1953"
+      }
+    ],
+    "1953-07-18": [
+      {
+        "event": "f1/1953/wc/r06-british-gp/race",
+        "kind": "race",
+        "start": "1953-07-18T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/silverstone-circuit",
+        "name": "1953 RAC British Grand Prix"
+      }
+    ],
+    "1953-08-02": [
+      {
+        "event": "f1/1953/wc/r07-german-gp/race",
+        "kind": "race",
+        "start": "1953-08-02T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/nurburgring",
+        "name": "Grosser Preis von Deutschland 1953"
+      }
+    ],
+    "1953-08-23": [
+      {
+        "event": "f1/1953/wc/r08-swiss-gp/race",
+        "kind": "race",
+        "start": "1953-08-23T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/circuit-bremgarten",
+        "name": "Grosser Preis der Schweiz 1953"
+      }
+    ],
+    "1953-09-13": [
+      {
+        "event": "f1/1953/wc/r09-italian-gp/race",
+        "kind": "race",
+        "start": "1953-09-13T12:00:00Z",
+        "status": "completed",
+        "venue": "venue/autodromo-nazionale-monza",
+        "name": "Gran Premio d'Italia 1953"
+      }
+    ]
+  }
+}
